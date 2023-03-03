@@ -1,0 +1,49 @@
+{
+    "headers": {
+        "accept": "image/tiff",
+        "content-type": "application/json"
+    },
+    "payload": {
+        "evalscript": "//VERSION=3\nfunction setup() {\n    return {\n        input: [{\n            bands: [\"B01\", \"B02\", \"B03\", \"B04\", \"B05\", \"B06\", \"B07\", \"B08\", \"B8A\", \"B09\", \"B11\", \"B12\"],\n        }],\n        output: {\n            bands: 12,\n            sampleType: \"FLOAT32\"\n        }\n    };\n}\nfunction evaluatePixel(sample) {\n    return [sample.B01,\n    sample.B02,\n    sample.B03,\n    sample.B04,\n    sample.B05,\n    sample.B06,\n    sample.B07,\n    sample.B08,\n    sample.B8A,\n    sample.B09,\n    sample.B11,\n    sample.B12\n    ];\n}",
+        "input": {
+            "bounds": {
+                "bbox": [
+                    -15.649711279999963,
+                    27.96566434500005,
+                    -15.53564395899997,
+                    28.090828762000058
+                ],
+                "properties": {
+                    "crs": "http://www.opengis.net/def/crs/EPSG/0/4326"
+                }
+            },
+            "data": [
+                {
+                    "dataFilter": {
+                        "maxCloudCoverage": 10,
+                        "mosaickingOrder": "leastCC",
+                        "timeRange": {
+                            "from": "2019-08-17T00:00:00Z",
+                            "to": "2019-10-06T00:00:00Z"
+                        }
+                    },
+                    "type": "sentinel-2-l2a"
+                }
+            ]
+        },
+        "output": {
+            "height": 1381,
+            "responses": [
+                {
+                    "format": {
+                        "type": "image/tiff"
+                    },
+                    "identifier": "default"
+                }
+            ],
+            "width": 1128
+        }
+    },
+    "timestamp": "2023-02-21T10:16:57.313721",
+    "url": "https://services.sentinel-hub.com/api/v1/process"
+}
