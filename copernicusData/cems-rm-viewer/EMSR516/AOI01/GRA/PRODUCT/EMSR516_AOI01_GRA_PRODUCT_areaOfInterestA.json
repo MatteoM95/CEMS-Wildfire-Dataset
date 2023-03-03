@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR516", "glide_no": "Not Applicable", "area_id": "01", "locality": "Agia Eirini", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.765843678000067, 38.075189098000067 ], [ 20.70233819200007, 38.074609825000039 ], [ 20.702151714000024, 38.14485641400006 ], [ 20.766953473000058, 38.14614707000004 ], [ 20.765843678000067, 38.075189098000067 ] ] ] } }
+
+]
+}

@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -16.511826092999968, 28.215502785000069 ], [ -16.511797403999935, 28.215370066000048 ], [ -16.511531178999974, 28.214842885000053 ], [ -16.511417005999931, 28.214530818000071 ], [ -16.511249186999976, 28.214344534000077 ], [ -16.511090385999978, 28.214240370000027 ] ] } }
+]
+}

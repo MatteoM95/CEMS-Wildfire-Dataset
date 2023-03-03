@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Φάρμα Στρουθοκαμήλων", "info": "2412-Other sport and recreation constructions", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 28.047233, 36.352559 ], [ 28.047224, 36.352498 ], [ 28.046859, 36.352536 ], [ 28.046601, 36.352375 ], [ 28.046471, 36.352157 ], [ 28.046507, 36.351873 ], [ 28.046424, 36.351693 ], [ 28.045037, 36.351087 ], [ 28.044731, 36.351655 ], [ 28.044026, 36.352072 ], [ 28.044002, 36.352290 ], [ 28.046542, 36.352564 ], [ 28.046636, 36.353123 ], [ 28.047341, 36.353303 ], [ 28.047233, 36.352559 ] ] ] } }
+
+]
+}

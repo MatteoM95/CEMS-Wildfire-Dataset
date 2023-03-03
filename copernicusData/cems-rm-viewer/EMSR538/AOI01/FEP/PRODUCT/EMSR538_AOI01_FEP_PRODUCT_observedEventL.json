@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR538_AOI01_FEP_PRODUCT_observedEventL_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ -4.75832089599993, 40.47636533900004 ], [ -4.763317764999954, 40.475294581000071 ], [ -4.770099227999936, 40.473153066000066 ], [ -4.777951449999932, 40.473153066000066 ], [ -4.783662155999934, 40.471368470000073 ], [ -4.790443619999962, 40.468870036000055 ], [ -4.796154325999964, 40.467799279000076 ], [ -4.799366598999939, 40.464943926000046 ], [ -4.80299527699998, 40.463932655000065 ], [ -4.808646496999927, 40.463040357000068 ] ] } }
+]
+}

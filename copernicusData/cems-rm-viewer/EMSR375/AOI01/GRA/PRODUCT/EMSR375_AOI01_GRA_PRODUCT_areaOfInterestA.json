@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR375", "glide_no": null, "area_id": "01", "locality": "La Granja de San Ildefonso", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -3.929427105999935, 40.901482697000063 ], [ -3.943039374999955, 40.875044071000048 ], [ -3.987764544999948, 40.88341857100005 ], [ -3.999205461999964, 40.918668335000064 ], [ -3.929427105999935, 40.901482697000063 ] ] ] } }
+]
+}

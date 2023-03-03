@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR603", "glide_no": "Not Applicable", "area_id": "01", "locality": "Navafria", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -3.777171, 41.148558 ], [ -3.780055, 41.005934 ], [ -3.958553, 41.007519 ], [ -3.959223, 41.147465 ], [ -3.777171, 41.148558 ] ] ] } }
+
+]
+}

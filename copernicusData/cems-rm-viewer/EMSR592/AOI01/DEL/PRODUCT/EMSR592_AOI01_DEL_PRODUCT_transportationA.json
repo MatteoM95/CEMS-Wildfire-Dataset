@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "2130-Airfield runways", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.578648099999953, 44.61379160000007 ], [ -0.58237, 44.613720900000033 ], [ -0.5823692, 44.613779900000054 ], [ -0.582366599999943, 44.613832800000068 ], [ -0.572994199999926, 44.614025600000048 ], [ -0.572986799999967, 44.613964900000042 ], [ -0.572978899999953, 44.613899600000025 ], [ -0.578648099999953, 44.61379160000007 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Aérodrome de Cabanac et Villagrains", "info": "2130-Airfield runways", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.570313499999941, 44.614373700000044 ], [ -0.580196599999965, 44.611372300000028 ], [ -0.583062599999948, 44.614032200000054 ], [ -0.583038899999963, 44.614221900000075 ], [ -0.577833799999951, 44.61689860000007 ], [ -0.573268299999938, 44.61553710000004 ], [ -0.570313499999941, 44.614373700000044 ] ] ] } }
+
+]
+}

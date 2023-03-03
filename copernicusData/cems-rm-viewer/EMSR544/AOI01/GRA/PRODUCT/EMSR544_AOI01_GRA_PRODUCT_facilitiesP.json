@@ -1,0 +1,93 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "La Campa", "info": "2301-Constructions for mining or extraction", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.206487, 42.577276 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.276504, 42.412142 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.258954, 42.459767 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.322525, 42.454516 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.276349, 42.412324 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.206392, 42.577307 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Polideportivo", "info": "241-Sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.393143, 42.549807 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "241-Sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.477209, 42.486567 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "241-Sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.267306, 42.473745 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Polideportivo", "info": "241-Sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.267985, 42.474021 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.392860, 42.555983 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.394066, 42.570097 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.285306, 42.470390 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.306124, 42.514442 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.269492, 42.469905 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Polideportivo Municipal", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.285152, 42.465705 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Piscinas Municipais de Quiroga", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.263271, 42.471906 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.277597, 42.474364 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.274397, 42.476220 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.268411, 42.471436 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.188087, 42.584595 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.392729, 42.555642 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Parque do Tren de Soldón", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.227865, 42.445522 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.286125, 42.469855 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.287593, 42.468368 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.266267, 42.473995 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Parque de la Capilla", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.223469, 42.445494 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "campo de la fiesta", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.224741, 42.445621 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Parque da Igrexa", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.272676, 42.475503 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.273675, 42.471228 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.276091, 42.474713 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.275539, 42.475704 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.277344, 42.472519 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.222069, 42.534234 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.224043, 42.534264 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.227723, 42.527877 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.196699, 42.570512 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.287654, 42.466266 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.268416, 42.474112 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Piscifactoria", "info": "2421-Aquaculture", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.348197, 42.487611 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "21512-Settling Basin", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.268298, 42.469893 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.477747, 42.554372 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.301868, 42.557608 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.251280, 42.450868 ] } }
+
+]
+}

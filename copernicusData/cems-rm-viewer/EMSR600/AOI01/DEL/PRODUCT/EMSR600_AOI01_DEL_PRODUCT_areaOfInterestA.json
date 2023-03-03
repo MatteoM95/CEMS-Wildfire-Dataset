@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR600",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Massarosa",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            10.411208,
+                            43.909438
+                        ],
+                        [
+                            10.406858,
+                            43.850651
+                        ],
+                        [
+                            10.316733,
+                            43.853869
+                        ],
+                        [
+                            10.320973,
+                            43.911708
+                        ],
+                        [
+                            10.411208,
+                            43.909438
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

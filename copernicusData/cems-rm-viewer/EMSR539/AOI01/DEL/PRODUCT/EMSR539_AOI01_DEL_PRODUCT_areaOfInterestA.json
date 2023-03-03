@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR539_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR539", "glide_no": "N\/A", "area_id": "01", "locality": "Castro Marim", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.451474279999957, 37.138261931000045 ], [ -7.685452485999974, 37.137208122000061 ], [ -7.687156979999941, 37.377334747000077 ], [ -7.45317877399998, 37.37838520300005 ], [ -7.451474279999957, 37.138261931000045 ] ] ] } }
+]
+}

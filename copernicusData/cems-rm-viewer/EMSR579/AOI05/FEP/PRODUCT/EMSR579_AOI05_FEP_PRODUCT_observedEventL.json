@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR579_AOI05_FEP_PRODUCT_observedEventL_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ -1.84644845899993, 42.733281745000056 ], [ -1.845750104999979, 42.743757059000075 ], [ -1.856384582999965, 42.743681111000058 ], [ -1.859297547999972, 42.737207856000055 ], [ -1.862018577999947, 42.736462155000027 ] ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ -1.844885953999949, 42.694657900000038 ], [ -1.845154842999932, 42.688231667000025 ], [ -1.839061942999933, 42.688462099000049 ] ] } }
+]
+}

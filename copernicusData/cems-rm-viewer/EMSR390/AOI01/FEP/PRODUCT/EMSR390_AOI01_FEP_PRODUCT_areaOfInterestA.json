@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR390", "glide_no": "NA", "area_id": "01", "locality": "Lithakia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.865587331000029, 37.643012460000079 ], [ 20.746781053000063, 37.643001573000049 ], [ 20.745563205000053, 37.737824594000074 ], [ 20.864505034000047, 37.73708107200008 ], [ 20.865587331000029, 37.643012460000079 ] ] ] } }
+
+]
+}

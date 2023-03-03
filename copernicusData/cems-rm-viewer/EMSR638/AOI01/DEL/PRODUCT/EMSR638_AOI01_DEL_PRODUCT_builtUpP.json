@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.345068, 41.200626 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.246861, 41.262426 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.238944, 41.244788 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.263164, 41.244563 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.344735, 41.254700 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.241008, 41.266666 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.240880, 41.267172 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.241350, 41.266886 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.346691, 41.229696 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 25.344430, 41.200412 ] } }
+
+]
+}

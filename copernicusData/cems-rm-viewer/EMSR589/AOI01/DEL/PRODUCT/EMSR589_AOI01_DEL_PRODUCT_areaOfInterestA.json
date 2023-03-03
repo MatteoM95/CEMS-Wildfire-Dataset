@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR589_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v2",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR589",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Freixianda",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -8.38722983599996,
+                            39.946262778000062
+                        ],
+                        [
+                            -8.389333673999943,
+                            39.70062177300008
+                        ],
+                        [
+                            -8.827844618999961,
+                            39.698833914000033
+                        ],
+                        [
+                            -8.825975740999979,
+                            39.841048687000068
+                        ],
+                        [
+                            -8.610423387999958,
+                            39.839748845000031
+                        ],
+                        [
+                            -8.607347543999936,
+                            39.946246852000058
+                        ],
+                        [
+                            -8.38722983599996,
+                            39.946262778000062
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

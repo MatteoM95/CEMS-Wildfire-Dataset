@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR527", "glide_no": "NA", "area_id": "02", "locality": "ATTIKA", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.921618316000036, 38.081208755000034 ], [ 23.729756108000061, 38.076272190000054 ], [ 23.726539519000028, 38.250260406000052 ], [ 23.918248902000073, 38.252685993000057 ], [ 23.921618316000036, 38.081208755000034 ] ] ] } }
+
+]
+}

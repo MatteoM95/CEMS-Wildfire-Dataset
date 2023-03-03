@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR369", "glide_no": null, "area_id": "03", "locality": "OKTONIA", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.169837919000031, 38.499053571000047 ], [ 24.123295662000032, 38.499053571000047 ], [ 24.123295662000032, 38.542740475000073 ], [ 24.169837919000031, 38.542740475000073 ], [ 24.169837919000031, 38.499053571000047 ] ] ] } }
+]
+}

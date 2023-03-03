@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR627_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR627", "glide_no": "Not Applicable", "area_id": "01", "locality": "Orkeny", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.450983056000041, 47.083493112000042 ], [ 19.361682776000066, 47.082814831000064 ], [ 19.361922929000059, 47.147445936000054 ], [ 19.450983695000048, 47.147672842000077 ], [ 19.450983056000041, 47.083493112000042 ] ] ] } }
+]
+}

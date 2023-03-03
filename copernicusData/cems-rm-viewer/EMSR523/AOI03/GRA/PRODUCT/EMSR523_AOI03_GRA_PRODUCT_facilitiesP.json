@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR523_AOI03_GRA_PRODUCT_facilitiesP_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "damage_gra": "Possibly damaged", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.615761592000069, 40.154206441000042 ] } }
+]
+}

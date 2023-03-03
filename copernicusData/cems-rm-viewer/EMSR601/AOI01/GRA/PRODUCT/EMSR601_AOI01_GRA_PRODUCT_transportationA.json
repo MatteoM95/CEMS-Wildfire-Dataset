@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR601_AOI01_GRA_PRODUCT_transportationA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Heljeast", "info": "21312-Helipad", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.523288100000059, 45.796545900000069 ], [ 13.523044, 45.796467300000074 ], [ 13.522934, 45.796637500000031 ], [ 13.523178100000052, 45.796710400000052 ], [ 13.523288100000059, 45.796545900000069 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.521066400000052, 45.814978500000052 ], [ 13.520848100000023, 45.814842900000031 ], [ 13.520647900000029, 45.814999600000078 ], [ 13.520866200000057, 45.815135200000043 ], [ 13.521066400000052, 45.814978500000052 ] ] ] } }
+]
+}

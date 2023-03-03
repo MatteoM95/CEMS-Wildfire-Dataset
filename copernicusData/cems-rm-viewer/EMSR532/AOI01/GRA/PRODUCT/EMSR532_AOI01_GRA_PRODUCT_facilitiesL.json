@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR532_AOI01_GRA_PRODUCT_facilitiesL_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 22.039250276000075, 37.294466104000037 ], [ 22.038167700000031, 37.293761400000051 ], [ 22.037298, 37.292135600000051 ], [ 22.035406700000067, 37.288549 ], [ 22.034059866000064, 37.285998827000071 ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 22.055323647000023, 37.304910954000036 ], [ 22.054267700000025, 37.304222200000027 ], [ 22.052261200000032, 37.302897600000051 ], [ 22.050838900000031, 37.301958700000057 ], [ 22.049691185000029, 37.301227272000062 ] ] } }
+]
+}

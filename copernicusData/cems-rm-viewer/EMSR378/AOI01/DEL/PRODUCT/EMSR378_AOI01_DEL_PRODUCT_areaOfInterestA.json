@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR378_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR378", "glide_no": null, "area_id": "01", "locality": "SISIMIUT", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -53.097562627999935, 67.014322496000034 ], [ -53.130111897999939, 66.969114338000054 ], [ -53.242441545999952, 66.975915884000074 ], [ -53.229871585999945, 67.01522372800008 ], [ -53.097562627999935, 67.014322496000034 ] ] ] } }
+]
+}

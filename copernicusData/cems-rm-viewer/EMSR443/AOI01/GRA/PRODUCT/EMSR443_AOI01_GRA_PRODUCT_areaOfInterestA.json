@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR443", "glide_no": "Not Applicable", "area_id": "01", "locality": "Barao de Sao Joao", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -8.742553743999963, 37.235451539000053 ], [ -8.74636520599995, 37.084417292000069 ], [ -8.933089282999958, 37.084738948000052 ], [ -8.935520458999974, 37.23611416500006 ], [ -8.742553743999963, 37.235451539000053 ] ] ] } }
+]
+}

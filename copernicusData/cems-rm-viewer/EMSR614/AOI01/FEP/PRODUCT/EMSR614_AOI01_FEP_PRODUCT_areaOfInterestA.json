@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR614_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR614", "glide_no": "Not Applicable", "area_id": "01", "locality": "Serredapadrela", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.511937015999933, 41.447409851000032 ], [ -7.555142553999929, 41.428524989000039 ], [ -7.64636382499998, 41.430875809000042 ], [ -7.645278935999954, 41.500439666000034 ], [ -7.547000853999975, 41.552693584000053 ], [ -7.494929630999934, 41.552782550000074 ], [ -7.476051773999927, 41.520571293000046 ], [ -7.511937015999933, 41.447409851000032 ] ] ] } }
+]
+}

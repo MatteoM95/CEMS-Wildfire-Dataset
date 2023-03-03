@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.393114, 38.817294 ], [ 23.394356, 38.817116 ], [ 23.399301, 38.816407 ], [ 23.406442, 38.815383 ], [ 23.410824, 38.814742 ], [ 23.422007, 38.814426 ], [ 23.425699, 38.813343 ], [ 23.430077, 38.812062 ], [ 23.434622, 38.810722 ], [ 23.436688, 38.808853 ], [ 23.438801, 38.806996 ], [ 23.442229, 38.808178 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.360353, 38.822064 ], [ 23.360958, 38.821878 ], [ 23.365475, 38.821251 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.379335, 38.819273 ], [ 23.381279, 38.818995 ], [ 23.383069, 38.818740 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 11, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.370796, 38.820507 ], [ 23.371313, 38.820434 ], [ 23.373502, 38.820115 ], [ 23.374233, 38.820008 ] ] } }
+
+]
+}

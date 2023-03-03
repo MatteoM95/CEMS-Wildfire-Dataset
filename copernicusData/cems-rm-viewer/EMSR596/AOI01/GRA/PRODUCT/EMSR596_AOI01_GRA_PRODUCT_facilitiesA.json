@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR596_AOI01_GRA_PRODUCT_facilitiesA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2302-Power plant constructions", "damage_gra": "Damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.498406899999964, 41.441951700000061 ], [ -7.498475, 41.441810700000076 ], [ -7.498626, 41.441851600000064 ], [ -7.498603499999945, 41.441898300000048 ], [ -7.498558, 41.441992700000071 ], [ -7.498406899999964, 41.441951700000061 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.442547399999967, 41.487527100000079 ], [ -7.442947099999969, 41.487043400000061 ], [ -7.443919599999958, 41.48749440000006 ], [ -7.443519799999933, 41.487978100000078 ], [ -7.442547399999967, 41.487527100000079 ] ] ] } }
+]
+}

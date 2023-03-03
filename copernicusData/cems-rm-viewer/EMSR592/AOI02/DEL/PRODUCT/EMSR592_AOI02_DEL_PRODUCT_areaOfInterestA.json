@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR592_AOI02_DEL_PRODUCT_areaOfInterestA_r1_v1",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR592",
+                "glide_no": "NA",
+                "area_id": "02",
+                "locality": "La Teste-de-Buch",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -1.086370,
+                            44.499517
+                        ],
+                        [
+                            -1.257068,
+                            44.457984
+                        ],
+                        [
+                            -1.252246,
+                            44.496507
+                        ],
+                        [
+                            -1.262595,
+                            44.528730
+                        ],
+                        [
+                            -1.210140,
+                            44.610511
+                        ],
+                        [
+                            -1.085878,
+                            44.610473
+                        ],
+                        [
+                            -1.086370,
+                            44.499517
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

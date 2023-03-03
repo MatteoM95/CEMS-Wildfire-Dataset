@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR525", "glide_no": "Not Applicable", "area_id": "01", "locality": "Ziria", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.02713921000003, 38.314652567000053 ], [ 21.979847138000025, 38.279036259000065 ], [ 21.911196573000041, 38.288644994000038 ], [ 21.927081771000076, 38.333192774000054 ], [ 22.02713921000003, 38.314652567000053 ] ] ] } }
+
+]
+}

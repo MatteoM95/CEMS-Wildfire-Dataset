@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR543", "glide_no": "Not Applicable", "area_id": "01", "locality": "El Paso", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -17.843357, 28.608532 ], [ -17.930947, 28.604565 ], [ -17.974473, 28.688081 ], [ -17.842431, 28.686172 ], [ -17.843357, 28.608532 ] ] ] } }
+
+]
+}

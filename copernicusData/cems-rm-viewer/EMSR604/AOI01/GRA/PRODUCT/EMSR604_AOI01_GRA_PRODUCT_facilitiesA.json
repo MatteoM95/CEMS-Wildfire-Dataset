@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "Destroyed", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.597797, 45.814837 ], [ 13.597779, 45.814725 ], [ 13.597526, 45.814734 ], [ 13.597429, 45.814738 ], [ 13.597437, 45.814852 ], [ 13.597797, 45.814837 ] ] ] } }
+
+]
+}

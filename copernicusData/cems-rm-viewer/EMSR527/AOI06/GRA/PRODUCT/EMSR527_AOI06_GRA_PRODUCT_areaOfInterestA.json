@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR527", "glide_no": "Not Applicable", "area_id": "06", "locality": "Rovies", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.341833, 38.745935 ], [ 23.325843, 38.733439 ], [ 23.188352, 38.824232 ], [ 23.188310, 38.884517 ], [ 23.276292, 38.887043 ], [ 23.352434, 38.834098 ], [ 23.339232, 38.781176 ], [ 23.341833, 38.745935 ] ] ] } }
+
+]
+}

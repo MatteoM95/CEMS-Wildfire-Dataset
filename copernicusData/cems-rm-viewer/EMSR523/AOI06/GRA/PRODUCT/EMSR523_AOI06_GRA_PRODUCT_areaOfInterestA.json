@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR523", "glide_no": "NA", "area_id": "06", "locality": "Scanno di Montiferro", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.64557959900003, 40.20976988700005 ], [ 8.588740959000063, 40.20712487600008 ], [ 8.583263378000027, 40.276031148000072 ], [ 8.582589526000049, 40.283836773000075 ], [ 8.640530640000065, 40.285435429000074 ], [ 8.64557959900003, 40.20976988700005 ] ] ] } }
+
+]
+}

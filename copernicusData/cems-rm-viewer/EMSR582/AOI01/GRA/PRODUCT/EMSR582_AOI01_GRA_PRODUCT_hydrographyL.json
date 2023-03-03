@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR582_AOI01_GRA_PRODUCT_hydrographyL_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Mühlgrund", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 12.916408700000034, 52.302293600000041 ], [ 12.917138900000054, 52.302622100000065 ], [ 12.917486900000029, 52.302755600000069 ], [ 12.917781700000035, 52.302916800000048 ], [ 12.918112600000029, 52.30314560000005 ], [ 12.918347600000061, 52.303350900000055 ], [ 12.918448300000023, 52.303504800000042 ], [ 12.918884800000058, 52.304048900000055 ], [ 12.918931112000053, 52.304097918000082 ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 12.998727100000053, 52.275370100000032 ], [ 12.99886470000007, 52.275442100000078 ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 12.998390500000028, 52.27516490000005 ], [ 12.998727100000053, 52.275370100000032 ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 12.997519500000067, 52.274778200000071 ], [ 12.997829600000046, 52.275021500000037 ], [ 12.998081800000023, 52.275165900000047 ], [ 12.998390500000028, 52.27516490000005 ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 13.004432300000076, 52.275915200000043 ], [ 13.004669800000045, 52.275973400000055 ], [ 13.004846500000042, 52.275909600000034 ], [ 13.004901700000062, 52.275859400000058 ], [ 13.004911100000072, 52.275758300000064 ] ] } }
+]
+}

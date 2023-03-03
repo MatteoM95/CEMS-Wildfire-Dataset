@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.697714, 40.174418 ], [ -5.697835, 40.174461 ], [ -5.697938, 40.174481 ], [ -5.698025, 40.174529 ], [ -5.698122, 40.174532 ], [ -5.698253, 40.174593 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.698457, 40.174690 ], [ -5.698529, 40.174744 ], [ -5.698549, 40.174796 ], [ -5.698608, 40.174811 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.700893, 40.175186 ], [ -5.701054, 40.175247 ], [ -5.701168, 40.175262 ], [ -5.701281, 40.175284 ], [ -5.701485, 40.175374 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.696708, 40.175125 ], [ -5.696651, 40.175215 ], [ -5.696571, 40.175310 ], [ -5.696496, 40.175405 ], [ -5.696440, 40.175483 ], [ -5.696407, 40.175557 ], [ -5.696347, 40.175641 ], [ -5.696312, 40.175657 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.696420, 40.174737 ], [ -5.696490, 40.174681 ], [ -5.696509, 40.174596 ], [ -5.696524, 40.174516 ], [ -5.696605, 40.174396 ], [ -5.696677, 40.174295 ], [ -5.696728, 40.174236 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.703874, 40.173883 ], [ -5.703856, 40.174054 ], [ -5.703863, 40.174104 ], [ -5.703856, 40.174153 ], [ -5.703806, 40.174251 ], [ -5.703772, 40.174345 ], [ -5.703712, 40.174446 ], [ -5.703709, 40.174515 ], [ -5.703674, 40.174613 ], [ -5.703622, 40.174779 ], [ -5.703623, 40.174848 ], [ -5.703455, 40.175041 ], [ -5.703420, 40.175151 ], [ -5.703366, 40.175226 ], [ -5.703284, 40.175281 ], [ -5.703152, 40.175246 ], [ -5.703044, 40.175213 ], [ -5.702929, 40.175232 ], [ -5.702797, 40.175187 ], [ -5.702698, 40.175172 ], [ -5.702649, 40.175266 ], [ -5.702480, 40.175258 ], [ -5.702412, 40.175332 ], [ -5.702375, 40.175380 ], [ -5.702333, 40.175414 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.699128, 40.174938 ], [ -5.699200, 40.174933 ], [ -5.699277, 40.174928 ], [ -5.699390, 40.174922 ], [ -5.699512, 40.174904 ], [ -5.699600, 40.174882 ], [ -5.699688, 40.174856 ], [ -5.699759, 40.174875 ], [ -5.699810, 40.174848 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -5.681681, 40.164615 ], [ -5.681687, 40.164718 ], [ -5.681694, 40.164821 ], [ -5.681687, 40.164958 ], [ -5.681671, 40.165129 ], [ -5.681832, 40.165351 ], [ -5.682028, 40.165448 ] ] } }
+
+]
+}

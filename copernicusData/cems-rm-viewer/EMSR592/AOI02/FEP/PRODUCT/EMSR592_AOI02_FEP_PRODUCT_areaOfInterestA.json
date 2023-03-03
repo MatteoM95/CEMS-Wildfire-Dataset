@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR592_AOI02_FEP_PRODUCT_areaOfInterestA_r1_v2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR592", "glide_no": "Not Applicable", "area_id": "02", "locality": "Lateste-de-buch", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.040713660999927, 44.665197087000081 ], [ -1.048035820999928, 44.446661599000038 ], [ -1.309270640999955, 44.450828638000075 ], [ -1.302927185999977, 44.669395826000027 ], [ -1.040713660999927, 44.665197087000081 ] ] ] } }
+]
+}

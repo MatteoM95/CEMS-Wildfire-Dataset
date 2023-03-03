@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23024-Power plant constructions Wind", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.669306, 40.172294 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23024-Power plant constructions Wind", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.668607, 40.167930 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23024-Power plant constructions Wind", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.674424, 40.174823 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23024-Power plant constructions Wind", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.674403, 40.165948 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23024-Power plant constructions Wind", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.686647, 40.167502 ] } }
+
+]
+}

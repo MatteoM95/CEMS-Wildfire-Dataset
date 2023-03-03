@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR378_AOI01_FEP_PRODUCT_observedEventP_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.187134070999946, 67.001334873000076 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.189468225999974, 67.000499453000032 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.189766624999947, 66.999080356000036 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.186095438999985, 66.998754571000063 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.184285836999948, 67.001088224000057 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.183183077999956, 67.000853745000029 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.182305346999954, 67.001605218000066 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.180209483999931, 66.990768729000081 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.179616948999978, 66.990189917000066 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.177629163999939, 66.991241512000045 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.17702737299993, 66.990721893000057 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -53.174984730999938, 66.990672721000067 ] } }
+]
+}

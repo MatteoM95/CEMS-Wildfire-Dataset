@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR598_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR598", "glide_no": "na", "area_id": "01", "locality": "MOUNT PENTELI", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.049413522000066, 37.92220042200006 ], [ 23.773295208000036, 37.921111182000061 ], [ 23.772537016000058, 38.115063687000031 ], [ 24.048655025000073, 38.116152846000034 ], [ 24.049413522000066, 37.92220042200006 ] ] ] } }
+]
+}

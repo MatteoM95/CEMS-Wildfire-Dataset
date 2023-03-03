@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR532_AOI01_GRA_PRODUCT_hydrographyA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.020612200000073, 37.311230400000056 ], [ 22.020532800000069, 37.311208800000031 ], [ 22.020513200000039, 37.311254600000041 ], [ 22.020595900000046, 37.31127360000005 ], [ 22.020612200000073, 37.311230400000056 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.976945300000068, 37.348344900000029 ], [ 21.976905400000078, 37.348343600000078 ], [ 21.976903900000025, 37.348375400000066 ], [ 21.976943800000072, 37.348376600000051 ], [ 21.976945300000068, 37.348344900000029 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.983765700000049, 37.335038200000042 ], [ 21.983695600000033, 37.334960200000069 ], [ 21.983602200000064, 37.335012200000051 ], [ 21.983658300000059, 37.335082700000044 ], [ 21.983765700000049, 37.335038200000042 ] ] ] } }
+]
+}

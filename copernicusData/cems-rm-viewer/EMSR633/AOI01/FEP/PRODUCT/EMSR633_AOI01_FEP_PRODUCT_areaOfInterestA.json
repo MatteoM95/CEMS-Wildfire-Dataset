@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR633_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR633", "glide_no": "Not Applicable", "area_id": "01", "locality": "Saumos", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.632940922999978, 44.872779864000051 ], [ -1.082336083999962, 44.810108816000081 ], [ -1.03119531699997, 45.146572707000075 ], [ -0.630194340999935, 45.144635522000044 ], [ -0.632940922999978, 44.872779864000051 ] ] ] } }
+]
+}

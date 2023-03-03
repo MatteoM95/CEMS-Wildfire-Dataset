@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR401_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR401", "glide_no": "Not Applicable", "area_id": "01", "locality": "Bosa", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.439128538000034, 40.347986459000026 ], [ 8.394812825000031, 40.347763073000067 ], [ 8.394584718000033, 40.373267232000046 ], [ 8.438917133000075, 40.37349081800005 ], [ 8.439128538000034, 40.347986459000026 ] ] ] } }
+]
+}

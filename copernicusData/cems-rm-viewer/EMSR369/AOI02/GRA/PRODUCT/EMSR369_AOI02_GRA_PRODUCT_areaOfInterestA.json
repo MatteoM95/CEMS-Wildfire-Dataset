@@ -1,0 +1,92 @@
+{
+    "displayFieldName": "",
+    "fieldAliases": {
+        "FID": "FID",
+        "emsr_id": "emsr_id",
+        "glide_no": "glide_no",
+        "area_id": "area_id",
+        "locality": "locality",
+        "map_type": "map_type"
+    },
+    "geometryType": "esriGeometryPolygon",
+    "spatialReference": {
+        "wkid": 4326,
+        "latestWkid": 4326
+    },
+    "fields": [
+        {
+            "name": "FID",
+            "type": "esriFieldTypeOID",
+            "alias": "FID"
+        },
+        {
+            "name": "emsr_id",
+            "type": "esriFieldTypeString",
+            "alias": "emsr_id",
+            "length": 254
+        },
+        {
+            "name": "glide_no",
+            "type": "esriFieldTypeString",
+            "alias": "glide_no",
+            "length": 254
+        },
+        {
+            "name": "area_id",
+            "type": "esriFieldTypeString",
+            "alias": "area_id",
+            "length": 254
+        },
+        {
+            "name": "locality",
+            "type": "esriFieldTypeString",
+            "alias": "locality",
+            "length": 254
+        },
+        {
+            "name": "map_type",
+            "type": "esriFieldTypeString",
+            "alias": "map_type",
+            "length": 22
+        }
+    ],
+    "features": [
+        {
+            "attributes": {
+                "FID": 0,
+                "emsr_id": "EMSR369",
+                "glide_no": "Not Applicable",
+                "area_id": "02",
+                "locality": "GAVALAS",
+                "map_type": "Grading"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            24.123067234000075,
+                            38.435671868000043
+                        ],
+                        [
+                            24.050969565000059,
+                            38.435671868000043
+                        ],
+                        [
+                            24.050969565000059,
+                            38.497418881000044
+                        ],
+                        [
+                            24.123067234000075,
+                            38.497418881000044
+                        ],
+                        [
+                            24.123067234000075,
+                            38.435671868000043
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

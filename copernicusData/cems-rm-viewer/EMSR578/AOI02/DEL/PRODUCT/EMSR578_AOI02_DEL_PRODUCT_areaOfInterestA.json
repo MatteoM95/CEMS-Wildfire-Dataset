@@ -1,0 +1,51 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR578_AOI02_DEL_PRODUCT_areaOfInterestA_r1_v1",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR578",
+                "glide_no": "Not Applicable",
+                "area_id": "02",
+                "locality": "Pinelldesolsones",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            1.417059082000037,
+                            42.038154103000068
+                        ],
+                        [
+                            1.418904339000051,
+                            41.956082160000051
+                        ],
+                        [
+                            1.339885443000071,
+                            41.956436600000075
+                        ],
+                        [
+                            1.319669512000075,
+                            41.956527279000056
+                        ],
+                        [
+                            1.319506873000023,
+                            41.956517761000043
+                        ],
+                        [
+                            1.319129820000057,
+                            42.038002039000048
+                        ],
+                        [
+                            1.417059082000037,
+                            42.038154103000068
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

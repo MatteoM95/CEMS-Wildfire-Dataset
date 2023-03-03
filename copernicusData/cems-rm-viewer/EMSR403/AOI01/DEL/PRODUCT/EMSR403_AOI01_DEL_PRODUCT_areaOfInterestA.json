@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR403", "glide_no": "Not Applicable", "area_id": "01", "locality": "Doganica", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.451490959000068, 42.527702240000053 ], [ 22.440328795000028, 42.331781404000026 ], [ 22.227953070000069, 42.335246145000042 ], [ 22.220717083000068, 42.542954959000042 ], [ 22.451490959000068, 42.527702240000053 ] ] ] } }
+
+]
+}

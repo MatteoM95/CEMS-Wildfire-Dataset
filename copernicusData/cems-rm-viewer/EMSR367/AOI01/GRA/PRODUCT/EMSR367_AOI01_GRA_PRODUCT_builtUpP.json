@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR367_AOI01_GRA_PRODUCT_builtUpP_r1_v2",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "C.E.I.P.S. Eugenio Muro", "info": "1263-School, university and research buildings", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -4.4524277, 40.302803800000049 ] } },
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1241-Communication buildings, stations, terminals and associated buildings", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -4.449927399999979, 40.301996900000063 ] } },
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1241-Communication buildings, stations, terminals and associated buildings", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -4.450854104999962, 40.301906230000043 ] } }
+]
+}

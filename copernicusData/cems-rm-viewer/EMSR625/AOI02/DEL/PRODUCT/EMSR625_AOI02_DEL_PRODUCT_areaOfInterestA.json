@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR625",
+                "glide_no": "Not Applicable",
+                "area_id": "02",
+                "locality": "Vall D'Ebo",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -0.030930858999966,
+                            38.875024093000036
+                        ],
+                        [
+                            -0.023949784999957,
+                            38.700750972000037
+                        ],
+                        [
+                            -0.362771103999933,
+                            38.708054350000054
+                        ],
+                        [
+                            -0.36032582799993,
+                            38.871109353000065
+                        ],
+                        [
+                            -0.030930858999966,
+                            38.875024093000036
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR625_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR625",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Bejis",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -0.539921,
+                            40.020858
+                        ],
+                        [
+                            -0.536943,
+                            39.778863
+                        ],
+                        [
+                            -0.866338,
+                            39.783709
+                        ],
+                        [
+                            -0.871362,
+                            40.020446
+                        ],
+                        [
+                            -0.539921,
+                            40.020858
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

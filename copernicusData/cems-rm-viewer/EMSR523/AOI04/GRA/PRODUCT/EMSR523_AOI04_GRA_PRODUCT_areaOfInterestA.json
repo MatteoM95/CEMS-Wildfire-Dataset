@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR523", "glide_no": "Not Applicable", "area_id": "04", "locality": "Tanca Regia", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.766298, 40.126120 ], [ 8.715906, 40.125895 ], [ 8.726439, 40.163802 ], [ 8.781270, 40.163752 ], [ 8.766298, 40.126120 ] ] ] } }
+
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "Damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 2, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.651399900000058, 35.128931500000078 ], [ 24.651204500000063, 35.128452200000027 ], [ 24.650244, 35.128714100000025 ], [ 24.650439400000039, 35.129193300000054 ], [ 24.651399900000058, 35.128931500000078 ] ] ] } }
+
+]
+}

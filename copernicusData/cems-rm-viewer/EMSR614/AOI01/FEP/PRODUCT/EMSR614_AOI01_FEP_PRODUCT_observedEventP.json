@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR614_AOI01_FEP_PRODUCT_observedEventP_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.570220311999947, 41.475062230000049 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.571446608999963, 41.475425571000073 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.568724379999935, 41.476436032000038 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.563034739999978, 41.468590791000054 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.56100399099995, 41.466244714000027 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.558001813999965, 41.469456071000025 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.55729337799994, 41.484009462000074 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.565100647999941, 41.486833939000064 ] } },
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ -7.555170829999952, 41.488615549000031 ] } }
+]
+}

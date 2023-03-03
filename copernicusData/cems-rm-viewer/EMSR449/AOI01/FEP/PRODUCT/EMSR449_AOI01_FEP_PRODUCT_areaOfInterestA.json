@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR449", "glide_no": "Not Applicable", "area_id": "01", "locality": "Arischia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.385758979000059, 42.403926856000055 ], [ 13.320240303000048, 42.403385380000032 ], [ 13.31984213000004, 42.451564243000064 ], [ 13.38536080700004, 42.452105719000031 ], [ 13.385758979000059, 42.403926856000055 ] ] ] } }
+
+]
+}

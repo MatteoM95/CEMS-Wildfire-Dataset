@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR587_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR587", "glide_no": "Not Applicable", "area_id": "01", "locality": "Portes", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.604482377000068, 37.870605158000046 ], [ 21.52003747200007, 37.870367136000027 ], [ 21.51964276800004, 37.950580549000051 ], [ 21.604065109000032, 37.950476074000051 ], [ 21.604482377000068, 37.870605158000046 ] ] ] } }
+]
+}

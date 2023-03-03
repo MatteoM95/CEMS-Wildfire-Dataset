@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR521_AOI01_GRA_PRODUCT_facilitiesA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2420-Dump site", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 26.855840500000056, 37.786319800000058 ], [ 26.855601800000045, 37.786296500000049 ], [ 26.855620600000066, 37.786472500000059 ], [ 26.855526700000041, 37.786529700000074 ], [ 26.855813700000056, 37.786883700000033 ], [ 26.855947800000024, 37.78691340000006 ], [ 26.856035600000041, 37.786801900000057 ], [ 26.856177800000069, 37.786647100000039 ], [ 26.855840500000056, 37.786319800000058 ] ] ] } }
+]
+}

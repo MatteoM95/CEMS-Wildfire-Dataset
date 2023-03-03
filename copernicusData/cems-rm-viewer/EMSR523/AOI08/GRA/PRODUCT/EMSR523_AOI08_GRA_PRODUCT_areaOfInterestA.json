@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR523", "glide_no": "Not Applicable", "area_id": "08", "locality": "Arzana", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 9.584168661000035, 39.94331836300006 ], [ 9.586040557000047, 39.889261210000029 ], [ 9.492263668000021, 39.891246883000065 ], [ 9.492300632000024, 39.944119341000032 ], [ 9.584168661000035, 39.94331836300006 ] ] ] } }
+
+]
+}

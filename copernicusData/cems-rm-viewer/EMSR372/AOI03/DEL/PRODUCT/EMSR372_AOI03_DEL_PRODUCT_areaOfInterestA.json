@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR372", "glide_no": "Not Applicable", "area_id": "03", "locality": "Atalaia", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.850847132999945, 39.594378559000063 ], [ -8.196790394999937, 39.593459866000046 ], [ -8.197599512999943, 39.812786875000029 ], [ -7.848848861999954, 39.803933389000065 ], [ -7.850847132999945, 39.594378559000063 ] ] ] } }
+
+]
+}

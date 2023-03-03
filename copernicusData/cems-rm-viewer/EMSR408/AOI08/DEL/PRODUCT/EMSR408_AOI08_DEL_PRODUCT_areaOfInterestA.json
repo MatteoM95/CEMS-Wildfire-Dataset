@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "", "area_id": "08", "locality": "Taree", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 152.574846, -32.036381 ], [ 152.429423, -32.134246 ], [ 151.959472, -31.818902 ], [ 151.784585, -31.659553 ], [ 152.301516, -31.565134 ], [ 152.822393, -31.655424 ], [ 152.778694, -31.849320 ], [ 152.574846, -32.036381 ] ] ] } }
+
+]
+}

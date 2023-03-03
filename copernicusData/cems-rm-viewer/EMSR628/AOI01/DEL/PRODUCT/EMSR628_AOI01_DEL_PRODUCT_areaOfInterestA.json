@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR628_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR628", "glide_no": "Not Applicable", "area_id": "01", "locality": "Vilarinho de Samarda", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.621684354999957, 41.306065078000074 ], [ -7.817751295999926, 41.306065078000074 ], [ -7.817751295999926, 41.456144806000054 ], [ -7.621684354999957, 41.456144806000054 ], [ -7.621684354999957, 41.306065078000074 ] ] ] } }
+]
+}

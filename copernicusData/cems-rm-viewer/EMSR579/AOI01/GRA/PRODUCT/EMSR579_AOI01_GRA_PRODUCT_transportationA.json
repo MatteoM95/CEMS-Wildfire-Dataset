@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR579_AOI01_GRA_PRODUCT_transportationA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Lumbier", "info": "2130-Airfield runways", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.302928231999942, 42.667353229000071 ], [ -1.302910599999962, 42.667157400000065 ], [ -1.303090699999927, 42.66716050000008 ], [ -1.302851499999974, 42.664773500000081 ], [ -1.30267, 42.662205500000027 ], [ -1.304404899999952, 42.662098900000046 ], [ -1.304306518999965, 42.667359946000033 ], [ -1.302928231999942, 42.667353229000071 ] ] ] } }
+]
+}

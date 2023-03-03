@@ -1,0 +1,57 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR632_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR632",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Los Guajares",
+                "map_type": "Grading"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -3.503440402999956,
+                            36.899618464000071
+                        ],
+                        [
+                            -3.502096675999951,
+                            36.84300070300003
+                        ],
+                        [
+                            -3.665858036999964,
+                            36.847574727000051
+                        ],
+                        [
+                            -3.670358550999936,
+                            36.934680797000055
+                        ],
+                        [
+                            -3.569381044999943,
+                            36.934648267000057
+                        ],
+                        [
+                            -3.529727110999943,
+                            36.914145489000077
+                        ],
+                        [
+                            -3.503440402999956,
+                            36.899618464000071
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

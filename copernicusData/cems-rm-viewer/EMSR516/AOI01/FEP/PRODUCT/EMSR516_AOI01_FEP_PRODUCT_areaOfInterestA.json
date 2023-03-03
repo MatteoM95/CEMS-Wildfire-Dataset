@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR516", "glide_no": "Not Applicable", "area_id": "01", "locality": "Kephalonia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.819020932000058, 38.055684601000053 ], [ 20.615210961000059, 38.052320310000027 ], [ 20.615320743000041, 38.188416151000069 ], [ 20.816142508000041, 38.194104348000053 ], [ 20.819020932000058, 38.055684601000053 ] ] ] } }
+
+]
+}

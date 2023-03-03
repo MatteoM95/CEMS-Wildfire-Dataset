@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR457", "glide_no": "Not Applicable", "area_id": "01", "locality": "Patras", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -6.685422, 37.684346 ], [ -6.822489, 37.671984 ], [ -6.849736, 37.814610 ], [ -6.706117, 37.827525 ], [ -6.685422, 37.684346 ] ] ] } }
+
+]
+}

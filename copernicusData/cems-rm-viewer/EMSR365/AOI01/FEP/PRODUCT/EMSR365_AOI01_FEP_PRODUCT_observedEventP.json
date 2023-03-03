@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.541882180000073, 41.30072493800003 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.522608546000072, 41.30072493800003 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.50975945700003, 41.312146351000081 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.503334912000071, 41.320712411000045 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.491865910000058, 41.318475717000069 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.517373732000067, 41.318856431000029 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.536028706000025, 41.311242156000048 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.512805167000067, 41.300201457000071 ] } },
+{ "type": "Feature", "properties": { "event_type": "1-Earthquake", "obj_desc": "None", "det_method": "Photo-interpretation", "notation": "800", "dmg_src_id": 1 }, "geometry": { "type": "Point", "coordinates": [ 0.523465152000028, 41.308767516000046 ] } }
+]
+}

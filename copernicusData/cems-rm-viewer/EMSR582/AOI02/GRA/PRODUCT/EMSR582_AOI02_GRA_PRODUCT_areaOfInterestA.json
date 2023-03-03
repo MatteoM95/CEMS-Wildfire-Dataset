@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR582_AOI02_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR582", "glide_no": "Not Applicable", "area_id": "02", "locality": "Frohnsdorf", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 12.966504714000052, 52.015855701000078 ], [ 12.871095139000033, 52.015840028000071 ], [ 12.871017292000033, 52.067258858000059 ], [ 12.966536463000068, 52.067275730000063 ], [ 12.966504714000052, 52.015855701000078 ] ] ] } }
+]
+}

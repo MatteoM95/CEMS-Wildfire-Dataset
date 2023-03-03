@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "3-Forests and Semi-natural Areas", "name": "Unknown", "info": "31-Forests", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 986, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -99.238273591999985, 23.000226939000072 ], [ -99.316924292999943, 23.000226939000072 ], [ -99.316920917999937, 23.067554055000073 ], [ -99.23828946499998, 23.067870287000062 ], [ -99.238273591999985, 23.000226939000072 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "3-Forests and Semi-natural Areas", "name": "Unknown", "info": "31-Forests", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 986, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -99.316924292999943, 23.000226939000072 ], [ -99.238273591999985, 23.000226939000072 ], [ -99.238271539999971, 22.991481194000073 ], [ -99.316924732999951, 22.99145767300007 ], [ -99.316924292999943, 23.000226939000072 ] ] ] } }
+
+]
+}

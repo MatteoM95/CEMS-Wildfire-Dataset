@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR590_AOI01_DEL_PRODUCT_facilitiesL_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -6.212947199999974, 40.459390800000051 ], [ -6.212872, 40.459361600000079 ], [ -6.212826, 40.459343800000056 ] ] } }
+]
+}

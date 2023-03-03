@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR426_AOI02_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR426", "glide_no": "N\/A", "area_id": "02", "locality": "Sari-Solenzara", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 9.313514, 41.806299535000051 ], [ 9.238226955000073, 41.805602266000051 ], [ 9.240173575000028, 41.859205279000037 ], [ 9.237540309000053, 41.905331950000061 ], [ 9.408515041000044, 41.904820912000048 ], [ 9.408515041000044, 41.806625924000059 ], [ 9.313514, 41.806299535000051 ] ] ] } }
+]
+}

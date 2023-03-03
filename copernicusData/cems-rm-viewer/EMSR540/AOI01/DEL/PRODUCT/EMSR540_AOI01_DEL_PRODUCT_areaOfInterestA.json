@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR540_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR540",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Bilia",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            23.441630038000028,
+                            38.05103196500005
+                        ],
+                        [
+                            23.262020422000035,
+                            38.041741813000044
+                        ],
+                        [
+                            23.254760625000074,
+                            38.182097879000025
+                        ],
+                        [
+                            23.434370241000067,
+                            38.191388032000077
+                        ],
+                        [
+                            23.441630038000028,
+                            38.05103196500005
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

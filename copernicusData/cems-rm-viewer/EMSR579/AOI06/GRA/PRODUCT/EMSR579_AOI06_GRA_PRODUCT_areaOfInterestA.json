@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR579_AOI06_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "06", "locality": "Iracheta", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.497966616999975, 42.704993401000081 ], [ -1.497084386999973, 42.61999892700004 ], [ -1.606393989999958, 42.621092915000077 ], [ -1.60597899499993, 42.706589508000036 ], [ -1.497966616999975, 42.704993401000081 ] ] ] } }
+]
+}

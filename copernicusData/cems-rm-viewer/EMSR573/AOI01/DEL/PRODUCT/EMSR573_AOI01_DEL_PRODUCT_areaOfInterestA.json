@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR573", "glide_no": "Not Applicable", "area_id": "01", "locality": "Prosna", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.619144, 51.634320 ], [ 20.624601, 51.557504 ], [ 20.465984, 51.558003 ], [ 20.464267, 51.633328 ], [ 20.619144, 51.634320 ] ] ] } }
+
+]
+}

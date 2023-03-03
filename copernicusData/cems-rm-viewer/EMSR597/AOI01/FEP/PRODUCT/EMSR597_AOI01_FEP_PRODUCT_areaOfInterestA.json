@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR597", "glide_no": "Not Applicable", "area_id": "01", "locality": "Moros", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.677340751999964, 41.405729588000042 ], [ -1.959082117999969, 41.269442338000033 ], [ -2.08245345399996, 41.410055102000058 ], [ -1.797925337999971, 41.547093885000038 ], [ -1.677340751999964, 41.405729588000042 ] ] ] } }
+
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR396_AOI04_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR396", "glide_no": "Not Applicable", "area_id": "04", "locality": "Nabatieh", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 35.455073262000042, 33.265167597000072 ], [ 35.368306655000026, 33.176784178000048 ], [ 35.240619330000072, 33.181621390000032 ], [ 35.234377085000062, 33.28294261700006 ], [ 35.262964384000043, 33.405748258000074 ], [ 35.517280369000048, 33.406940603000066 ], [ 35.520438009000031, 33.349725825000064 ], [ 35.455073262000042, 33.265167597000072 ] ] ] } }
+]
+}

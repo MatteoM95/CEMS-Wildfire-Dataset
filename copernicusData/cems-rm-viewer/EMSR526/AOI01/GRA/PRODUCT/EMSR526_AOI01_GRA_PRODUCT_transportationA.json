@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Αερολιμένας Μαριτσών", "info": "2130-Airfield runways", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 28.115795, 36.377722 ], [ 28.114679, 36.377595 ], [ 28.113543, 36.377865 ], [ 28.112368, 36.378425 ], [ 28.115795, 36.377722 ] ] ], [ [ [ 28.097503, 36.380428 ], [ 28.095216, 36.380414 ], [ 28.094302, 36.381265 ], [ 28.094584, 36.382405 ], [ 28.096268, 36.382641 ], [ 28.102502, 36.380915 ], [ 28.101162, 36.380849 ], [ 28.097503, 36.380428 ] ] ] ] } }
+
+]
+}

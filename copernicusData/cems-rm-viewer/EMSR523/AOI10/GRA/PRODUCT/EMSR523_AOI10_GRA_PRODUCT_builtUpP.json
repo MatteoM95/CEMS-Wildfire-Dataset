@@ -1,0 +1,67 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.670519, 40.166309 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.678779, 40.172067 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.668725, 40.172961 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.670584, 40.172244 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.675487, 40.176199 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.675851, 40.176021 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.675460, 40.176013 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.675040, 40.176176 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.669419, 40.176031 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.671337, 40.179771 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.678697, 40.178962 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.679021, 40.179520 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.678956, 40.179363 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.705639, 40.157793 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.706416, 40.157718 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.706570, 40.157957 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.706795, 40.157880 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.706982, 40.157827 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.706779, 40.158047 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.709755, 40.150023 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.709659, 40.150589 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.710041, 40.150143 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.710236, 40.150043 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.677175, 40.181193 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.686103, 40.182711 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.686336, 40.182638 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.673226, 40.160171 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.672461, 40.160401 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.693646, 40.164674 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.692979, 40.163843 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 8.695113, 40.163062 ] } }
+
+]
+}

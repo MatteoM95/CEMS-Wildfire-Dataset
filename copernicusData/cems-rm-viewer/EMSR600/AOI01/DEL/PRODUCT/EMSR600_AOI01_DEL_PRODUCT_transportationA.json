@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Aviosuperficie Delta Condor", "info": "2130-Airfield runways", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 10.305023, 43.867810 ], [ 10.301259, 43.867200 ], [ 10.299700, 43.869475 ], [ 10.299461, 43.869843 ], [ 10.299465, 43.869844 ], [ 10.300007, 43.869952 ], [ 10.301499, 43.870238 ], [ 10.302167, 43.869822 ], [ 10.302998, 43.869307 ], [ 10.303720, 43.868858 ], [ 10.304704, 43.868241 ], [ 10.305023, 43.867810 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 10.319378, 43.880338 ], [ 10.319304, 43.880203 ], [ 10.319132, 43.880252 ], [ 10.319207, 43.880387 ], [ 10.319378, 43.880338 ] ] ] } }
+
+]
+}

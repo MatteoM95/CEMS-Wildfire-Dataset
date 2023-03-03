@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR373", "glide_no": "N\/A", "area_id": "01", "locality": "Lecinena", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.508149, 41.813600 ], [ -0.511981, 41.754863 ], [ -0.630882, 41.764833 ], [ -0.620263, 41.824560 ], [ -0.508149, 41.813600 ] ] ] } }
+
+]
+}

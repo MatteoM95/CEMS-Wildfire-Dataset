@@ -1,0 +1,33 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.442944, -30.061170 ], [ 151.442874, -30.061300 ], [ 151.442636, -30.061251 ], [ 151.442701, -30.061017 ], [ 151.442827, -30.061057 ], [ 151.442944, -30.061170 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.434599, -30.061328 ], [ 151.434432, -30.061328 ], [ 151.434384, -30.061189 ], [ 151.434663, -30.061110 ], [ 151.434668, -30.061273 ], [ 151.434599, -30.061328 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.436498, -30.062055 ], [ 151.436533, -30.062116 ], [ 151.436406, -30.062113 ], [ 151.436321, -30.062064 ], [ 151.436243, -30.061926 ], [ 151.436328, -30.061932 ], [ 151.436377, -30.062006 ], [ 151.436498, -30.062055 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.432332, -30.062266 ], [ 151.432325, -30.062349 ], [ 151.432169, -30.062337 ], [ 151.432067, -30.062276 ], [ 151.432049, -30.062227 ], [ 151.432148, -30.062181 ], [ 151.432332, -30.062266 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.433019, -30.060266 ], [ 151.432944, -30.060288 ], [ 151.432824, -30.060263 ], [ 151.432760, -30.060202 ], [ 151.432764, -30.060101 ], [ 151.432810, -30.060055 ], [ 151.432913, -30.060039 ], [ 151.433033, -30.060110 ], [ 151.433075, -30.060220 ], [ 151.433019, -30.060266 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.425367, -30.064324 ], [ 151.425241, -30.064328 ], [ 151.425124, -30.064320 ], [ 151.425040, -30.064239 ], [ 151.425255, -30.064090 ], [ 151.425390, -30.064182 ], [ 151.425432, -30.064263 ], [ 151.425367, -30.064324 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.420098, -30.062248 ], [ 151.419948, -30.062248 ], [ 151.419907, -30.062195 ], [ 151.419948, -30.062111 ], [ 151.420135, -30.062129 ], [ 151.420147, -30.062171 ], [ 151.420098, -30.062248 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.502726, -30.073135 ], [ 151.502454, -30.074116 ], [ 151.500914, -30.073977 ], [ 151.500162, -30.073519 ], [ 151.500100, -30.072026 ], [ 151.499817, -30.071663 ], [ 151.500667, -30.071300 ], [ 151.502886, -30.071119 ], [ 151.503206, -30.072665 ], [ 151.502726, -30.073135 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.445480, -30.062112 ], [ 151.445438, -30.062128 ], [ 151.445284, -30.062064 ], [ 151.445214, -30.061971 ], [ 151.445480, -30.061902 ], [ 151.445480, -30.062112 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.480285, -30.065950 ], [ 151.480070, -30.066382 ], [ 151.479534, -30.066317 ], [ 151.478772, -30.065690 ], [ 151.479164, -30.065462 ], [ 151.479909, -30.065481 ], [ 151.480413, -30.065630 ], [ 151.480574, -30.065760 ], [ 151.480285, -30.065950 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.469341, -30.062082 ], [ 151.469272, -30.062325 ], [ 151.469093, -30.062289 ], [ 151.468992, -30.062036 ], [ 151.469341, -30.062082 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.471328, -30.056715 ], [ 151.471023, -30.056810 ], [ 151.470893, -30.056694 ], [ 151.470865, -30.056610 ], [ 151.470901, -30.056518 ], [ 151.471080, -30.056451 ], [ 151.471328, -30.056715 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.473357, -30.056107 ], [ 151.473487, -30.056184 ], [ 151.473214, -30.056156 ], [ 151.473113, -30.056075 ], [ 151.473056, -30.055885 ], [ 151.473072, -30.055741 ], [ 151.473178, -30.055762 ], [ 151.473227, -30.055895 ], [ 151.473227, -30.056022 ], [ 151.473357, -30.056107 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.446293, -30.059990 ], [ 151.446358, -30.060350 ], [ 151.446073, -30.060305 ], [ 151.446003, -30.060204 ], [ 151.446157, -30.059756 ], [ 151.446269, -30.059744 ], [ 151.446311, -30.059893 ], [ 151.446293, -30.059990 ] ] ] } }
+
+]
+}

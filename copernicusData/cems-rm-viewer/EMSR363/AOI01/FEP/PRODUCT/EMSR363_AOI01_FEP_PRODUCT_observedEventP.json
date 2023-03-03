@@ -1,0 +1,37 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.046622, 52.066708 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.050870, 52.068078 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.040493, 52.070732 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.040717, 52.075660 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.040618, 52.074760 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.037763, 52.078052 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.037493, 52.078390 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.043061, 52.078226 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.059736, 52.081557 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.060837, 52.082888 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.062557, 52.082231 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.062899, 52.082365 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.063261, 52.082571 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.043469, 52.088497 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.041997, 52.087187 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.056665, 52.090913 ] } }
+
+]
+}

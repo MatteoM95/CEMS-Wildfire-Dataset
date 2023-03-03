@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Campo di Volo A.S. Ulcor", "info": "2130-Airfield runways", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.677433, 39.980137 ], [ 8.681056, 39.977597 ], [ 8.680835, 39.977439 ], [ 8.678349, 39.979148 ], [ 8.677826, 39.978962 ], [ 8.677683, 39.979066 ], [ 8.677547, 39.978943 ], [ 8.677284, 39.979115 ], [ 8.677167, 39.979065 ], [ 8.677002, 39.979255 ], [ 8.677777, 39.979572 ], [ 8.677188, 39.979981 ], [ 8.677433, 39.980137 ] ] ] } }
+
+]
+}

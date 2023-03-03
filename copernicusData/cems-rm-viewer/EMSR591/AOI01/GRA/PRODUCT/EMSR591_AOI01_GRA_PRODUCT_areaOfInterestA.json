@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR591", "glide_no": "Not Applicable", "area_id": "01", "locality": "Zaton", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15.898513, 43.717151 ], [ 15.722732, 43.717151 ], [ 15.722732, 43.856195 ], [ 15.898513, 43.856195 ], [ 15.898513, 43.717151 ] ] ] } }
+
+]
+}

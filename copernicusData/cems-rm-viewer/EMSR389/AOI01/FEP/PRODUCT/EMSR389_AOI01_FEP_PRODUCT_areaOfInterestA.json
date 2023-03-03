@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR389", "glide_no": "Not Applicable", "area_id": "01", "locality": "Loutraki", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.020164744000056, 37.971697086000063 ], [ 22.928126359000032, 37.970690275000038 ], [ 22.926821049000068, 38.025035213000081 ], [ 23.020187161000024, 38.025614459000053 ], [ 23.020164744000056, 37.971697086000063 ] ] ] } }
+]
+}

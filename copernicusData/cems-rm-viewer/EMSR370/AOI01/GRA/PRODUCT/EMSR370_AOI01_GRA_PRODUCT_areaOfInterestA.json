@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR370", "glide_no": null, "area_id": "01", "locality": "Huecija", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -2.610277779999933, 36.907 ], [ -2.695833329999971, 36.907 ], [ -2.696, 36.958 ], [ -2.61, 36.958333330000073 ], [ -2.610277779999933, 36.907 ] ] ] } }
+]
+}

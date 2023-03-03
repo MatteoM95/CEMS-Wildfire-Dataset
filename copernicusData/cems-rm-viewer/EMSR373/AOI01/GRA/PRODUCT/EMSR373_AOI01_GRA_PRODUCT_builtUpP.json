@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 3, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -0.554288, 41.779596 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 3, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -0.546547, 41.779553 ] } }
+
+]
+}

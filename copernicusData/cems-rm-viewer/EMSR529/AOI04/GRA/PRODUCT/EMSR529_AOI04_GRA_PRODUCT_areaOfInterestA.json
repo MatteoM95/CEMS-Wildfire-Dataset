@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR529_AOI04_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR529", "glide_no": "NA", "area_id": "04", "locality": "Pehtchevo", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.895461184000055, 41.894890922000059 ], [ 22.893442206000032, 41.745224474000054 ], [ 22.754623903000038, 41.746185080000032 ], [ 22.75631925700003, 41.895860196000058 ], [ 22.895461184000055, 41.894890922000059 ] ] ] } }
+]
+}

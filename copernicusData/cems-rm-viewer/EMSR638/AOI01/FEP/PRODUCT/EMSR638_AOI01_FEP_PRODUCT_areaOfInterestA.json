@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR638", "glide_no": "Not Applicable", "area_id": "01", "locality": "Papikiomountain", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 25.362199, 41.178012 ], [ 25.245865, 41.177827 ], [ 25.224662, 41.270712 ], [ 25.375710, 41.266464 ], [ 25.362199, 41.178012 ] ] ] } }
+
+]
+}

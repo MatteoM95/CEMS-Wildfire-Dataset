@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Built up area", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable", "real": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -6.653091, 37.683421 ], [ -6.652904, 37.683346 ], [ -6.652679, 37.683256 ], [ -6.653161, 37.682666 ], [ -6.653134, 37.682816 ], [ -6.653081, 37.682946 ], [ -6.653103, 37.683104 ], [ -6.653134, 37.683254 ], [ -6.653337, 37.683394 ], [ -6.653387, 37.683390 ], [ -6.653357, 37.683426 ], [ -6.653277, 37.683523 ], [ -6.653184, 37.683472 ], [ -6.653091, 37.683421 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Built up area", "or_src_id": 992, "dmg_src_id": 2, "cd_value": "Not Applicable", "real": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -6.652174, 37.681829 ], [ -6.652368, 37.681789 ], [ -6.652387, 37.681830 ], [ -6.652488, 37.682040 ], [ -6.652547, 37.682170 ], [ -6.652788, 37.682253 ], [ -6.653010, 37.682351 ], [ -6.653151, 37.682425 ], [ -6.653173, 37.682604 ], [ -6.653168, 37.682627 ], [ -6.652981, 37.682532 ], [ -6.652470, 37.682272 ], [ -6.652172, 37.682177 ], [ -6.651874, 37.682140 ], [ -6.651697, 37.682118 ], [ -6.651634, 37.682114 ], [ -6.651636, 37.682064 ], [ -6.651737, 37.681924 ], [ -6.651758, 37.681919 ], [ -6.651983, 37.681868 ], [ -6.652174, 37.681829 ] ] ] } }
+
+]
+}

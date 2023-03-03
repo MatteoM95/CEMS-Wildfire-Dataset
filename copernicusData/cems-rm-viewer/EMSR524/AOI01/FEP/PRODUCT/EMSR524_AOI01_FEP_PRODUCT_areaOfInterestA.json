@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR524", "glide_no": "Not Applicable", "area_id": "01", "locality": "Latvia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.898663, 57.322822 ], [ 24.731140, 57.322433 ], [ 24.734992, 57.426147 ], [ 24.896957, 57.426065 ], [ 24.898663, 57.322822 ] ] ] } }
+
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR608_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR608", "glide_no": "Not Applicable", "area_id": "01", "locality": "Krestena", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.763367393000067, 37.531710794000048 ], [ 21.590089953000074, 37.516755562000071 ], [ 21.568801842000028, 37.641269149000038 ], [ 21.769501217000027, 37.636279684000044 ], [ 21.763367393000067, 37.531710794000048 ] ] ] } }
+]
+}

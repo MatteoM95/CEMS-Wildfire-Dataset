@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR529_AOI05_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR529", "glide_no": "N\/A", "area_id": "05", "locality": "Klechovtse", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.962805144000072, 42.035068296000077 ], [ 21.817298172000051, 42.034862230000044 ], [ 21.816934554000056, 42.133609066000076 ], [ 21.962667370000077, 42.133813291000081 ], [ 21.962805144000072, 42.035068296000077 ] ] ] } }
+]
+}

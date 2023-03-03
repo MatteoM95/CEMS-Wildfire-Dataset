@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.117985068999928, 39.715451542000039 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.082010300999968, 39.727730171000076 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.092393459999926, 39.696764650000034 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.069958240999938, 39.666772471000058 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.000563788999955, 39.67467042100003 ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 4 }, "geometry": { "type": "Point", "coordinates": [ -8.060861988999932, 39.712769352000066 ] } }
+
+]
+}

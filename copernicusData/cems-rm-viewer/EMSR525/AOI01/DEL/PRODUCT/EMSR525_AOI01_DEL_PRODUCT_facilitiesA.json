@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Δημοτικό Στάδιο Καμαρών", "info": "2411-Sports grounds", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.004014900000072, 38.299604500000044 ], [ 22.003969600000062, 38.298652 ], [ 22.003149, 38.298676 ], [ 22.003194300000075, 38.299628600000062 ], [ 22.004014900000072, 38.299604500000044 ] ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.978196, 38.316291100000058 ], [ 21.978080600000055, 38.316178400000069 ], [ 21.977821600000027, 38.316353500000048 ], [ 21.977936900000032, 38.316473600000052 ], [ 21.978196, 38.316291100000058 ] ] ] } }
+
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR579_AOI07_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "07", "locality": "Sanmartin", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.480011103999971, 42.445508729000039 ], [ -1.605557172999966, 42.443461379000041 ], [ -1.607363247999956, 42.555096487000071 ], [ -1.479770620999943, 42.554321082000058 ], [ -1.480011103999971, 42.445508729000039 ] ] ] } }
+]
+}

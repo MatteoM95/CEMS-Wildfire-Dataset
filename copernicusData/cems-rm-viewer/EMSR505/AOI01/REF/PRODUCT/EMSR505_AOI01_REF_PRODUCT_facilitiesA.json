@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR505_AOI01_REF_PRODUCT_facilitiesA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23011-Water Well", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 92.149611100000072, 21.190438500000027 ], [ 92.149604200000056, 21.190438100000051 ], [ 92.149599, 21.190442400000052 ], [ 92.149598600000047, 21.19044880000007 ], [ 92.149603200000058, 21.190453700000035 ], [ 92.149610100000075, 21.190454100000068 ], [ 92.14961530000005, 21.190449800000067 ], [ 92.149615700000084, 21.190443400000049 ], [ 92.149611100000072, 21.190438500000027 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2420-Dump site", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 92.162523, 21.19372 ], [ 92.162487400000032, 21.193689400000039 ], [ 92.16245930000008, 21.193731900000046 ], [ 92.162474700000075, 21.193751900000052 ], [ 92.162498800000037, 21.193765600000063 ], [ 92.16252030000004, 21.193751300000031 ], [ 92.162523, 21.19372 ] ] ] } }
+]
+}

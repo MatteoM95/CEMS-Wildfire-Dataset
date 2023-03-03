@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -8.442201569999952, 40.67642920000003 ], [ -8.441975913999954, 40.676107973000057 ], [ -8.441829577999954, 40.675867955000058 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -8.362486688999979, 40.706596533000038 ], [ -8.362384370999962, 40.706566639000073 ], [ -8.361928295999974, 40.706433167000057 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -8.361801274999948, 40.625236096000037 ], [ -8.361805855999933, 40.625169278000044 ], [ -8.361847986999976, 40.625126052000041 ], [ -8.361939973999938, 40.625057257000037 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -8.359725986999933, 40.626985182000055 ], [ -8.359748623999963, 40.626949933000049 ], [ -8.359800456999949, 40.62690438900006 ], [ -8.359866752999949, 40.626854687000048 ], [ -8.35999727799998, 40.626790462000031 ], [ -8.360117382999931, 40.626747032000026 ] ] } }
+
+]
+}

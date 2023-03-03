@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR576_AOI01_FEP_PRODUCT_transportationA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.815850200000057, 37.842983600000025 ], [ 23.815842100000054, 37.84253730000006 ], [ 23.81528510000004, 37.842538900000079 ], [ 23.815266100000031, 37.842972400000065 ], [ 23.815850200000057, 37.842983600000025 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.847552500000063, 37.890895900000032 ], [ 23.847544500000026, 37.89072660000005 ], [ 23.847287, 37.890735 ], [ 23.847329900000034, 37.890934 ], [ 23.847552500000063, 37.890895900000032 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR515_AOI01_GRA_PRODUCT_facilitiesA_r1_v1",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.114055300000075, 34.844224 ], [ 33.113301, 34.844154 ], [ 33.113254400000073, 34.844492200000047 ], [ 33.114008600000034, 34.844562200000041 ], [ 33.114055300000075, 34.844224 ] ] ] } },
+{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2412-Other sport and recreation constructions", "damage_gra": "No visible damage", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 33.114129400000024, 34.843665300000055 ], [ 33.113717200000053, 34.843633300000079 ], [ 33.113683500000036, 34.843926400000043 ], [ 33.114095600000041, 34.843958400000076 ], [ 33.114129400000024, 34.843665300000055 ] ] ] } }
+]
+}

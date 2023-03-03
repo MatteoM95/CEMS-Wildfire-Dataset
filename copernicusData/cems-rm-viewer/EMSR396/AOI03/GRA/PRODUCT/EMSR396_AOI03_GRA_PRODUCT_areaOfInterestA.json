@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR396_AOI03_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR396", "glide_no": "NA", "area_id": "03", "locality": "Aarid el Klaile", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 35.534118351000075, 33.406092719000071 ], [ 35.262080688000026, 33.405444120000027 ], [ 35.396995558000071, 33.623365666000041 ], [ 35.560152980000055, 33.613655576000042 ], [ 35.534118351000075, 33.406092719000071 ] ] ] } }
+]
+}

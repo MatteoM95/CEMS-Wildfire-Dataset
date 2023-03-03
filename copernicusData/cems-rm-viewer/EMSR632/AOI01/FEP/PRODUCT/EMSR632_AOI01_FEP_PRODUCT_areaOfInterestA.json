@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR632_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR632", "glide_no": "Not Applicable", "area_id": "01", "locality": "Losguajares", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -3.542675478999968, 36.934797788000026 ], [ -3.543012726999962, 36.843586188000074 ], [ -3.670445104999942, 36.844797951000032 ], [ -3.670361756999966, 36.934639756000024 ], [ -3.542675478999968, 36.934797788000026 ] ] ] } }
+]
+}

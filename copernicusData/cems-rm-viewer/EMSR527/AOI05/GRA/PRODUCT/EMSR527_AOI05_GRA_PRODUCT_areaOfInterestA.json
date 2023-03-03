@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR527", "glide_no": "NA", "area_id": "05", "locality": "Guoves", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.305351, 39.048816 ], [ 23.403783, 38.953911 ], [ 23.345273, 38.942543 ], [ 23.276037, 38.955818 ], [ 23.262899, 38.981767 ], [ 23.197020, 38.980941 ], [ 23.179781, 39.011282 ], [ 23.305351, 39.048816 ] ] ] } }
+
+]
+}

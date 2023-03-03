@@ -1,0 +1,38 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.828315400000065, 37.686708300000078 ], [ 20.828858, 37.685893200000066 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.826800700000035, 37.686079800000073 ], [ 20.82855550000005, 37.68591710000004 ], [ 20.828858, 37.685893200000066 ], [ 20.830200700000034, 37.685786900000039 ], [ 20.830302500000073, 37.685779 ], [ 20.83098810000007, 37.685726 ], [ 20.831393400000024, 37.685694700000056 ], [ 20.831623800000045, 37.68565650000005 ], [ 20.831783900000062, 37.68563 ], [ 20.833292100000051, 37.685380100000032 ], [ 20.834731600000055, 37.685163100000068 ], [ 20.835218300000065, 37.68506 ], [ 20.835414300000025, 37.684990800000037 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.827951800000051, 37.685339 ], [ 20.828858, 37.685893200000066 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.829275300000063, 37.687289500000077 ], [ 20.830302500000073, 37.685779 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.829762, 37.684924400000057 ], [ 20.83098810000007, 37.685726 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.830803900000035, 37.686774200000059 ], [ 20.831623800000045, 37.68565650000005 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.831192600000065, 37.683381900000029 ], [ 20.831736500000034, 37.683142400000065 ], [ 20.832394500000078, 37.683081400000049 ], [ 20.833749700000055, 37.683321 ], [ 20.834962400000052, 37.683411400000068 ], [ 20.835327600000028, 37.683431300000052 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.831708700000036, 37.686606 ], [ 20.831783900000062, 37.68563 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.832065100000023, 37.683627900000033 ], [ 20.831783900000062, 37.68563 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.83245590000007, 37.683779800000025 ], [ 20.834731600000055, 37.685163100000068 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.836221100000046, 37.685984900000051 ], [ 20.83442210000004, 37.68697080000004 ], [ 20.833793700000058, 37.687021 ], [ 20.833181700000068, 37.686991800000044 ], [ 20.832739300000071, 37.686915900000031 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.83356630000003, 37.68669820000008 ], [ 20.834731600000055, 37.685163100000068 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.835414300000025, 37.684990800000037 ], [ 20.835539, 37.684946700000069 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.835539, 37.684946700000069 ], [ 20.835602200000039, 37.684924400000057 ], [ 20.835855800000047, 37.684919 ], [ 20.836096100000077, 37.684921 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.836096100000077, 37.684921 ], [ 20.836236600000063, 37.684922200000074 ] ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "BH141-Stream", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 20.836236600000063, 37.684922200000074 ], [ 20.836252100000024, 37.684960500000045 ] ] } }
+
+]
+}

@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in $(seq 573 1 619)
+do
+   aws s
+done

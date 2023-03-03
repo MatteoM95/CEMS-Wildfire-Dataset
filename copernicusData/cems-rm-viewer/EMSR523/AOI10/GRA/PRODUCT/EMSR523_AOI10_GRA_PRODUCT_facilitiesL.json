@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Codrongianos-Oristano", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 8.683317, 40.180414 ], [ 8.683510, 40.181790 ], [ 8.683553, 40.182116 ] ] } }
+
+]
+}

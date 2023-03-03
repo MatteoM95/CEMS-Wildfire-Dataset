@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR535", "glide_no": "Not Applicable", "area_id": "02", "locality": "Munelles", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 20.315955, 41.926577 ], [ 19.820176, 41.921737 ], [ 19.815356, 42.146024 ], [ 20.312881, 42.150898 ], [ 20.315955, 41.926577 ] ] ] } }
+
+]
+}

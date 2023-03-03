@@ -1,0 +1,6 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "emsr360", "glide_no": "Not Applicable", "area_id": "01", "locality": "Tenerife", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -16.533065397999962, 28.299489596000058 ], [ -16.61551609299994, 28.296030353000049 ], [ -16.619005957999946, 28.326410593000048 ], [ -16.53027785699993, 28.322937095000043 ], [ -16.533065397999962, 28.299489596000058 ] ] ] } }
+]
+}

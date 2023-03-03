@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR623",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Anon de Moncayo",
+                "map_type": "Grading"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -1.512559,
+                            41.916644
+                        ],
+                        [
+                            -1.514652,
+                            41.743665
+                        ],
+                        [
+                            -1.759633,
+                            41.745143
+                        ],
+                        [
+                            -1.756953,
+                            41.916692
+                        ],
+                        [
+                            -1.512559,
+                            41.916644
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

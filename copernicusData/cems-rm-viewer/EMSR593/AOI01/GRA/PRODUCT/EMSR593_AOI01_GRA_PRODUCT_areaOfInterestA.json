@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR593", "glide_no": "Not Applicable", "area_id": "01", "locality": "Melambes", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.716939285000024, 35.165617250000025 ], [ 24.712916340000049, 35.089598445000036 ], [ 24.599060131000044, 35.093186737000053 ], [ 24.600147972000059, 35.167442084000072 ], [ 24.716939285000024, 35.165617250000025 ] ] ] } }
+
+]
+}

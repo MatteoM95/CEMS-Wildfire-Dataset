@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -99.256378567999946, 23.00862668700006 ], [ -99.256234526999947, 23.009148128000049 ], [ -99.256013571999972, 23.009598620000077 ], [ -99.255656208999937, 23.010096714000042 ] ] } }
+,
+{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Fire Fronts", "dmg_src_id": 2 }, "geometry": { "type": "LineString", "coordinates": [ [ -99.256314765999946, 23.010980123000024 ], [ -99.255599466999968, 23.011676223000052 ], [ -99.254935065999973, 23.01222219400006 ], [ -99.254405987999974, 23.012144074000048 ] ] } }
+
+]
+}

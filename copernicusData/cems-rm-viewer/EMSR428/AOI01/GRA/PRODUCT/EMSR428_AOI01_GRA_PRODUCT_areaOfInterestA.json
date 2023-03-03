@@ -1,0 +1,42 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR428",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Tasarte",
+                "map_type": "Grading"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -15.704072,
+                            27.907461
+                        ],
+                        [
+                            -15.778787,
+                            27.906454
+                        ],
+                        [
+                            -15.784424,
+                            27.973636
+                        ],
+                        [
+                            -15.702319,
+                            27.973828
+                        ],
+                        [
+                            -15.704072,
+                            27.907461
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

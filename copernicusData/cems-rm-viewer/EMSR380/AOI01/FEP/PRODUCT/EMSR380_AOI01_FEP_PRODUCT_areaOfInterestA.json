@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR380", "glide_no": "NA", "area_id": "01", "locality": "Makrimalli", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.770143182000027, 38.678625518000047 ], [ 23.758276212000055, 38.567486289000044 ], [ 23.55195403700003, 38.57870489700008 ], [ 23.562163662000046, 38.692728145000046 ], [ 23.770143182000027, 38.678625518000047 ] ] ] } }
+
+]
+}

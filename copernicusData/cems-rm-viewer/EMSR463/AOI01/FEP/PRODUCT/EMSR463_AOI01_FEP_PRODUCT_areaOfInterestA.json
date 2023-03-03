@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR463_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR463", "glide_no": "N\/A", "area_id": "01", "locality": "Estreito", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.636812452999948, 40.159378218000029 ], [ -7.700249413999927, 39.736131191000027 ], [ -7.987170957999979, 39.755143615000065 ], [ -7.936719583999945, 40.184677393000072 ], [ -7.636812452999948, 40.159378218000029 ] ] ] } }
+]
+}

@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "NA", "area_id": "14", "locality": "Baryulgil", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 152.644941, -29.247868 ], [ 152.440097, -29.247868 ], [ 152.440097, -29.066657 ], [ 152.644941, -29.066657 ], [ 152.644941, -29.247868 ] ] ] } }
+
+]
+}

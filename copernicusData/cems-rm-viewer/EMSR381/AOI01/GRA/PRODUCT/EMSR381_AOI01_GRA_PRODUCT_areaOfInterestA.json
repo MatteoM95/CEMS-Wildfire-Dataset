@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR381_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR381", "glide_no": "Not Applicable", "area_id": "01", "locality": "Cazadores", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -15.451935515999935, 27.911112198000069 ], [ -15.54555209199998, 27.911111622000078 ], [ -15.545552953999959, 27.971673037000073 ], [ -15.451938754999958, 27.971664645000033 ], [ -15.451935515999935, 27.911112198000069 ] ] ] } }
+]
+}

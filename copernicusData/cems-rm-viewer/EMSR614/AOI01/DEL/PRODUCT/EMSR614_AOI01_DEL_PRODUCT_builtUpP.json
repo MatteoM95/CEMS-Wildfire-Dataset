@@ -1,0 +1,167 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.509425, 41.477948 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.509481, 41.478376 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.515632, 41.461796 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.515933, 41.460695 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.515567, 41.460865 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508513, 41.479510 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "11-Residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645257, 41.499983 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Junta de Freguesia de Tresminas", "info": "1221-Institutional", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518527, 41.481628 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Câmara Municipal Vila Pouca de Aguiar", "info": "1221-Institutional", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.642412, 41.500468 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "GNR - Posto Territorial de Vila Pouca de Aguiar", "info": "1222-Police station", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.641592, 41.498439 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Bombeiros Voluntários de Vila Pouca de Aguiar", "info": "1223-Fire station", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.644914, 41.492073 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "123-Wholesale and retail trade buildings", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.644924, 41.500360 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Central de Camionagem de Vila Pouca de Aguiar", "info": "1241-Communication buildings, stations, terminals and associated buildings", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.641298, 41.501900 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1272-Buildings used as places of worship and for religious activities", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571777, 41.444642 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1272-Buildings used as places of worship and for religious activities", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.517707, 41.481371 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508226, 41.482308 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.517833, 41.462797 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "1274-Other buildings not elsewhere classified", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.507616, 41.481922 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645025, 41.499375 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.632478, 41.506733 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.636001, 41.505192 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.636153, 41.504852 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643465, 41.499424 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643385, 41.501238 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643659, 41.501250 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571300, 41.445740 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571350, 41.445663 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571391, 41.445784 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571419, 41.445686 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571480, 41.445720 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.571546, 41.445763 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.620678, 41.492687 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.624630, 41.472423 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.624647, 41.472214 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.506920, 41.493060 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.513879, 41.458923 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508156, 41.478076 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508339, 41.478310 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508622, 41.478481 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508518, 41.478711 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.516070, 41.459530 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.517204, 41.457187 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518572, 41.460354 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518275, 41.463034 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.587830, 41.463410 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Igreja de Nossa Senhora da Assunção", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.588832, 41.437341 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Capela de São Sebastião", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.595021, 41.446128 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Capela de Quintã", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.622350, 41.433998 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.517951, 41.462966 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.516519, 41.460969 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508980, 41.481378 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518680, 41.481844 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Centro Interpretativo de Tresminas", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518135, 41.481519 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.515575, 41.486357 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.508569, 41.479657 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.507872, 41.479329 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.590833, 41.455001 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.590694, 41.455228 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.590638, 41.454366 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Farmácia Jales", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.590190, 41.454777 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.551122, 41.435319 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Capela do Santuário de Nossa Senhora da Conceição", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.635482, 41.499832 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Igreja São Domingos", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.640538, 41.500366 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "In Vila Club", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.642531, 41.491928 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645286, 41.492314 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.644397, 41.494705 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.644580, 41.494844 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643215, 41.498960 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Tribunal Judicial de Vila Pouca de Aguiar", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643928, 41.498696 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645120, 41.498588 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.641850, 41.499669 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Igreja Matriz de Vila Pouca de Aguiar", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.643991, 41.499231 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.644217, 41.499086 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.506614, 41.493491 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.518150, 41.462680 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Piscinas Municipais", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645251, 41.496400 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Lar de Idosos - Santa Casa da Misericórdia", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.642520, 41.496836 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Lar de Idosos - Santa Casa da Misericórdia", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.642668, 41.497115 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Lar de Idosos - Santa Casa da Misericórdia", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.642868, 41.496854 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.645124, 41.497554 ] } }
+,
+{ "type": "Feature", "properties": { "obj_type": "995-Unclassified", "name": "Unknown", "info": "997-Not Applicable", "det_method": "Not Applicable", "notation": "Building point", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -7.506396, 41.478043 ] } }
+
+]
+}

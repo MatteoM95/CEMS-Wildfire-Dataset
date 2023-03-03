@@ -1,0 +1,49 @@
+{
+    "type": "FeatureCollection",
+    "name": "EMSR538_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "emsr_id": "EMSR538",
+                "glide_no": "Not Applicable",
+                "area_id": "01",
+                "locality": "Avila",
+                "map_type": "Delineation"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -4.467936236999947,
+                            40.403782978000038
+                        ],
+                        [
+                            -5.036151525999969,
+                            40.403782978000038
+                        ],
+                        [
+                            -5.036151525999969,
+                            40.594139858000062
+                        ],
+                        [
+                            -4.467936236999947,
+                            40.594139858000062
+                        ],
+                        [
+                            -4.467936236999947,
+                            40.403782978000038
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

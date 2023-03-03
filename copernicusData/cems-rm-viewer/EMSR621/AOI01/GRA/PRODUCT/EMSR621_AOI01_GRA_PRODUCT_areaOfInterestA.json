@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR621_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR621", "glide_no": "Not Applicable", "area_id": "01", "locality": "Socerb", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.932820073000073, 45.552669395000066 ], [ 13.834062230000029, 45.534956548000025 ], [ 13.798294475000034, 45.622335643000042 ], [ 13.887874650000072, 45.636315348000039 ], [ 13.932820073000073, 45.552669395000066 ] ] ] } }
+]
+}

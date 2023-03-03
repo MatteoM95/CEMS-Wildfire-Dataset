@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR549_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR549", "glide_no": "Not Applicable", "area_id": "01", "locality": "Hirschwang", "map_type": "997" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15.922784387000036, 47.665199027000028 ], [ 15.734788059000039, 47.658797587000038 ], [ 15.723085640000022, 47.753185461000044 ], [ 15.913687988000049, 47.760840911000059 ], [ 15.922784387000036, 47.665199027000028 ] ] ] } }
+]
+}

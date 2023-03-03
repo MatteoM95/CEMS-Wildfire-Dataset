@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "EMSR619_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "emsr_id": "EMSR619", "glide_no": "Not Applicable", "area_id": "01", "locality": "Landiras", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.375436974999957, 44.601594133000049 ], [ -0.374614013999974, 44.416696359000071 ], [ -0.908828018999941, 44.420120922000081 ], [ -0.909647179999979, 44.602571917000034 ], [ -0.375436974999957, 44.601594133000049 ] ] ] } }
+]
+}
