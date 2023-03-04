@@ -51,6 +51,36 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 # download_cems.copyAllImageToRGBFolder()
 ```
 
+## Cloud mask
+
+Creating cloud masks before making inferences on Sentinel-2 images is important because clouds can obscure or distort the underlying land cover or land use information that is the focus of the analysis. This can lead to inaccurate or incomplete results. Sentinel-2 images are often used for remote sensing applications, such as monitoring vegetation health, mapping land cover and land use, and detecting changes over time. However, clouds can interfere with these applications by blocking or reflecting the light that is captured by the satellite, which can result in missing or distorted data.
+By creating cloud masks, the areas that are affected by clouds can be identified and excluded from future analyses. This ensures that the inferences made from the Sentinel-2 data are based on accurate and reliable information.
+By default, all images are retrieved from sentine-hub with the condition of no more than 10 percent of cloud coverage. However some images have a relevant cloud coverage. So it was decided to use cloudSen12 model [5] to create a cloud mask for each image.
+The output prediction of CloudSen12 has 4 different layers for cloud coverage:
+
+Label | Class | Class definitions | Color
+--- | --- |  --- | ---
+0 | `Clear` | Areas where no clouds are found | ![#67BEE0](https://placehold.co/15x15/67BEE0/67BEE0.png)
+1 | `Clouds` | Clouds and heavy clouds are present, terrain is obscured and not visible  | ![#DCDCDC](https://placehold.co/15x15/DCDCDC/DCDCDC.png)
+2 | `Light clouds` | Areas affected by light clouds, where could cause some issue in the terrain visibility. In this class are included also fog and wildfire's smoke.  | ![#B4B4B4](https://placehold.co/15x15/B4B4B4/B4B4B4.png)
+3 | `Shadow` | This areas are in the shadow of the clouds. The terrain is partially/fully visible but the color and some bands of sentinel2 could be changed from real value. | ![#3C3C3C](https://placehold.co/15x15/3C3C3C/3C3C3C.png)
+
+### Smoothing-blend image patches
+
+One challenge of using a U-Net for image segmentation is to have smooth predictions, especially if the receptive field of the neural network is a small amount of pixels [1].
+In the context of the U-Net architecture for image segmentation, blending image patches can be used to generate smooth predictions by reducing the effect of discontinuities at patch boundaries.
+This approach involves dividing the input image into overlapping patches, running the U-Net architecture on each patch individually, and then blending the resulting predictions together to form a single output image.
+By blending the predictions from multiple patches, the resulting output image is typically smoother and more continuous than if a single U-Net model was trained on the entire input image. This can help to reduce artifacts and improve the overall quality of the segmentation results.
+In this work the source code of cloudSen12 has been customized so that it could be smoothly predicted. The source code for smooth-blend is available [here](https://github.com/Vooban/Smoothly-Blend-Image-Patches)
+
+<p align="center">
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=70% height=70% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=70% height=70% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=70% height=70% alt>
+    <br>
+    <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
+</p>
+
 
 ## Landcovers
 
@@ -68,7 +98,7 @@ There are 9 classes:
 Original label | Remapped label | Class | Class definitions | Color
 --- | --- | --- | --- | ---
 0 | 255 | `No Data` | No data land | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
-1 | 0 | `Water` | Water Areas where water was predominantly present throughout the year; may not cover areas with sporadic or ephemeral water; contains little to no sparse vegetation, no rock outcrop nor built up features like docks; examples: rivers, ponds, lakes, oceans, flooded salt plains. | ![#1A5BAB](https://placehold.co/15x15/1A5BAB/1A5BAB.png)
+1 | 0 | `Water` | Areas where water was predominantly present throughout the year; may not cover areas with sporadic or ephemeral water; contains little to no sparse vegetation, no rock outcrop nor built up features like docks; examples: rivers, ponds, lakes, oceans, flooded salt plains. | ![#1A5BAB](https://placehold.co/15x15/1A5BAB/1A5BAB.png)
 2 | 1 | `Trees` | Any significant clustering of tall (~15 feet or higher) dense vegetation, typically with a closed or dense canopy; examples: wooded vegetation, clusters of dense tall vegetation within savannas, plantations, swamp or mangroves (dense/tall vegetation with ephemeral water or canopy too thick to detect water underneath). | ![#358221](https://placehold.co/15x15/358221/358221.png)
 4 | 3 | `Flooded Vegetation` | Areas of any type of vegetation with obvious intermixing of water throughout a majority of the year; seasonally flooded area that is a mix of grass/shrub/trees/bare ground; examples: flooded mangroves, emergent vegetation, rice paddies and other heavily irrigated and inundated agriculture. | ![#87D19E](https://placehold.co/15x15/87D19E/87D19E.png)
 5 | 4 | `Crops` | Human planted/plotted cereals, grasses, and crops not at tree height; examples: corn, wheat, soy, fallow plots of structured land. | ![#FFDB5C](https://placehold.co/15x15/FFDB5C/FFDB5C.png)
@@ -103,6 +133,7 @@ Original label | Remapped label | Class | Class definitions | Color
 
 <p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" width=50% height=50% alt>
+    <br>
     <em>Landcover ESRI 10 classes 2020 land use activation EMSR382_AOI01</em>
 </p>
 
@@ -129,6 +160,7 @@ More informations are availble in the [Esa worldcover manual](https://esa-worldc
 
 <p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" width=50% height=50% alt>
+    <br>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
 
