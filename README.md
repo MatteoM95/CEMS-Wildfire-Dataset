@@ -64,7 +64,7 @@ All landcover models are based on sentinel2 10-meter resolution images.
 There are 9 classes:
 
 Original label | Remapped label | Class | Class definitions | Color
---- | --- | --- | --- 
+--- | --- | --- | --- | ---
 0 | 255 | `No Data` | No data land | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
 1 | 0 | `Water` | Water Areas where water was predominantly present throughout the year; may not cover areas with sporadic or ephemeral water; contains little to no sparse vegetation, no rock outcrop nor built up features like docks; examples: rivers, ponds, lakes, oceans, flooded salt plains. | ![#1A5BAB](https://placehold.co/15x15/1A5BAB/1A5BAB.png)
 2 | 1 | `Trees` | Any significant clustering of tall (~15 feet or higher) dense vegetation, typically with a closed or dense canopy; examples: wooded vegetation, clusters of dense tall vegetation within savannas, plantations, swamp or mangroves (dense/tall vegetation with ephemeral water or canopy too thick to detect water underneath). | ![#358221](https://placehold.co/15x15/358221/358221.png)
@@ -77,7 +77,7 @@ Original label | Remapped label | Class | Class definitions | Color
 11 | 10 | `Rangeland` | Open areas covered in homogeneous grasses with little to no taller vegetation; wild cereals and grasses with no obvious human plotting (i.e., not a plotted field); examples: natural meadows and fields with sparse to no tree cover, open savanna with few to no trees, parks/golf courses/lawns, pastures. | ![#C6AD8D](https://placehold.co/15x15/C6AD8D/C6AD8D.png)
 
 <p>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Annual9_LC.png" alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Annual9_LC.png" width=50% height=50% alt>
     <em>Landcover ESRI 9 classes annual land use activation EMSR382_AOI01</em>
 </p>
 
@@ -85,7 +85,7 @@ Original label | Remapped label | Class | Class definitions | Color
 There are 10 classes:
 
 Original label | Remapped label | Class | Class definitions | Color
---- | --- | --- | --- 
+--- | --- | --- | --- | ---
 0 | 255 | `No Data` | No data land | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
 1 | 0 | `Water` | Water Areas where water was predominantly present throughout the year; may not cover areas with sporadic or ephemeral water; contains little to no sparse vegetation, no rock outcrop nor built up features like docks; examples: rivers, ponds, lakes, oceans, flooded salt plains. | ![#1A5BAB](https://placehold.co/15x15/1A5BAB/1A5BAB.png)
 2 | 1 | `Trees` | Any significant clustering of tall (~15 feet or higher) dense vegetation, typically with a closed or dense canopy; examples: wooded vegetation, clusters of dense tall vegetation within savannas, plantations, swamp or mangroves (dense/tall vegetation with ephemeral water or canopy too thick to detect water underneath). | ![#358221](https://placehold.co/15x15/358221/358221.png)
@@ -99,7 +99,7 @@ Original label | Remapped label | Class | Class definitions | Color
 10 | 9 | `Clouds` | No land cover information due to persistent cloud cover. | ![#C8C8C8](https://placehold.co/15x15/C8C8C8/C8C8C8.png)
 
 <p>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" width=50% height=50% alt>
     <em>Landcover ESRI 10 classes 2020 land use activation EMSR382_AOI01</em>
 </p>
 
@@ -107,7 +107,7 @@ Original label | Remapped label | Class | Class definitions | Color
 These are 10 classes:
 
 Original label | Remapped label | Class | Class definitions | Color
---- | --- | --- | --- 
+--- | --- | --- | --- | ---
 0 | 255 | `No Data` | No data land | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
 10 | 0 | `Trees` | This class includes any geographic area dominated by trees with a cover of 10% or more. Other land cover classes (shrubs and/or herbs in the understorey, built-up, permanent water bodies, …) can be present below the canopy, even with a density higher than trees.
 Areas planted with trees for afforestation purposes and plantations (e.g. oil palm, olive trees) are included in this class. This class also includes tree covered areas seasonally or permanently flooded with fresh water except for mangroves. | ![#006400](https://placehold.co/15x15/006400/006400.png)
@@ -129,7 +129,7 @@ organisms formed from the symbiotic association of fungi and algae. Mosses conta
 All informations are availble in the [Esa worldcover manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf)
 
 <p>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" width=50% height=50% alt>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
 
