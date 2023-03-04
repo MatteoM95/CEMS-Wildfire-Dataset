@@ -58,6 +58,8 @@ In addition to wildfire delineation mask and clod masks, also landcovers for eac
 - [**ESRI 10m Annual Land Use Land Cover (2017-2021)**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESRI 2020 Global Land Use Land Cover**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESA WorldCover 10 m 2020**](https://esa-worldcover.org/en/data-access).
+
+
 All landcover models are based on sentinel2 10-meter resolution images.
 
 #### ESRI 10m Annual Land Use Land Cover (2017-2021) (9 classes)
@@ -76,8 +78,9 @@ Original label | Remapped label | Class | Class definitions | Color
 10 | 9 | `Clouds` | No land cover information due to persistent cloud cover. | ![#C8C8C8](https://placehold.co/15x15/C8C8C8/C8C8C8.png)
 11 | 10 | `Rangeland` | Open areas covered in homogeneous grasses with little to no taller vegetation; wild cereals and grasses with no obvious human plotting (i.e., not a plotted field); examples: natural meadows and fields with sparse to no tree cover, open savanna with few to no trees, parks/golf courses/lawns, pastures. | ![#C6AD8D](https://placehold.co/15x15/C6AD8D/C6AD8D.png)
 
-<p>
+<p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Annual9_LC.png" width=50% height=50% alt>
+    <br>
     <em>Landcover ESRI 9 classes annual land use activation EMSR382_AOI01</em>
 </p>
 
@@ -98,7 +101,7 @@ Original label | Remapped label | Class | Class definitions | Color
 9 | 8 | `Snow/Ice` | Large homogeneous areas of permanent snow or ice, typically only in mountain areas or highest latitudes; examples: glaciers, permanent snowpack, snow fields. | ![#F2FAFF](https://placehold.co/15x15/F2FAFF/F2FAFF.png)
 10 | 9 | `Clouds` | No land cover information due to persistent cloud cover. | ![#C8C8C8](https://placehold.co/15x15/C8C8C8/C8C8C8.png)
 
-<p>
+<p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" width=50% height=50% alt>
     <em>Landcover ESRI 10 classes 2020 land use activation EMSR382_AOI01</em>
 </p>
@@ -109,26 +112,22 @@ These are 10 classes:
 Original label | Remapped label | Class | Class definitions | Color
 --- | --- | --- | --- | ---
 0 | 255 | `No Data` | No data land | ![#FFFFFF](https://placehold.co/15x15/FFFFFF/FFFFFF.png)
-10 | 0 | `Trees` | This class includes any geographic area dominated by trees with a cover of 10% or more. Other land cover classes (shrubs and/or herbs in the understorey, built-up, permanent water bodies, …) can be present below the canopy, even with a density higher than trees.
-Areas planted with trees for afforestation purposes and plantations (e.g. oil palm, olive trees) are included in this class. This class also includes tree covered areas seasonally or permanently flooded with fresh water except for mangroves. | ![#006400](https://placehold.co/15x15/006400/006400.png)
+10 | 0 | `Trees` | This class includes any geographic area dominated by trees with a cover of 10% or more. Other land cover classes (shrubs and/or herbs in the understorey, built-up, permanent water bodies, …) can be present below the canopy, even with a density higher than trees. Areas planted with trees for afforestation purposes and plantations (e.g. oil palm, olive trees) are included in this class. This class also includes tree covered areas seasonally or permanently flooded with fresh water except for mangroves. | ![#006400](https://placehold.co/15x15/006400/006400.png)
 20 | 1 | `Shrubland` | This class includes any geographic area dominated by natural shrubs having a cover of 10% or more. Shrubs are defined as woody perennial plants with persistent and woody stems and without any defined main stem being less than 5 m tall. Trees can be present in scattered form if their cover is less than 10%. Herbaceous plants can also be present at any density. The shrub foliage can be either evergreen or deciduous. | ![#FFBB22](https://placehold.co/15x15/FFBB22/FFBB22.png)
 30 | 2 | `Grassland` | This class includes any geographic area dominated by natural herbaceous plants (Plants without persistent stem or shoots above ground and lacking definite firm structure): (grasslands, prairies, steppes, savannahs, pastures) with a cover of 10% or more, irrespective of different human and/or animal activities, such as: grazing, selective fire management etc. Woody plants (trees and/or shrubs) can be present assuming their cover is less than 10%. It may also contain uncultivated cropland areas (without harvest/ bare soil period) in the reference year | ![#FFFF4C](https://placehold.co/15x15/FFFF4C/FFFF4C.png)
 40 | 3 | `Cropland` | Land covered with annual cropland that is sowed/planted and harvestable at least once within the 12 months after the sowing/planting date. The annual cropland produces an herbaceous cover and is sometimes combined with some tree or woody vegetation. Note that perennial woody crops will be classified as the appropriate tree cover or shrub land cover type. Greenhouses are considered as built-up. | ![#F096FF](https://placehold.co/15x15/F096FF/F096FF.png)
 50 | 4 | `Built-up` | Land covered by buildings, roads and other man-made structures such as railroads. Buildings include both residential and industrial building. Urban green (parks, sport facilities) is not included in this class. Waste dump deposits and extraction sites are considered as bare. | ![#FF0000](https://placehold.co/15x15/FF0000/FF0000.png)
 60 | 5 | `Bare/sparse vegetation` | Lands with exposed soil, sand, or rocks and never has more than 10% vegetated cover during any time of the year | ![#B4B4B4](https://placehold.co/15x15/B4B4B4/B4B4B4.png)
-70 | 6 | `Snow and Ice` |This class includes any geographic area covered by snow or glaciers
-persistently | ![#F0F0F0](https://placehold.co/15x15/F0F0F0/F0F0F0.png)
+70 | 6 | `Snow and Ice` |This class includes any geographic area covered by snow or glaciers persistently | ![#F0F0F0](https://placehold.co/15x15/F0F0F0/F0F0F0.png)
 80 | 7 | `Permanent water bodies` | This class includes any geographic area covered for most of the year (more than 9 months) by water bodies: lakes, reservoirs, and rivers. Can be either fresh or salt-water bodies. In some cases the water can be frozen for part of the year (less than 9 months). | ![#0064C8](https://placehold.co/15x15/0064C8/0064C8.png)
-90 | 8 | `Herbaceous wetland` | Land dominated by natural herbaceous vegetation (cover of 10% or
-more) that is permanently or regularly flooded by fresh, brackish or salt water. It excludes unvegetated sediment (see 60), swamp forests (classified as tree cover) and mangroves see 95) | ![#0096A0](https://placehold.co/15x15/0096A0/0096A0.png)
+90 | 8 | `Herbaceous wetland` | Land dominated by natural herbaceous vegetation (cover of 10% or more) that is permanently or regularly flooded by fresh, brackish or salt water. It excludes unvegetated sediment (see 60), swamp forests (classified as tree cover) and mangroves see 95) | ![#0096A0](https://placehold.co/15x15/0096A0/0096A0.png)
 95 | 9 | `Mangroves` | Taxonomically diverse, salt-tolerant tree and other plant species
 which thrive in intertidal zones of sheltered tropical shores, "overwash" islands, and estuaries. | ![#00CF75](https://placehold.co/15x15/00CF75/00CF75.png)
-100 | 10 | `Moss and lichen` | Land covered with lichens and/or mosses. Lichens are composite
-organisms formed from the symbiotic association of fungi and algae. Mosses contain photo-autotrophic land plants without true leaves, stems, roots but with leaf-and stemlike organs. | ![#FAE6A0](https://placehold.co/15x15/FAE6A0/FAE6A0.png)
+100 | 10 | `Moss and lichen` | Land covered with lichens and/or mosses. Lichens are composite organisms formed from the symbiotic association of fungi and algae. Mosses contain photo-autotrophic land plants without true leaves, stems, roots but with leaf-and stemlike organs. | ![#FAE6A0](https://placehold.co/15x15/FAE6A0/FAE6A0.png)
 
-All informations are availble in the [Esa worldcover manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf)
+More informations are availble in the [Esa worldcover manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf)
 
-<p>
+<p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" width=50% height=50% alt>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
