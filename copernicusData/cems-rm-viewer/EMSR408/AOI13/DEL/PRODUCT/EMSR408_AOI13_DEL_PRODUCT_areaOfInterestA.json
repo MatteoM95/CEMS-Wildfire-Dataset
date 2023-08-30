@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "", "area_id": "13", "locality": "Colo Heights", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 150.858685, -33.419103 ], [ 150.648586, -33.419103 ], [ 150.648586, -33.234959 ], [ 150.858685, -33.234959 ], [ 150.858685, -33.419103 ] ] ] } }
-
-]
-}

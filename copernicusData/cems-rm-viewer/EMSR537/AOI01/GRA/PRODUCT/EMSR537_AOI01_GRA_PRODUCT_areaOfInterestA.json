@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR537", "glide_no": "NA", "area_id": "01", "locality": "Azuebar", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.223525473999928, 39.939430392000077 ], [ -0.232458125999926, 39.71734551000003 ], [ -0.554874089999942, 39.724588359000052 ], [ -0.546979373999932, 39.946730175000027 ], [ -0.223525473999928, 39.939430392000077 ] ] ] } }
-]
-}

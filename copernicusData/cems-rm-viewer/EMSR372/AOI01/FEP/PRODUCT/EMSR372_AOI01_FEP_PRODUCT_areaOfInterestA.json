@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR372", "glide_no": "Not Apllicable", "area_id": "01", "locality": "SERTA", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.948756887999934, 39.578987005000045 ], [ -8.241565449999939, 39.578987005000045 ], [ -8.247163102999934, 39.843096554000056 ], [ -7.949374374999934, 39.843096554000056 ], [ -7.948756887999934, 39.578987005000045 ] ] ] } }
-]
-}

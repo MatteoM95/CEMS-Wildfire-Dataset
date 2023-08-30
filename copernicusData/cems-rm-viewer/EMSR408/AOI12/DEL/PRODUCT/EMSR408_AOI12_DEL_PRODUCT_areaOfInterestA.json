@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "", "area_id": "12", "locality": "Putty", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 150.734886, -33.133765 ], [ 150.525701, -33.133765 ], [ 150.525701, -32.949446 ], [ 150.734886, -32.949446 ], [ 150.734886, -33.133765 ] ] ] } }
-
-]
-}

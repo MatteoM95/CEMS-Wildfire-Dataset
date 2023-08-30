@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR353", "glide_no": null, "area_id": "01", "locality": "Vechta", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.462455258000034, 52.675712743000076 ], [ 8.306724057000054, 52.675712743000076 ], [ 8.306724057000054, 52.753127522000057 ], [ 8.462455258000034, 52.753127522000057 ], [ 8.462455258000034, 52.675712743000076 ] ] ] } }
-]
-}

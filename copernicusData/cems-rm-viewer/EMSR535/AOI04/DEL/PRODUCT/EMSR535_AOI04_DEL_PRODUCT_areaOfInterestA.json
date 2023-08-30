@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR535_AOI04_DEL_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR535", "glide_no": "N\/A", "area_id": "04", "locality": "Orikum", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 19.652426633000061, 40.435283515000037 ], [ 19.70058980400006, 40.107812542000033 ], [ 19.449588450000078, 40.202140616000065 ], [ 19.248222807000047, 40.441829776000077 ], [ 19.652426633000061, 40.435283515000037 ] ] ] } }
-]
-}

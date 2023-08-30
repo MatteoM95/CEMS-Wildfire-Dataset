@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 36.202806456000076, 34.59991937500007 ], [ 36.204504092000036, 34.598766955000031 ], [ 36.205602642000031, 34.59851265900005 ] ] } },
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 35.984885140000074, 34.479502983000032 ], [ 35.986823524000044, 34.479710991000047 ] ] } },
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 36.008404651000035, 34.440667384000051 ], [ 36.009181873000045, 34.439320430000066 ] ] } }
-]
-}

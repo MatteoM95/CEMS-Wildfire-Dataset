@@ -1,19 +1,5 @@
 
-No-data LandCover in : ../../data/EMSR396/AOI02/EMSR396_AOI02_03/EMSR396_AOI02_03_Annual9_LC.tif - (1432, 1320)
-No-data LandCover in : ../../data/EMSR396/AOI03/EMSR396_AOI03_02/EMSR396_AOI03_02_Annual9_LC.tif - (1240, 1356)
-No-data LandCover in : ../../data/dataSuboptimal/cloudyClean/EMSR408/AOI08/EMSR408_AOI08_14/EMSR408_AOI08_14_Annual9_LC.tif - (1582, 1955)
-No-data LandCover in : ../../data/dataSuboptimal/cloudyClean/EMSR408/AOI08/EMSR408_AOI08_15/EMSR408_AOI08_15_Annual9_LC.tif - (1582, 1958)
-No-data LandCover in : ../../data/dataSuboptimal/smoke/EMSR408/AOI08/EMSR408_AOI08_14/EMSR408_AOI08_14_Annual9_LC.tif - (1582, 1955)
-No-data LandCover in : ../../data/dataSuboptimal/smoke/EMSR408/AOI08/EMSR408_AOI08_15/EMSR408_AOI08_15_Annual9_LC.tif - (1582, 1958)
-No-data LandCover in : ../../data/EMSR535/AOI04/EMSR535_AOI04_02/EMSR535_AOI04_02_Annual9_LC.tif - (1818, 1955)
-No-data LandCover in : ../../data/EMSR535/AOI04/EMSR535_AOI04_01/EMSR535_AOI04_01_Annual9_LC.tif - (1818, 1960)
-No-data LandCover in : ../../data/dataOptimal/EMSR396/AOI02/EMSR396_AOI02_03/EMSR396_AOI02_03_Esri10_LC.tif - (1432, 1320)
-No-data LandCover in : ../../data/dataOptimal/EMSR396/AOI03/EMSR396_AOI03_02/EMSR396_AOI03_02_Esri10_LC.tif - (1240, 1356)
-No-data LandCover in : ../../data/dataSuboptimal/cloudyClean/EMSR408/AOI08/EMSR408_AOI08_14/EMSR408_AOI08_14_Esri10_LC.tif - (1582, 1955)
-No-data LandCover in : ../../data/dataSuboptimal/cloudyClean/EMSR408/AOI08/EMSR408_AOI08_15/EMSR408_AOI08_15_Esri10_LC.tif - (1582, 1958)
-No-data LandCover in : ../../data/dataSuboptimal/smoke/EMSR408/AOI08/EMSR408_AOI08_14/EMSR408_AOI08_14_Esri10_LC.tif - (1582, 1955)
-No-data LandCover in : ../../data/dataSuboptimal/smoke/EMSR408/AOI08/EMSR408_AOI08_15/EMSR408_AOI08_15_Esri10_LC.tif - (1582, 1958)
-No-data LandCover in : ../../data/dataOptimal/EMSR535/AOI04/EMSR535_AOI04_02/EMSR535_AOI04_02_Esri10_LC.tif - (1818, 1955)
-No-data LandCover in : ../../data/dataOptimal/EMSR535/AOI04/EMSR535_AOI04_01/EMSR535_AOI04_01_Esri10_LC.tif - (1818, 1960)
 EMSR632/AOI01 No images found in time interval 2022-09-08 00:00:00 - 2022-09-08 00:00:00 
 EMSR632/AOI01 No images found in time interval 2022-09-08 00:00:00 - 2022-09-08 00:00:00 
+EMSR213/AOI22 No images found in time interval 2017-08-28T10:00:00Z - 2017-08-30T10:00:00Z 
+EMSR213/AOI22 No images found in time interval 2017-08-28T10:00:00Z - 2017-08-30T10:00:00Z 

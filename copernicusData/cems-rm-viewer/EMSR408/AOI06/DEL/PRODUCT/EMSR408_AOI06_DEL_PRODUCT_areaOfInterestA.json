@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "N\/A", "area_id": "06", "locality": "Wandsworth", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.691603, -30.063067 ], [ 151.617265, -30.190547 ], [ 151.281870, -30.017741 ], [ 151.336774, -29.913267 ], [ 151.454024, -29.933271 ], [ 151.691603, -30.063067 ] ] ] } }
-
-]
-}

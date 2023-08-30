@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR611_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR611", "glide_no": "Not Applicable", "area_id": "01", "locality": "Falkenberg", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.410973217000048, 51.503439558000082 ], [ 13.107398099000022, 51.388716988000056 ], [ 12.911602670000036, 51.598666303000073 ], [ 13.270049456000038, 51.734883690000061 ], [ 13.410973217000048, 51.503439558000082 ] ] ] } }
-]
-}

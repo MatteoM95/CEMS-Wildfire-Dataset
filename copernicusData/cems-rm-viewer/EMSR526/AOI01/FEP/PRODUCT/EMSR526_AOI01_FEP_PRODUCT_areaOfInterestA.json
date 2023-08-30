@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "526", "glide_no": "na", "area_id": "01", "locality": "Psinthos", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 28.212934, 36.357809 ], [ 28.176772, 36.283147 ], [ 28.042261, 36.311462 ], [ 28.031262, 36.329151 ], [ 28.013242, 36.368886 ], [ 28.059598, 36.392791 ], [ 28.109013, 36.379113 ], [ 28.212934, 36.357809 ] ] ] } }
-
-]
-}

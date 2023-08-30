@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR458", "glide_no": "n\/a", "area_id": "01", "locality": "CABEZUELADELVALLE", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -5.647108, 40.113534 ], [ -5.817998, 40.111402 ], [ -5.822819, 40.192447 ], [ -5.653644, 40.191261 ], [ -5.647108, 40.113534 ] ] ] } }
-
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR542_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR542", "glide_no": "Not Applicable", "area_id": "01", "locality": "Lavrio", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.082648710000058, 37.774878673000046 ], [ 24.078714165000065, 37.646261564000042 ], [ 23.933289221000052, 37.64705181100004 ], [ 23.934695833000035, 37.776057817000037 ], [ 24.082648710000058, 37.774878673000046 ] ] ] } }
-]
-}

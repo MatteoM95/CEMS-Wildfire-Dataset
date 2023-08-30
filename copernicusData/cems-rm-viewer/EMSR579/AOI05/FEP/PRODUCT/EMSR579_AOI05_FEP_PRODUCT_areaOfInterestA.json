@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR579_AOI05_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "05", "locality": "Legarda", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.701069934999964, 42.649107916000048 ], [ -1.918480852999949, 42.64852103000004 ], [ -1.916716893999933, 42.777303515000028 ], [ -1.700177636999967, 42.777003945000047 ], [ -1.701069934999964, 42.649107916000048 ] ] ] } }
-]
-}

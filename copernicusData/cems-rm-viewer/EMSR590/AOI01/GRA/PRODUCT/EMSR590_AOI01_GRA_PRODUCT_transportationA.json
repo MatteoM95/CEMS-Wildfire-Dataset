@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR590_AOI01_GRA_PRODUCT_transportationA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Base de Bomberos El Maíllo", "info": "2130-Airfield runways", "damage_gra": "Damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 7, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -6.22565248899997, 40.57189137000006 ], [ -6.225622867999959, 40.571555669000077 ], [ -6.227041, 40.571736500000043 ], [ -6.227613899999938, 40.572307200000068 ], [ -6.225514610999937, 40.572022683000057 ], [ -6.22565248899997, 40.57189137000006 ] ] ] } }
-]
-}

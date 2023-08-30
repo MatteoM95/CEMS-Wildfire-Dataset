@@ -7,9 +7,10 @@ import shutil
 from datetime import datetime, timedelta
 from decimal import *
 import rasterio.features
+from geopy.geocoders import Nominatim
 
 import shapely
-from shapely.geometry import shape, GeometryCollection
+from shapely.geometry import shape, GeometryCollection, MultiPolygon
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -19,6 +20,7 @@ from src.retrivial import ImageRetriever
 from src.rasterizeMask import RasterizeMask
 from src.downloadLandCover import DownloadLandCover
 
+
 class DownloadCEMSDataset:
     
     def __init__(self):
@@ -27,7 +29,13 @@ class DownloadCEMSDataset:
             self.dataDict = json.load(json_file)
 
 
-    def download_EMSR_Manager(self, allActivation: bool = False, Emsr: str = None, Aoi: str = None):
+    def download_EMSR_Manager(self, 
+                              allActivation: bool = False, 
+                              Emsr: str = None,
+                              Aoi: str = None,
+                              grading:bool = True, 
+                              delineation:bool = True, 
+                              estimation: bool = True):
         
         """Manage the download and creation of the dataset CEMS and which activation convert to raster, 
         create cloud cover and donwload the relative land cover.
@@ -44,7 +52,7 @@ class DownloadCEMSDataset:
         print("Download started...")
         rasterizer = RasterizeMask()
 
-        # Use this only in case of download activation and make future modification
+        # Use this only in case of DEBUG for future modification
         if utils.DEBUGDownload:
             print("DEBUG...")
             for key, value in self.dataDict.items():
@@ -64,7 +72,10 @@ class DownloadCEMSDataset:
                                                         Aoi, 
                                                         start_date_ESMR, 
                                                         end_date_ESMR,
-                                                        pathFolder = utils.output_folder
+                                                        pathFolder = utils.output_folder,
+                                                        grading = grading, 
+                                                        delineation = delineation, 
+                                                        estimation = estimation,
                                                         )
             self.renameFiles()
             self.saveSatelliteDataCSV()
@@ -84,14 +95,22 @@ class DownloadCEMSDataset:
                                                         row["suggested_startDate"], 
                                                         row["suggested_endDate"],
                                                         row["folderPath"],
+                                                        grading = grading, 
+                                                        delineation = delineation, 
+                                                        estimation = estimation,
                                                         merged = True)
-            print("Raster mask completed")
+                    
+                    
+
+            print("Raster mask completed, writing satelliteDataCSV ... ")
             self.renameFiles()
             self.saveSatelliteDataCSV()
 
+            print("Writing cloudCoverageCSV ...")
             open(utils.cloudCoveragecsv, 'w').close() #clean the file
             rasterizer.writeCloudcoverageCSV()
-
+            
+            print("Making landcovers...")
             # Land cover
             LC_download = DownloadLandCover()
 
@@ -104,37 +123,45 @@ class DownloadCEMSDataset:
 
             print("Download Dataset done!!")
 
-        # donwload a specif activation and area of interest
+        # donwload a specific activation and area of interest
         elif Emsr != None and Aoi != None:
 
             print(f"Download {Emsr}_{Aoi}")
             datasetPreconfigured = pd.read_csv(utils.datasetPreConfigured)
             
             index = datasetPreconfigured.index[(datasetPreconfigured["EMSR"] == Emsr) & (datasetPreconfigured["AOI"] == Aoi) & (datasetPreconfigured["folderType"] != "subOptimal_smoke")].to_list()
+            if bool(index) == False:
+                print(f"{Emsr}_{Aoi} does not exists, wrong AOI or EMSR label")
+                return
             datasetPreconfigured["folderPath"] = utils.output_folder + datasetPreconfigured["folderPath"].astype(str)
             path = datasetPreconfigured["folderPath"].loc[index].item() + datasetPreconfigured["EMSR"].loc[index].item() + "/" + datasetPreconfigured["AOI"].loc[index].item()
             
-            # if the actiovation was already downloaded, delete the folder and redownload
+            # if the actiovation was previously downloaded, delete the folder and redownload it
             if os.path.exists(path):
                 shutil.rmtree(path)
-            self.download_and_raster_images_EMSR(datasetPreconfigured["EMSR"].loc[index].item(), 
-                                                datasetPreconfigured["AOI"].loc[index].item(), 
-                                                datasetPreconfigured["suggested_startDate"].loc[index].item(), 
-                                                datasetPreconfigured["suggested_endDate"].loc[index].item(),
-                                                datasetPreconfigured["folderPath"].loc[index].item(),
-                                                merged = True)
 
-            print("Raster mask completed")
+            self.download_and_raster_images_EMSR(   datasetPreconfigured["EMSR"].loc[index].item(), 
+                                                    datasetPreconfigured["AOI"].loc[index].item(), 
+                                                    datasetPreconfigured["suggested_startDate"].loc[index].item(), 
+                                                    datasetPreconfigured["suggested_endDate"].loc[index].item(),
+                                                    datasetPreconfigured["folderPath"].loc[index].item(),
+                                                    grading = grading, 
+                                                    delineation = delineation, 
+                                                    estimation = estimation,
+                                                    merged = True)
+
+            print("Raster mask completed, writing satelliteDataCSV ... ")
             self.renameFiles(path)
             self.saveSatelliteDataCSV()
 
             open(utils.cloudCoveragecsv, 'w').close() #clean the file
             rasterizer.writeCloudcoverageCSV()
-
+            
+            print("Making landcovers...")
             # Land cover
             LC_download = DownloadLandCover()
 
-            if  "ESA" in utils.landCover:
+            if "ESA" in utils.landCover:
                 LC_download.download_ESA_WorldCover2020()
             if "LC9" in utils.landCover:
                 LC_download.download_AnnualLandCover9()
@@ -147,6 +174,7 @@ class DownloadCEMSDataset:
             print("Wrong configuration")
 
         return
+
 
     def retrieve_images_from_sentinel(self, path_output_folder: str, multipolygon_AOI: shapely.geometry.MultiPolygon, startDate: datetime, endDate: datetime, EMSR: str, AOI: str):
         
@@ -165,7 +193,7 @@ class DownloadCEMSDataset:
         """
 
         retr = ImageRetriever(utils.sh_client_id, utils.sh_client_secret)
-
+        
         files, acquisition = retr.retrieve_images(evalscript = utils.copernicusFolderPath + utils.evalscript, 
                                                     data_collection = "",
                                                     geometry = multipolygon_AOI, 
@@ -216,7 +244,7 @@ class DownloadCEMSDataset:
             # DELINATION (DEL)                                    
             if delineation and os.path.exists(utils.copernicusFolderPath + EMSR + "/" + AOI + "/DEL/PRODUCT"):
 
-                print(f"Downloading DELINATION - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
+                print(f"\nDownloading DELINATION - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
 
                 # read DEL_PRODUCT_areaOfInterestA.json
                 with open(utils.copernicusFolderPath + EMSR + "/" + AOI + "/DEL/PRODUCT/" + EMSR + "_" + AOI + "_DEL_PRODUCT_areaOfInterestA.json") as f:
@@ -224,10 +252,10 @@ class DownloadCEMSDataset:
                 
                 # create multipolygon of the Aoi
                 polygon_AOI = GeometryCollection([shape(feature["geometry"]).buffer(0) for feature in features if "type" in list(feature["geometry"]) and feature["geometry"]["type"] == "Polygon"  ]  )
-                multipolygon_AOI = shapely.geometry.MultiPolygon(polygon_AOI)
+                multipolygon_AOI = MultiPolygon(polygon_AOI)
 
                 if len(multipolygon_AOI) == 0:
-                    print(f"{EMSR}/{AOI} Problem with Area of Interest Grading -> possible rings as geometry? ")
+                    print(f"{EMSR}/{AOI} Problem with Area of Interest Delineation -> possible rings as geometry? ")
                     file_object = open(utils.logPath, 'a')
                     file_object.write(EMSR + "/" + AOI + " Problem with Area of Interest Delineation -> possible rings as geometry? \n")
                     file_object.close()
@@ -253,16 +281,14 @@ class DownloadCEMSDataset:
             # GRADING (GRA)
             if grading and os.path.exists(utils.copernicusFolderPath + EMSR + "/" + AOI + "/GRA/PRODUCT"):
 
-                print(f"Downloading GRADING - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
+                print(f"\nDownloading GRADING - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
 
                 # read GRA_PRODUCT_areaOfInterestA.json
                 with open(utils.copernicusFolderPath + EMSR + "/" + AOI + "/GRA/PRODUCT/" + EMSR + "_" + AOI + "_GRA_PRODUCT_areaOfInterestA.json") as f:
                     features = json.load(f)["features"]
-                
-                # NOTE: buffer(0) is a trick for fixing scenarios where polygons have overlapping coordinates 
-                # create multipolygon of the Aoi
+
                 polygon_AOI = GeometryCollection([shape(feature["geometry"]).buffer(0) for feature in features if "type" in list(feature["geometry"]) and feature["geometry"]["type"] == "Polygon"  ]  )
-                multipolygon_AOI = shapely.geometry.MultiPolygon(polygon_AOI)
+                multipolygon_AOI = MultiPolygon(polygon_AOI)
 
                 if len(multipolygon_AOI) == 0:
                     print(f"{EMSR}/{AOI} Problem with Area of Interest Grading -> possible rings as geometry? ")
@@ -293,7 +319,7 @@ class DownloadCEMSDataset:
                 not os.path.exists(utils.copernicusFolderPath + EMSR + "/" + AOI + "/GRA/PRODUCT") and \
                 not os.path.exists(utils.copernicusFolderPath + EMSR + "/" + AOI + "/DEL/PRODUCT"):
 
-                print(f"Downloading FIRST ESTIMATION - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
+                print(f"\nDownloading FIRST ESTIMATION - {EMSR}_{AOI} - Path output:  {path_output_folder} - time: {datetime.now()} " )
 
                 # read FEP_PRODUCT_areaOfInterestA.json
                 with open(utils.copernicusFolderPath + EMSR + "/" + AOI + "/FEP/PRODUCT/" + EMSR + "_" + AOI + "_FEP_PRODUCT_areaOfInterestA.json") as f:
@@ -302,10 +328,10 @@ class DownloadCEMSDataset:
                 # NOTE: buffer(0) is a trick for fixing scenarios where polygons have overlapping coordinates 
                 # create multipolygon of the Aoi
                 polygon_AOI = GeometryCollection([shape(feature["geometry"]).buffer(0) for feature in features if "type" in list(feature["geometry"]) and feature["geometry"]["type"] == "Polygon"  ]  )
-                multipolygon_AOI = shapely.geometry.MultiPolygon(polygon_AOI)
+                multipolygon_AOI = MultiPolygon(polygon_AOI)
 
                 if len(multipolygon_AOI) == 0:
-                    print(EMSR + "/" + AOI + " Problem with Area of Interest Grading -> possible rings as geometry? ")
+                    print(EMSR + "/" + AOI + " Problem with Area of Interest Estimation -> possible rings as geometry? ")
                     file_object = open(utils.logPath, 'a')
                     file_object.write(EMSR + "/" + AOI + " Problem with Area of Interest Grading -> possible rings as geometry?  \n")
                     file_object.close()
@@ -336,6 +362,8 @@ class DownloadCEMSDataset:
                 file_object.write(EMSR + "/" + AOI + " - No DEL, GRA or FEP file found \n")
                 file_object.close()
                 return
+        else:
+            print(f"Folder {utils.copernicusFolderPath + EMSR + '/' + AOI} does not exists")
 
 
     def saveSatelliteDataCSV(self):
@@ -343,22 +371,24 @@ class DownloadCEMSDataset:
         """Iterate over all dataset's folder and create satelliteData.csv with all information about each image, such as coordinate and resolution
         NOTE: due to low precision the resolution is read directly from tiff image meta_information and not from .json file"""
         
-        # 20 decimals precision
-        getcontext().prec = 20      
+        # 15 decimals precision
+        precision_decimals = 17
+        getcontext().prec = precision_decimals    
 
-        #clean the file
+        # clean the satelliteDataCSV file
         open(utils.satelliteData, 'w').close() 
 
-        #Creation CSV
-        if os.stat(utils.satelliteData).st_size == 0:
-            file_object = open(utils.satelliteData, 'a')
-            file_object.write("EMSR,AOI,folder,folderPath,activationDate,interval_startDate,interval_endDate,GRA,DEL,FEP,left_Long,bottom_Lat,right_Long,top_Lat,centerBoxLong,centerBoxLat,height,width,resolution_x,resolution_y\n")
-            file_object.close()
+        # Creation dataframe        
+        columns_names = ["EMSR","AOI","folder","folderPath","activationDate","interval_startDate","interval_endDate","post_fire_acquisition","GRA","DEL","FEP","left_Long","bottom_Lat","right_Long","top_Lat","centerBoxLong","centerBoxLat","resolution_x","resolution_y","height","width","pixelBurned","country","koppen_group","koppen_subgroup"]
+        satellite_data_df = pd.DataFrame(columns=columns_names)
+        index = 0
 
         for dirpath, dirnames, filenames in os.walk(utils.output_folder):
             for filename in [f for f in filenames if "_S2L2A.tiff" in f]:
 
-                if "dataSuboptimal" in dirpath.split('/'):
+                if "dataColomba" in dirpath.split('/'):
+                    optimal = "colomba"
+                elif "dataSuboptimal" in dirpath.split('/'):
                     if "cloudy" in dirpath.split('/'):
                         optimal = "subOptimal_cloudy"
                     if "cloudyClean" in dirpath.split('/'):
@@ -376,6 +406,7 @@ class DownloadCEMSDataset:
                 pathDEL = dirpath + "/" + filename.replace("_S2L2A.tiff", "_DEL.tif")
                 pathFEP = dirpath + "/" + filename.replace("_S2L2A.tiff", "_FEP.tif")
 
+                # EMSR and AOI of image
                 Emsr = filename.split("_")[0]
                 Aoi = filename.split("_")[1]
 
@@ -385,10 +416,22 @@ class DownloadCEMSDataset:
 
                 if os.path.exists(pathGRA):
                     GRA_type = 1
+                    with rasterio.open(pathGRA) as gra_mask:
+                        image_mask = gra_mask.read()
+                        image_mask = np.squeeze(image_mask)
+                        pixelBurned = np.count_nonzero(image_mask > 0)
                 if os.path.exists(pathDEL):
                     DEL_type = 1
+                    with rasterio.open(pathDEL) as del_mask:
+                        image_mask = del_mask.read()
+                        image_mask = np.squeeze(image_mask)
+                        pixelBurned = np.count_nonzero(image_mask > 0)
                 if os.path.exists(pathFEP):
                     FEP_type = 1
+                    with rasterio.open(pathFEP) as fep_mask:
+                        image_mask = fep_mask.read()
+                        image_mask = np.squeeze(image_mask)
+                        pixelBurned = np.count_nonzero(image_mask > 0)
 
                 # resolution and bounding box
                 bbox = np.zeros(4)
@@ -399,13 +442,13 @@ class DownloadCEMSDataset:
                     bbox[1] = Decimal(tif_image.profile["transform"][5]) - (Decimal(tif_image.profile["height"]) * Decimal(abs(tif_image.profile["transform"][4])))
                     bbox[2] = Decimal(tif_image.profile["transform"][2]) + (Decimal(tif_image.profile["width"]) * Decimal(abs(tif_image.profile["transform"][0])))
                     bbox[3] = Decimal(tif_image.profile["transform"][5])
-
-                # activation date
+                
+                # activation date of the event
                 with open(utils.copernicusFolderPath + utils.dateJson) as json_date:
                     dataDict = json.load(json_date)
                     activationDate = dataDict.get(Emsr)
 
-                # from json
+                # info from image json from sentinel hub
                 with open(pathJson) as f:
                     json_file = json.load(f)
                     payload = json_file["payload"]
@@ -413,33 +456,54 @@ class DownloadCEMSDataset:
                     endDate = payload["input"]["data"][0]["dataFilter"]["timeRange"]["to"]
                     height = payload["output"]["height"]
                     width = payload["output"]["width"]
+
+                    # acquisition date from sentinel2
+                    if "dataSuboptimal" in dirpath.split('/'):
+                        post_fire_acquisition = "Nan" # Not yet checked
+                    else:
+                        post_fire_acquisition = payload["acquisition_date"][0]
+
                 
-                # line string
-                CSV_line = Emsr + "," + Aoi + "," + optimal + "," + str(dirpath.replace(utils.output_folder, "")) + "," + str(activationDate) + "," \
-                        + str(startDate) + "," + str(endDate) + "," + str(GRA_type) + "," + str(DEL_type) + "," + str(FEP_type) + "," \
-                        + str(Decimal(bbox[0])) + "," + str(Decimal(bbox[1])) + "," + str(Decimal(bbox[2])) + "," + str(Decimal(bbox[3])) + "," \
-                        + str((Decimal(bbox[0])+Decimal(bbox[2]))/2) + "," + str((Decimal(bbox[1])+Decimal(bbox[3]))/2) + "," + str(height) + "," \
-                        + str(width) + "," + str(resolution_x) + "," + str(resolution_y) + "\n"
+                # get country name where the event happened
+                geolocator = Nominatim(user_agent="geoapiExercises")
+                location = geolocator.reverse(f"{(Decimal(bbox[1])+Decimal(bbox[3]))/2}, {(Decimal(bbox[0])+Decimal(bbox[2]))/2}", language='en')
+                address = location.raw['address']
+                country = address.get('country', None)
 
-                file_object = open(utils.satelliteData, 'a')
-                file_object.write(CSV_line)
-                file_object.close()
+                # get koppen climate classification label
+                # Map downloaded from: https://figshare.com/articles/dataset/Present_and_future_K_ppen-Geiger_climate_classification_maps_at_1-km_resolution/6396959/2
+                path_koppen_climate_map = "assets/koppen_climate/koppen_climate.tif"
+                with rasterio.open(path_koppen_climate_map) as src:
+                    row, col = src.index( float((Decimal(bbox[0])+Decimal(bbox[2]))/2), float((Decimal(bbox[1])+Decimal(bbox[3]))/2))
+                    value_kop = src.read(1, window=((row, row+1), (col, col+1)))
+                    value_kop = max(max(row) for row in value_kop)
 
-        # Sort and order the data
-        df = pd.read_csv(utils.satelliteData, float_precision='round_trip')
+                    if value_kop == 0:
+                        value_kop = src.read(1, window=((row-5, row+5), (col-5, col+5)))
+                        value_kop = max(max(row) for row in value_kop)
 
-        # clean the file
-        open(utils.satelliteData, 'w').close()
+                        if value_kop == 0:
+                            value_kop = src.read(1, window=((row-15, row+15), (col-15, col+15)))
+                            value_kop = max(max(row) for row in value_kop)
 
-        # write headline
-        file_object = open(utils.satelliteData, 'a')
-        file_object.write("EMSR,AOI,folder,folderPath,activationDate,interval_startDate,interval_endDate,GRA,DEL,FEP,left_Long,bottom_Lat,right_Long,top_Lat,centerBoxLong,centerBoxLat,height,width,resolution_x,resolution_y\n")
-        file_object.close()
+                koppen_dict = { 0: "None", 1:  "Af", 2:  "Am", 3:  "Aw", 4:  "BWh", 5:  "BWk", 6:  "BSh", 7:  "BSk", 8:  "Csa", 9:  "Csb", 10: "Csc", 11: "Cwa", 12: "Cwb", 13: "Cwc", 14: "Cfa", 
+                                15: "Cfb", 16: "Cfc", 17: "Dsa", 18: "Dsb", 19: "Dsc", 20: "Dsd", 21: "Dwa", 22: "Dwb", 23: "Dwc", 24: "Dwd", 25: "Dfa", 26: "Dfb", 27: "Dfc", 
+                                28: "Dfd", 29: "ET", 30: "EF" }
+                koppen_label = koppen_dict[value_kop]
 
-        # save sorted dataframe
-        df = df.sort_values(['EMSR', 'AOI'], ascending = [True, True])
-        df.to_csv(utils.satelliteData, mode='a', index=False, header=False, float_format='%.20f')
+                # store the data in dataframe
+                satellite_data_df.loc[index] = [Emsr, Aoi, optimal, str(dirpath.replace(utils.output_folder, "")), str(activationDate), \
+                                                str(startDate), str(endDate), str(post_fire_acquisition), GRA_type, DEL_type, FEP_type, \
+                                                float(Decimal(bbox[0])), float(Decimal(bbox[1])), float(Decimal(bbox[2])), float(Decimal(bbox[3])), \
+                                                float((Decimal(bbox[0])+Decimal(bbox[2]))/2), float((Decimal(bbox[1])+Decimal(bbox[3]))/2), float(resolution_x), float(resolution_y), \
+                                                height, width, pixelBurned, country, koppen_label[0], koppen_label]
+                index += 1
 
+        # Sort and save the dataframe
+        satellite_data_df_sorted = satellite_data_df.sort_values(['EMSR', 'AOI'], ascending = [True, True])
+        satellite_data_df_sorted = satellite_data_df_sorted.round(decimals=precision_decimals)
+        satellite_data_df_sorted.to_csv(utils.satelliteData, index=False)
+            
 
     def downloadCloudCover(self):
         """Iterate over all dataset and download the cloud mask for each image"""
@@ -452,17 +516,18 @@ class DownloadCEMSDataset:
                 _, _ = rasterizer.createCloudMaskfromFilePath(image=image, path=dirpath)
     
 
-    def downloadLandCover(self):
+    def downloadLandCover(self, redownload: bool = False):
         """Iterate over all dataset and download the land cover for each image"""
         
-        for dirpath, _, filenames in os.walk(utils.output_folder):
-            for image in [f for f in filenames if "_LC.tif" in f]:
-                path = dirpath + "/" + image
-                pathRGB = path.replace("_LC.tif", "_LC.png")
-                if os.path.exists(path):
-                    os.remove(path)
-                if os.path.exists(pathRGB):
-                    os.remove(pathRGB)
+        if redownload == True:
+            for dirpath, _, filenames in os.walk(utils.output_folder):
+                for image in [f for f in filenames if "_LC.tif" in f]:
+                    path = dirpath + "/" + image
+                    pathRGB = path.replace("_LC.tif", "_LC.png")
+                    if os.path.exists(path):
+                        os.remove(path)
+                    if os.path.exists(pathRGB):
+                        os.remove(pathRGB)
 
         LC_download = DownloadLandCover()
 
@@ -472,6 +537,7 @@ class DownloadCEMSDataset:
             LC_download.download_AnnualLandCover9()
         if "LC10" in utils.landCover:
             LC_download.download_Esri_LandCover10()
+
 
     def renameFiles(self, pathToSingleEMSR: str = ""):
         """Rename hash code with respective EMSR and AOI number"""
@@ -489,6 +555,7 @@ class DownloadCEMSDataset:
                         os.rename(dirpath + "/response.tiff", dirpath + "/" + renamedTiff)
                         os.rename(dirpath + "/request.json", dirpath + "/" + renamedJson)
                         os.rename(dirpath, renamedFolder)
+
         # Single activation
         else:
             for dirpath, _, filenames in os.walk(pathToSingleEMSR):
@@ -541,50 +608,3 @@ class DownloadCEMSDataset:
 
         df = df.sort_values(['EMSR', 'AOI'], ascending = [True, True])
         df.to_csv(utils.datasetPreConfigured, mode='a', index=False, header=False)
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-# To find Sentinel-2 images that are similar to a reference image over a certain time interval, 
-# you could use a combination of the approaches I mentioned earlier:
-
-# 1 Use a spectral matching algorithm: This approach involves comparing the spectral characteristics of the reference 
-# image with those of other Sentinel-2 images. You could use a spectral matching algorithm to identify images with similar 
-# spectral profiles to the reference image.
-
-# 2 Use image registration: Image registration is the process of aligning two or more images of the same scene so 
-# that they can be compared. You could use image registration to align the reference image with other Sentinel-2 images
-# and then compare them to identify those that are most similar to the reference image.
-
-# 3 Use image segmentation: Image segmentation is the process of dividing an image into distinct regions or segments based 
-# on certain characteristics. You could use image segmentation to divide the reference image into segments and then compare 
-# the segments with those in other Sentinel-2 images to identify those that are most similar.
-
-# 4 Use a machine learning model: You could train a machine learning model to identify Sentinel-2 images that are 
-# similar to the reference image. To do this, you would need to have a large dataset of Sentinel-2 images along with 
-# labels indicating which images are similar to the reference image. The model could then be used to predict which of the 
-# other Sentinel-2 images are most similar to the reference image.
-
-# You could also try using a combination of these approaches to improve the accuracy of your results.
-# To find the Sentinel-2 images that you want to download, you can use the Sentinel Hub EO Browser or the Sentinel-2 Toolbox. 
-# These tools allow you to search for Sentinel-2 images based on various criteria, including the time interval you are interested in. 
-# You can then use the tools to download the images that you have identified as being most similar to your reference image.
-    

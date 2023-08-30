@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Children Pool", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 28.211458, 36.357242 ], [ 28.211439, 36.357242 ], [ 28.211321, 36.357277 ], [ 28.211338, 36.357310 ], [ 28.211374, 36.357341 ], [ 28.211425, 36.357361 ], [ 28.211466, 36.357363 ], [ 28.211509, 36.357361 ], [ 28.211539, 36.357350 ], [ 28.211486, 36.357255 ], [ 28.211475, 36.357248 ], [ 28.211458, 36.357242 ] ] ] } }
-,
-{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 28.097592, 36.311536 ], [ 28.097384, 36.311329 ], [ 28.097273, 36.311390 ], [ 28.097429, 36.311732 ], [ 28.097553, 36.312151 ], [ 28.097592, 36.311536 ] ] ] } }
-
-]
-}

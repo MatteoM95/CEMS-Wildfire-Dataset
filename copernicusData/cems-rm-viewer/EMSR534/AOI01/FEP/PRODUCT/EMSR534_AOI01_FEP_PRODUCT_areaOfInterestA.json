@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR534", "glide_no": "NA", "area_id": "01", "locality": "San Luca", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 15.912125, 37.927264 ], [ 15.791542, 37.913553 ], [ 15.754116, 37.936692 ], [ 15.661727, 37.984877 ], [ 15.692357, 38.256084 ], [ 16.185292, 38.195778 ], [ 16.058598, 37.939072 ], [ 15.912125, 37.927264 ] ] ] } }
-
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR523_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR523", "glide_no": "Not Applicable", "area_id": "01", "locality": "Cuglieri", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.732077081000057, 40.242259607000051 ], [ 8.771000155000024, 40.103179500000067 ], [ 8.505216403000077, 40.111593065000079 ], [ 8.462286404000054, 40.228524299000071 ], [ 8.482368134000069, 40.274474276000035 ], [ 8.564038137000068, 40.332136437000031 ], [ 8.650975932000051, 40.313721311000052 ], [ 8.732077081000057, 40.242259607000051 ] ] ] } }
-]
-}

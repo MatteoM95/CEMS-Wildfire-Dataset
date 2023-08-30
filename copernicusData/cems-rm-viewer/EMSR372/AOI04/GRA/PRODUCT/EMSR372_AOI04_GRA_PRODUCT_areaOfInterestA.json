@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR372", "glide_no": "Not Applicable", "area_id": "04", "locality": "Vila de Rei", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.950249448999955, 39.75454555500005 ], [ -7.948217693999936, 39.609595856000055 ], [ -8.189852452999958, 39.642961328000069 ], [ -8.192177748999939, 39.796433082000078 ], [ -7.950249448999955, 39.75454555500005 ] ] ] } }
-
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR447_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR447", "glide_no": "N\/A", "area_id": "01", "locality": "Grece", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.190590480000026, 37.904829149000079 ], [ 23.18966699200007, 37.71950234600007 ], [ 22.779429436000044, 37.726509613000076 ], [ 22.77418842700007, 37.912004182000032 ], [ 23.190590480000026, 37.904829149000079 ] ] ] } }
-]
-}

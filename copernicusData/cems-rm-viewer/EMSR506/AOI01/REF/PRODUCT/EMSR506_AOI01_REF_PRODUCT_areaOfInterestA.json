@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR506", "glide_no": "N\/A", "area_id": "01", "locality": "San Jose De Las Boquillas", "map_type": "Reference" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -100.338366, 25.297843 ], [ -100.541068, 25.297833 ], [ -100.541172, 25.425550 ], [ -100.338485, 25.425551 ], [ -100.338366, 25.297843 ] ] ] } }
-
-]
-}

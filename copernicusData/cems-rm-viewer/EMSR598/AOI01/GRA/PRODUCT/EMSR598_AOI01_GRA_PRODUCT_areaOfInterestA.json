@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR598", "glide_no": "na", "area_id": "01", "locality": "MOUNT PENTELI", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.012432, 38.029623 ], [ 23.980536, 37.949393 ], [ 23.853735, 37.979075 ], [ 23.818361, 38.058666 ], [ 23.836294, 38.105920 ], [ 24.004843, 38.066420 ], [ 24.012432, 38.029623 ] ] ] } }
-
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR522", "glide_no": "Not Applicable", "area_id": "01", "locality": "Isso", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.717663349999953, 38.397513472000071 ], [ -1.947192649999977, 38.397513472000071 ], [ -1.947192649999977, 38.577176528000052 ], [ -1.717663349999953, 38.577176528000052 ], [ -1.717663349999953, 38.397513472000071 ] ] ] } }
-
-]
-}

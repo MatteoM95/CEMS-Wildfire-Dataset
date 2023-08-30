@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR583", "glide_no": "na", "area_id": "01", "locality": "Castejon de Tornos", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.273861, 41.101392 ], [ -1.271387, 40.945652 ], [ -1.434198, 40.949821 ], [ -1.434186, 41.066743 ], [ -1.429978, 41.101489 ], [ -1.273861, 41.101392 ] ] ] } }
-
-]
-}

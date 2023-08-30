@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR353_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR353", "glide_no": null, "area_id": "01", "locality": "Vechta", "map_type": "First Estimated Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.462455258000034, 52.675712743000076 ], [ 8.306724057000054, 52.675712743000076 ], [ 8.306724057000054, 52.753127522000057 ], [ 8.462455258000034, 52.753127522000057 ], [ 8.462455258000034, 52.675712743000076 ] ] ] } }
-]
-}

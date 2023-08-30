@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR614", "glide_no": "Not Applicable", "area_id": "01", "locality": "Serradapadrela", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.511937, 41.447410 ], [ -7.555143, 41.428525 ], [ -7.646364, 41.430876 ], [ -7.645279, 41.500440 ], [ -7.547001, 41.552694 ], [ -7.494930, 41.552783 ], [ -7.476052, 41.520571 ], [ -7.511937, 41.447410 ] ] ] } }
-
-]
-}

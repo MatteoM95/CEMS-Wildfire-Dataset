@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR597", "glide_no": "Not Applicable", "area_id": "01", "locality": "Moros", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.688484810999967, 41.501538991000075 ], [ -1.690725956999927, 41.269455881000056 ], [ -1.99777146699995, 41.272420913000076 ], [ -1.995530320999933, 41.504504023000038 ], [ -1.688484810999967, 41.501538991000075 ] ] ] } }
-
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR608", "glide_no": "Not Applicable", "area_id": "01", "locality": "Krestena", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.763367, 37.531711 ], [ 21.590090, 37.516756 ], [ 21.568802, 37.641269 ], [ 21.769501, 37.636280 ], [ 21.763367, 37.531711 ] ] ] } }
-
-]
-}

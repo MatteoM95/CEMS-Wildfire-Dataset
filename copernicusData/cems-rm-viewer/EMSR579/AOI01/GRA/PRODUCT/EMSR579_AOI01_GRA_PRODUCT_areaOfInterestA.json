@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR579_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "01", "locality": "Sierra Leyre", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.310767946999931, 42.667391436000059 ], [ -1.203717341999948, 42.666869725000026 ], [ -1.169375429999945, 42.667199624000034 ], [ -1.180143701999953, 42.613785402000076 ], [ -1.250630346999969, 42.612524796000059 ], [ -1.297438332999945, 42.612242687000048 ], [ -1.316413448999924, 42.644934215000035 ], [ -1.310767946999931, 42.667391436000059 ] ] ] } }
-]
-}

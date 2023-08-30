@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR589_AOI02_DEL_PRODUCT_areaOfInterestA_r1_v2",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR589", "glide_no": "Not Applicable", "area_id": "02", "locality": "Gondemaria", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -8.59166752699997, 39.659249638000063 ], [ -8.684177140999964, 39.659249638000063 ], [ -8.684177140999964, 39.732936879000079 ], [ -8.59166752699997, 39.732936879000079 ], [ -8.59166752699997, 39.659249638000063 ] ] ] } }
-]
-}

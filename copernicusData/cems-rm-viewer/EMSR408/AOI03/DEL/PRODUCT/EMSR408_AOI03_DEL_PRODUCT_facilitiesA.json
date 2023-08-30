@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2301-Constructions for mining or extraction", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 152.45677921300012, -29.20475688099998 ], [ 152.45659155500005, -29.204775543999972 ], [ 152.45649489600009, -29.20409194299998 ], [ 152.45667734400001, -29.203986555999961 ], [ 152.45711185900007, -29.204194976999929 ], [ 152.45677921300012, -29.20475688099998 ] ] ] } }
-]
-}

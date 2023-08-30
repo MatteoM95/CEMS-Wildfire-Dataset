@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 152.512234, -31.757496 ], [ 152.510475, -31.757277 ] ] } }
-
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -17.915696, 28.656597 ], [ -17.915898, 28.656406 ], [ -17.916115, 28.656566 ], [ -17.915911, 28.656759 ], [ -17.915696, 28.656597 ] ] ] } }
-
-]
-}

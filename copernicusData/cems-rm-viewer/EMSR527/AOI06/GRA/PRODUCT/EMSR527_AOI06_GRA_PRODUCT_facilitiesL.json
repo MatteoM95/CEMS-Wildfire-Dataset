@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.327672, 38.851316 ], [ 23.327836, 38.851004 ], [ 23.329194, 38.848412 ], [ 23.331646, 38.843732 ] ] } }
-,
-{ "type": "Feature", "properties": { "obj_type": "22-Pipelines, Communication and Electricity Lines", "name": "Unknown", "info": "2214-Long-distance electricity lines", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ 23.331646, 38.843732 ], [ 23.333171, 38.840857 ], [ 23.334561, 38.838234 ], [ 23.336651, 38.834260 ], [ 23.338389, 38.830954 ], [ 23.339847, 38.828183 ], [ 23.342692, 38.827357 ], [ 23.345139, 38.826634 ], [ 23.348232, 38.825720 ], [ 23.350197, 38.825133 ] ] } }
-
-]
-}

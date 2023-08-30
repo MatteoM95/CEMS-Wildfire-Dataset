@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR579_AOI03_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "03", "locality": "Olleta", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.447421019999979, 42.579678929000067 ], [ -1.519631240999956, 42.555066732000057 ], [ -1.548541815999954, 42.59689669100004 ], [ -1.572031625999955, 42.630577050000056 ], [ -1.485177453999938, 42.662708855000062 ], [ -1.447421019999979, 42.579678929000067 ] ] ] } }
-]
-}

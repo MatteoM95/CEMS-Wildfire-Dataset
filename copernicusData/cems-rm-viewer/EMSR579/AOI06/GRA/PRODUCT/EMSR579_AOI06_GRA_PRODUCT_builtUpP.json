@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR579_AOI06_GRA_PRODUCT_builtUpP_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "12-Non-residential Buildings", "name": "Unknown", "info": "997-Not Applicable", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Building point", "or_src_id": 2, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ -1.544016333999934, 42.660769359000028 ] } }
-]
-}

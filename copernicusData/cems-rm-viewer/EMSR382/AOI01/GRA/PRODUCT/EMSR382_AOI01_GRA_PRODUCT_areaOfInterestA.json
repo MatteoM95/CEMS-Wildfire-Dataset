@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR382_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v2",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR382", "glide_no": "Not Applicable", "area_id": "01", "locality": "Valleseco", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -15.536587167999926, 27.971955616000059 ], [ -15.762406497999962, 27.96566434500005 ], [ -15.763778600999956, 28.032763648000071 ], [ -15.692007633999935, 28.090828762000058 ], [ -15.53564395899997, 28.089192197000045 ], [ -15.536587167999926, 27.971955616000059 ] ] ] } }
-]
-}

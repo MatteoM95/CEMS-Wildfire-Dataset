@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "N\/A", "area_id": "04", "locality": "Torrington", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 151.922386, -29.356187 ], [ 151.706415, -29.392894 ], [ 151.601603, -29.350167 ], [ 151.380614, -29.252761 ], [ 151.419532, -29.162144 ], [ 151.601298, -29.100769 ], [ 151.750356, -29.147762 ], [ 151.963488, -29.291852 ], [ 151.922386, -29.356187 ] ] ] } }
-
-]
-}

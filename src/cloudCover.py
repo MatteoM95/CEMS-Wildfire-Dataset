@@ -15,6 +15,7 @@ from maskay.module import MaskayModule
 from maskay.utils import softmax
 from maskay.library.unetmobv2 import model_setup
 
+
 class CloudCover:
 
     def __init__(self, cropsize: int, overlap: int):
@@ -40,6 +41,15 @@ class CloudCover:
 
 
     def predictCover(self, image: np.ndarray):
+
+        """Predicts the cloud cover in a given satellite image.
+        
+        Args: 
+            image_mask (np.ndarray):A numpy ndarray representing the input satellite image.
+            Dimensions are expected to be [number_of_bands, height, width].
+        
+        Returns: 
+            np.ndarray: a prediction of cloud cover for the provided image."""
 
         cirrus = np.full((image.shape[1], image.shape[2]), 0.0001) # not zero value
         image = np.nan_to_num(image)
@@ -92,7 +102,7 @@ class MaskayModuleCustom(MaskayModule):
             tensorXarrayImg = tensor.dictarray[key]
             tensorList.append(tensorXarrayImg.to_numpy())
 
-        # create the 13 class image
+        # create the 13 bands image
         tensorImage = np.stack(tensorList, axis=0) # (13, H, W)
         
         # channel last
@@ -133,7 +143,9 @@ class MaskayModuleCustom(MaskayModule):
             .rio.write_transform(rbase.rio.transform())
         )
  
+
 class ModuleCustom(MaskayModuleCustom):
+
     def __init__(
         self,
         cropsize: int = 512,
@@ -165,6 +177,7 @@ class ModuleCustom(MaskayModuleCustom):
             torch.cuda.empty_cache()
         return tensor
 
+
 class UnetMobV2Custom(ModuleCustom):
     def __init__(self):
         super().__init__()
@@ -185,6 +198,7 @@ class UnetMobV2Custom(ModuleCustom):
 
     def outProcessing(self, tensor: np.ndarray):
         return (softmax(tensor, axis=1) * 10000).astype(np.int16)
+
 
 class PredictorCustom(Predictor):
     def __init__(
@@ -214,6 +228,7 @@ class PredictorCustom(Predictor):
         model.quiet = self.quiet
         self.result = model._predictCustom(tensor=tensor)
         return self.result
+
 
 #########################################################################################################
                                                 # SMOOTHING 

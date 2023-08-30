@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR408_AOI02_GRA_PRODUCT_areaOfInterestA_r1_v2",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR408", "glide_no": "Not Applicable", "area_id": "02", "locality": "WARDELL", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 153.472773249000056, -29.014662104999957 ], [ 153.451798007000093, -29.039550654999971 ], [ 153.328757273000065, -29.006574958999977 ], [ 153.3603038440001, -28.861784455999953 ], [ 153.48504953500003, -28.873800268999958 ], [ 153.547141569000019, -28.917451949999929 ], [ 153.472773249000056, -29.014662104999957 ] ] ] } }
-]
-}

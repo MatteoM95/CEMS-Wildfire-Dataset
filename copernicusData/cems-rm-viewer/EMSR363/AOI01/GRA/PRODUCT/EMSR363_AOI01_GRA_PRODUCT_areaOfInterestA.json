@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR363_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR363", "glide_no": "Not Applicable", "area_id": "01", "locality": "Luckenwalde", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.153039291000027, 52.037434462000078 ], [ 12.960036098000046, 52.034060657000055 ], [ 12.955333050000036, 52.131541711000068 ], [ 13.148756685000023, 52.134927051000034 ], [ 13.153039291000027, 52.037434462000078 ] ] ] } }
-]
-}

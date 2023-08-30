@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR353_AOI01_FEP_PRODUCT_observedEventA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Land fire: Brush, bush, Pasture", "det_method": "Photo-interpretation", "notation": "Not Applicable", "dmg_src_id": 2, "damage_gra": "Not Analysed" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.400462484000059, 52.719467549000058 ], [ 8.398660294000024, 52.718774575000054 ], [ 8.398212278000074, 52.719307488000027 ], [ 8.397663868000052, 52.720018286000027 ], [ 8.397704640000029, 52.720613144000026 ], [ 8.398628808000069, 52.721063823000065 ], [ 8.399364899000034, 52.720948623000027 ], [ 8.400695069000051, 52.72036070200005 ], [ 8.401436026000056, 52.719888723000054 ], [ 8.400462484000059, 52.719467549000058 ] ] ] } }
-]
-}

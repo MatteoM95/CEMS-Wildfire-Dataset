@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR379_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR379", "glide_no": "Not Applicable", "area_id": "01", "locality": "Artenara", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -15.573081618999936, 27.976762010000073 ], [ -15.668927219999944, 27.973272934000079 ], [ -15.677457317999938, 28.052392338000061 ], [ -15.574982046999935, 28.052869925000039 ], [ -15.573081618999936, 27.976762010000073 ] ] ] } }
-]
-}

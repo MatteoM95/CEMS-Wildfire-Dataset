@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR578", "glide_no": "Not Applicable", "area_id": "01", "locality": "Artesa De Segre", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 1.097927, 41.893574 ], [ 0.948431, 41.858238 ], [ 0.907006, 41.991650 ], [ 1.083850, 41.996800 ], [ 1.097927, 41.893574 ] ] ] } }
-
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR599_AOI02_GRA_PRODUCT_transportationA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Heliporto do Barco de Valdeorras", "info": "21312-Helipad", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 4, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -6.971640499999978, 42.434086400000069 ], [ -6.972012499999948, 42.433811800000058 ], [ -6.972668299999953, 42.434186400000044 ], [ -6.973018199999956, 42.434530800000061 ], [ -6.973093899999981, 42.434677400000055 ], [ -6.972510599999964, 42.434851900000069 ], [ -6.971640499999978, 42.434086400000069 ] ] ] } }
-]
-}

@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR369_AOI01_GRA_PRODUCT_hydrographyA_r1_v3",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.935660100000064, 38.546129900000039 ], [ 23.935609600000078, 38.546096300000045 ], [ 23.935599900000057, 38.546128200000055 ], [ 23.935574100000053, 38.546167700000069 ], [ 23.935606300000074, 38.546182800000054 ], [ 23.935660100000064, 38.546129900000039 ] ] ] } },
-{ "type": "Feature", "properties": { "obj_type": "BH080-Lake", "name": "Unknown", "notation": "Not Applicable", "or_src_id": 994, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.941389900000047, 38.541549300000042 ], [ 23.941351, 38.541487200000063 ], [ 23.941282, 38.541513 ], [ 23.941319500000077, 38.541575100000045 ], [ 23.941389900000047, 38.541549300000042 ] ] ] } }
-]
-}

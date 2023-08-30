@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR544", "glide_no": "Not Applicable", "area_id": "01", "locality": "Ribas de Sil", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.171362, 42.413011 ], [ -7.477029, 42.408030 ], [ -7.483971, 42.598424 ], [ -7.178668, 42.596024 ], [ -7.171362, 42.413011 ] ] ] } }
-
-]
-}

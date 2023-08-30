@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR448", "glide_no": "Not Applicable", "area_id": "01", "locality": "Ermida", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.850426, 39.880674 ], [ -7.851585, 39.773207 ], [ -8.012394, 39.774230 ], [ -8.011235, 39.881696 ], [ -7.850426, 39.880674 ] ] ] } }
-
-]
-}

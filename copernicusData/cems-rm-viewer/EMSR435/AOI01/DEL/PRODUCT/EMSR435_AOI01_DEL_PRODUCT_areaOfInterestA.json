@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR435_AOI01_DEL_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR435", "glide_no": "Not Applicable", "area_id": "01", "locality": "Chernobyl Power Plant", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 30.295285699000033, 51.460261521000064 ], [ 30.296278924000035, 51.262149946000079 ], [ 29.975021752000032, 51.263149355000053 ], [ 29.970134571000074, 51.460702117000039 ], [ 30.295285699000033, 51.460261521000064 ] ] ] } }
-]
-}

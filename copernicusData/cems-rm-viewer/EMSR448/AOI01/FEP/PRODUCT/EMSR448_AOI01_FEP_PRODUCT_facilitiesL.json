@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Represa do Malhadal", "info": "2152-Dams", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -7.953490, 39.795701 ], [ -7.953440, 39.795727 ], [ -7.953384, 39.795733 ], [ -7.953315, 39.795726 ], [ -7.953258, 39.795699 ], [ -7.953222, 39.795649 ], [ -7.953222, 39.795599 ], [ -7.953235, 39.795581 ], [ -7.953249, 39.795562 ], [ -7.953281, 39.795529 ] ] } }
-,
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Unknown", "info": "2152-Dams", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -7.867058, 39.851844 ], [ -7.867115, 39.851798 ], [ -7.867116, 39.851779 ], [ -7.867121, 39.851703 ] ] } }
-
-]
-}

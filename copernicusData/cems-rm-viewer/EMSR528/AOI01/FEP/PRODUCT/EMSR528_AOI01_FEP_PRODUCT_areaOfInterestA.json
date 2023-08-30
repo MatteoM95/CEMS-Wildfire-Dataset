@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR528", "glide_no": "Not Applicable", "area_id": "01", "locality": "Ancient Olympia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.803866, 37.559698 ], [ 21.612524, 37.542974 ], [ 21.591523, 37.561938 ], [ 21.515271, 37.619892 ], [ 21.508161, 37.668206 ], [ 21.494852, 37.730183 ], [ 21.655450, 37.744365 ], [ 21.769307, 37.753577 ], [ 21.803866, 37.559698 ] ] ] } }
-
-]
-}

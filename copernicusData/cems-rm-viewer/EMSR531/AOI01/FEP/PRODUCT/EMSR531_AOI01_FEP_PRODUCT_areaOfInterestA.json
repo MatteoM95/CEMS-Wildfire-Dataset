@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR531_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR531", "glide_no": "N\/A", "area_id": "01", "locality": "East Mani", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.573015158000032, 36.733968580000067 ], [ 22.519852879000041, 36.690073670000061 ], [ 22.347295647000067, 36.699427107000076 ], [ 22.357776981000029, 36.870952075000048 ], [ 22.411365975000024, 36.870311574000027 ], [ 22.423816245000069, 36.866930185000058 ], [ 22.432494169000051, 36.855069752000077 ], [ 22.577568758000041, 36.851255599000069 ], [ 22.573015158000032, 36.733968580000067 ] ] ] } }
-]
-}

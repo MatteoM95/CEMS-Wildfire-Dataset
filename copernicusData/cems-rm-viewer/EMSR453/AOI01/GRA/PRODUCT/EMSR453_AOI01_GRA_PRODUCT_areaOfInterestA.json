@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR453_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR453", "glide_no": "Not Applicable", "area_id": "01", "locality": "Bonorva", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.909403189000045, 40.48966815700004 ], [ 8.906928238000035, 40.392595068000048 ], [ 8.789505551000048, 40.396444992000056 ], [ 8.790605529000061, 40.495993032000058 ], [ 8.909403189000045, 40.48966815700004 ] ] ] } }
-]
-}

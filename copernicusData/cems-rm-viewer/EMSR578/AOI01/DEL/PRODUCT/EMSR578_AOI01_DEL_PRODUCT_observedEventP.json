@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "event_type": "8-Wildfire", "obj_desc": "Forest Fire", "det_method": "Photo-interpretation", "notation": "Active Flames", "dmg_src_id": 2 }, "geometry": { "type": "Point", "coordinates": [ 0.977531, 41.953714 ] } }
-
-]
-}

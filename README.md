@@ -1,13 +1,68 @@
-# CEMS-Wildfire-Dataset
-Copernicus emergency management service wildfire dataset from 2019 to 2022.
+# Copernicus Emergency Management Service - Wildfire Dataset (2017- 2023)
+Copernicus Emergency Management Service (CEMS) wildfire dataset from June 2017 to April 2023. The dataset contains Sentinel-2 images associated with wildfires, as well as their corresponding severity and delineation mask. The dataset moreover is enriched with a cloud mask and landcover mask adding more infomation useful in future training of semantic segmentation model.
 
-# Introduction
-This dataset wiil be part of European project [SAFERS](https://safers-project.eu/) ‘Structured Approaches for Forest Fire Emergencies in Resilient Societies’. It is going to create an open and integrated platform featuring a forest fire Decision Support System. The platform will use information from different sources: earth observations from Copernicus and GEOSS, fire sensors in forests, topographic data, weather forecasts and even crowdsourced data from social media and other apps that can be used by citizens and first responders to provide situational in-field information.
-A sample from dataset is available [here](ZZZZ)
+## Introduction
+
+The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides timely geospatial information during emergencies, aiding in response and damage assessment for events such as floods, wildfires, and earthquakes. In particular **Copernicus Rapid Mapping** provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. Fo each activation under tag **Wildfire** are available different post-fire products:
+- FEP (First Estimation)
+- DEL (Delineation):  These outline the area affected by the wildfire.
+- GRA (Grading): These provide detailed information about the severity of the burn and the damages.
+
+Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
+
+The satellite imagery is provided using Sentinel-2 images 12 bands with a resolution of 10m. The images are downloaded using SentinelHub API.
+
+## Data structure and organization
+
+The structure of the dataset is:
+
+```
+dataset/
+├── dataOptimal/
+│ ├── EMSRXXX/
+│ │ ├── AOIYY/
+│ │ | ├── EMSRXXX_AOIYY_01/
+| | | | └── EMSRXXX_AOIYY_01_Annual9_LC.png             # Landcover data Lulc (9 classes)
+| | | | └── EMSRXXX_AOIYY_01_Annual9_LC.tif             # Landcover data Lulc (9 classes) with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_CM.png                     # Cloud mask generated from cloudSen12 
+| | | | └── EMSRXXX_AOIYY_01_CM.tif                     # Cloud mask generated from cloudSen12 with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_DEL.png                    # Delineation mask
+| | | | └── EMSRXXX_AOIYY_01_DEL.tif                    # Delineation mask with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_ESA_LC.png                 # Landcover data ESA WorldCover 2020
+| | | | └── EMSRXXX_AOIYY_01_ESA_LC.tif                 # Landcover data ESA WorldCover 2020 with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_Esri10_LC.png              # Landcover data 2020 Global 10 Class Land Use Land Cover (LULC)
+| | | | └── EMSRXXX_AOIYY_01_Esri10_LC.tif              # Landcover data 2020 Global 10 Class Land Use Land Cover (LULC) with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_GRA.png                    # Grading mask 
+| | | | └── EMSRXXX_AOIYY_01_GRA.tif                    # Grading mask with geographical metadata
+| | | | └── EMSRXXX_AOIYY_01_S2L2A.json                 # Image additional metadata from SentinelHub
+| | | | └── EMSRXXX_AOIYY_01_S2L2A.png                  # Sentinel2 image
+| | | | └── EMSRXXX_AOIYY_01_S2L2A.tiff                 # Sentinel2 image with geographical metadata
+| | | | └── 
+| | | └── EMSRXXX_AOIYY_01_merged.png
+| | |
+| | | ├── EMSRXXX_AOIYY_02/
+| | | | └── ...
+| | |
+├── dataSuboptimal/
+| └── ...
+
+```
+
+A [sample](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/tree/main/assets/sample/EMSR382/AOI01) from the dataset is made available to give you a representative overview of the data structure and accompanying metadata.
+
+
+All the information of the dataset are available inside csv files in [csv_files/] folder:
+- dataset_Preconfigured: contains all activations of the dataset with the activation date of the event and the interval date for SentinelHub API
+- satelliteData: all information about each image are stored here
+- log.txt: general log for errors and messages.
+
+
+
+
 
 
 ## Installation packages
-First install all requirements in [assets/requirements.txt](ZZZZZ) and cloudSen12 library
+First install all requirements in [assets/requirements.txt](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/requirements.txt) and cloudSen12 library
 ```
 pip install -r /assets/requirements.txt
 pip install cloudsen12
@@ -32,7 +87,7 @@ download_cems = CemsDataset()
 # download_cems.download_EMSR_Manager(allActivation = True)
 
 """Uncomment this line if you would download a specif activation, pay attention to the format: EMSRXXX and AOIXX"""
-# download_cems.download_EMSR_Manager(Emsr = "EMSR638", Aoi = "AOI01")
+# download_cems.download_EMSR_Manager(Emsr = "EMSR382", Aoi = "AOI01", grading = True, delineation = True, estimation = True)
 
 """Uncomment this line if you would create/recreate the cloud cover for the whole dataset"""
 # download_cems.downloadCloudCover()
@@ -51,11 +106,21 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 # download_cems.copyAllImageToRGBFolder()
 ```
 
+
+
+
+## Wildfire delineation mask
+
+
+
 ## Cloud mask
 
 Creating cloud masks before making inferences on Sentinel-2 images is important because clouds can obscure or distort the underlying land cover or land use information that is the focus of the analysis. This can lead to inaccurate or incomplete results. Sentinel-2 images are often used for remote sensing applications, such as monitoring vegetation health, mapping land cover and land use, and detecting changes over time. However, clouds can interfere with these applications by blocking or reflecting the light that is captured by the satellite, which can result in missing or distorted data.
+
 By creating cloud masks, the areas that are affected by clouds can be identified and excluded from future analyses. This ensures that the inferences made from the Sentinel-2 data are based on accurate and reliable information.
+
 By default, all images are retrieved from sentine-hub with the condition of no more than 10 percent of cloud coverage. However some images have a relevant cloud coverage. So it was decided to use cloudSen12 model [5] to create a cloud mask for each image.
+
 The output prediction of CloudSen12 has 4 different layers for cloud coverage:
 
 Label | Class | Class definitions | Color
@@ -70,13 +135,14 @@ Label | Class | Class definitions | Color
 One challenge of using a U-Net for image segmentation is to have smooth predictions, especially if the receptive field of the neural network is a small amount of pixels [1].
 In the context of the U-Net architecture for image segmentation, blending image patches can be used to generate smooth predictions by reducing the effect of discontinuities at patch boundaries.
 This approach involves dividing the input image into overlapping patches, running the U-Net architecture on each patch individually, and then blending the resulting predictions together to form a single output image.
+
 By blending the predictions from multiple patches, the resulting output image is typically smoother and more continuous than if a single U-Net model was trained on the entire input image. This can help to reduce artifacts and improve the overall quality of the segmentation results.
 In this work the source code of cloudSen12 has been customized so that it could be smoothly predicted. The source code for smooth-blend is available [here](https://github.com/Vooban/Smoothly-Blend-Image-Patches)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=70% height=70% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=70% height=70% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=70% height=70% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=40% height=40% alt>
     <br>
     <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
 </p>
@@ -152,8 +218,7 @@ Original label | Remapped label | Class | Class definitions | Color
 70 | 6 | `Snow and Ice` |This class includes any geographic area covered by snow or glaciers persistently | ![#F0F0F0](https://placehold.co/15x15/F0F0F0/F0F0F0.png)
 80 | 7 | `Permanent water bodies` | This class includes any geographic area covered for most of the year (more than 9 months) by water bodies: lakes, reservoirs, and rivers. Can be either fresh or salt-water bodies. In some cases the water can be frozen for part of the year (less than 9 months). | ![#0064C8](https://placehold.co/15x15/0064C8/0064C8.png)
 90 | 8 | `Herbaceous wetland` | Land dominated by natural herbaceous vegetation (cover of 10% or more) that is permanently or regularly flooded by fresh, brackish or salt water. It excludes unvegetated sediment (see 60), swamp forests (classified as tree cover) and mangroves see 95) | ![#0096A0](https://placehold.co/15x15/0096A0/0096A0.png)
-95 | 9 | `Mangroves` | Taxonomically diverse, salt-tolerant tree and other plant species
-which thrive in intertidal zones of sheltered tropical shores, "overwash" islands, and estuaries. | ![#00CF75](https://placehold.co/15x15/00CF75/00CF75.png)
+95 | 9 | `Mangroves` | Taxonomically diverse, salt-tolerant tree and other plant species which thrive in intertidal zones of sheltered tropical shores, "overwash" islands, and estuaries. | ![#00CF75](https://placehold.co/15x15/00CF75/00CF75.png)
 100 | 10 | `Moss and lichen` | Land covered with lichens and/or mosses. Lichens are composite organisms formed from the symbiotic association of fungi and algae. Mosses contain photo-autotrophic land plants without true leaves, stems, roots but with leaf-and stemlike organs. | ![#FAE6A0](https://placehold.co/15x15/FAE6A0/FAE6A0.png)
 
 More informations are availble in the [Esa worldcover manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf)
@@ -163,5 +228,3 @@ More informations are availble in the [Esa worldcover manual](https://esa-worldc
     <br>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
-
-in case broken git: git reset --hard origin/master

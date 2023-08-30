@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR576_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR576", "glide_no": "Not Applicable", "area_id": "01", "locality": "Glyfada", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.848538868000048, 37.897597094000048 ], [ 23.84660711500004, 37.827375266000047 ], [ 23.751096829000062, 37.82814193400003 ], [ 23.752972122000074, 37.899201403000063 ], [ 23.848538868000048, 37.897597094000048 ] ] ] } }
-]
-}

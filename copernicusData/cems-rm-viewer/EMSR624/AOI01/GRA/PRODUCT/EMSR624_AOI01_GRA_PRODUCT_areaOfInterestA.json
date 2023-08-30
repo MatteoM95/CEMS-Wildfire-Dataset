@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR624_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR624", "glide_no": "Not Applicable", "area_id": "01", "locality": "Potamia", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.703588950000039, 40.660810851000065 ], [ 24.686037250000027, 40.660374035000075 ], [ 24.682866300000057, 40.729735661000063 ], [ 24.786305477000042, 40.732103016000053 ], [ 24.785124026000062, 40.663381087000062 ], [ 24.703588950000039, 40.660810851000065 ] ] ] } }
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR530", "glide_no": "NA", "area_id": "1", "locality": "Fokida", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.388741, 38.351504 ], [ 22.369185, 38.331257 ], [ 22.287868, 38.337805 ], [ 22.100554, 38.333186 ], [ 22.079649, 38.333874 ], [ 22.089432, 38.443272 ], [ 22.374044, 38.442805 ], [ 22.388741, 38.351504 ] ] ] } }
-
-]
-}

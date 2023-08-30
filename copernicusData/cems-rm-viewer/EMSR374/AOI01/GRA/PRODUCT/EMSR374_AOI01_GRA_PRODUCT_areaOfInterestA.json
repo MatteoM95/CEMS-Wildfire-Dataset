@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR374", "glide_no": "N\/A", "area_id": "01", "locality": "Tanca Altara", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 9.686620, 40.558630 ], [ 9.687000, 40.503000 ], [ 9.618080, 40.503212 ], [ 9.618000, 40.559000 ], [ 9.686620, 40.558630 ] ] ] } }
-
-]
-}

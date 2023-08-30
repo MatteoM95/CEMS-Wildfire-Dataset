@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR571", "glide_no": "NA", "area_id": "02", "locality": "San José", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -99.238271539999971, 22.991481194000073 ], [ -99.316924732999951, 22.99145767300007 ], [ -99.316946390999988, 23.063882534000072 ], [ -99.238293197999951, 23.063906055000075 ], [ -99.238271539999971, 22.991481194000073 ] ] ] } }
-
-]
-}

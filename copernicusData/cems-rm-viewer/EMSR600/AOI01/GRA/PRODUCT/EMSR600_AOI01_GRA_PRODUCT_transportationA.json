@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR600_AOI01_GRA_PRODUCT_transportationA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "213-Airfield", "name": "Unknown", "info": "21312-Helipad", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 3, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 10.319378, 43.880337500000053 ], [ 10.319303700000034, 43.880202600000075 ], [ 10.31913220000007, 43.880251600000065 ], [ 10.319206500000064, 43.880386600000065 ], [ 10.319378, 43.880337500000053 ] ] ] } }
-]
-}

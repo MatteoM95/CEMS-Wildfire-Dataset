@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR365", "glide_no": "Not Applicable", "area_id": "01", "locality": "Torre de l'Espanyol", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 0.770854806000045, 41.167720256000052 ], [ 0.601611874000071, 41.165836342000034 ], [ 0.422700854000027, 41.268724275000068 ], [ 0.412424949000069, 41.448831938000069 ], [ 0.524874517000057, 41.454152665000038 ], [ 0.76795891200004, 41.289451858000064 ], [ 0.770854806000045, 41.167720256000052 ] ] ] } }
-]
-}

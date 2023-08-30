@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR523", "glide_no": "na", "area_id": "10", "locality": "San Leonardo", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.729898, 40.193182 ], [ 8.726643, 40.164060 ], [ 8.715989, 40.126309 ], [ 8.666048, 40.150867 ], [ 8.668533, 40.189611 ], [ 8.668430, 40.189611 ], [ 8.670178, 40.202245 ], [ 8.729898, 40.193182 ] ] ] } }
-
-]
-}

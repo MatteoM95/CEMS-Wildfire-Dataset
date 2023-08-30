@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR372", "glide_no": "Not Applicable", "area_id": "02", "locality": "Proença a Nova", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.909348600999977, 39.532475450000049 ], [ -8.196886577999976, 39.527992214000051 ], [ -8.197618688999967, 39.813859064000042 ], [ -7.908853010999962, 39.812511378000067 ], [ -7.909348600999977, 39.532475450000049 ] ] ] } }
-
-]
-}

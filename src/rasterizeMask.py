@@ -26,6 +26,7 @@ import src.utils_variable as utils
 import warnings
 warnings.filterwarnings('ignore')
 
+
 class RasterizeMask():
 
     def __init__(self)->None:
@@ -61,7 +62,7 @@ class RasterizeMask():
         image_RGB.save(path)
 
 
-    def to_RGB_Mask(self, image_mask: np.ndarray, path: str):
+    def to_RGB_Mask(self, _image_mask: np.ndarray, path: str):
 
         """Save a RGB mask in .png format
 
@@ -72,7 +73,8 @@ class RasterizeMask():
         Returns:
             None
         """
-    
+        image_mask = _image_mask.copy()
+        image_mask[ image_mask > 200 ] = 10
         unique_values = set(np.unique(image_mask).astype(int).tolist()) # getting unique classes
         
         colors = [  (0,0,0),            # 0 = Black = No burned
@@ -81,10 +83,11 @@ class RasterizeMask():
                     (254,153,41),       # 3 = Orange = High damage
                     (204,76,2),         # 4 = Reddish = Destruction
                     (240,20,240),       # 5 = Purple = Cloud overlap with burned area
-                    (103,190,224),       # 6 = Light blue = Clear sky
+                    (103,190,224),      # 6 = Light blue = Clear sky
                     (220,220,220),      # 7 = White = Cloud
                     (180,180,180),      # 8 = Grey = Light cloud
-                    (60,60,60)          # 9 = Dark grey = Cloud's shadow
+                    (60,60,60),         # 9 = Dark grey = Cloud's shadow
+                    (255,255,255)      # 10 = White = No Data
                     ]
 
         Rarr = np.zeros_like(image_mask, dtype = 'uint8') # Red
@@ -381,6 +384,12 @@ class RasterizeMask():
                 # save mask in ASCII
                 # np.savetxt(path + "/mask.txt", final_mask.astype(int), fmt='%i') 
 
+                # validity mask
+                image = tif_image.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                final_mask[validity_mask == 255] = 255
+
                 # save grading as png image
                 if utils.saveRGBImage:
                     self.to_RGB_Mask(final_mask, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_GRA.png")
@@ -391,11 +400,36 @@ class RasterizeMask():
                     {
                         "count": 1, # save 1 level for mask
                         "dtype": rasterio.uint8
-                    }
+                    } 
                 )
 
                 with rasterio.open(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_GRA.tif", "w", **out_meta) as dest:
                     dest.write(np.expand_dims(final_mask, axis=0) )
+
+                # Make delineation mask if not exist
+                if not os.path.exists(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.tif"):
+                    delineation_mask = np.where(final_mask > 0, 1, 0)
+                    delineation_mask[validity_mask == 255] = 255
+                    if utils.saveRGBImage:
+                        self.to_RGB_Mask(delineation_mask*3, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.png")
+                    with rasterio.open(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.tif", "w", **out_meta) as dest:
+                        dest.write(np.expand_dims(delineation_mask, axis=0))
+
+                # if delineation mask exists, save the largest one
+                if os.path.exists(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.tif"):
+                    with rasterio.open(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.tif") as src:
+                        delineation_mask = src.read()
+                        delineation_mask = np.squeeze(delineation_mask)
+                        countBurnedDEL = np.count_nonzero(delineation_mask > 0)
+                        countBurnedGRA = np.count_nonzero(final_mask > 0)
+                        if countBurnedDEL < countBurnedGRA:
+                            delineation_mask = np.where(final_mask > 0, 1, 0)
+                            delineation_mask[validity_mask == 255] = 255
+                            with rasterio.open(path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.tif", "w", **out_meta) as dest:
+                                dest.write(np.expand_dims(delineation_mask, axis=0))
+                            if utils.saveRGBImage:
+                                self.to_RGB_Mask(delineation_mask*3, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.png")
+
 
                 # save grading image cleans from clouds and the overlap between clouds and bruned area
                 if utils.saveOverlapMask:
@@ -440,9 +474,15 @@ class RasterizeMask():
                 mask_burned = out_image_burned[2,:,:]+out_image_burned[3,:,:]+out_image_burned[1,:,:]>0
                 out_image_burned_masked = np.where(~mask_burned, np.zeros(out_image_burned[0].shape), 1) # level burned area set to 1
                 
+                # validity mask
+                image = tif_image.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                out_image_burned_masked[validity_mask == 255] = 255
+
                 # save delineation as png image
                 if utils.saveRGBImage:
-                    self.to_RGB_Mask(out_image_burned_masked*4, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.png")
+                    self.to_RGB_Mask(out_image_burned_masked*3, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_DEL.png")
 
                 out_meta = tif_image.meta
 
@@ -498,10 +538,16 @@ class RasterizeMask():
                 out_image_burned, out_transform = rasterio.mask.mask(tif_image, multipolygon_burned)
                 mask_burned= out_image_burned[2,:,:]+out_image_burned[3,:,:]+out_image_burned[1,:,:]>0
                 out_image_burned_masked = np.where(~mask_burned, np.zeros(out_image_burned[0].shape), 1) # level burned area set to 1
+                
+                # validity mask
+                image = tif_image.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                out_image_burned_masked[validity_mask == 255] = 255
 
                 # save first estimation as png image
                 if utils.saveRGBImage:
-                    self.to_RGB_Mask(out_image_burned_masked*4, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_FEP.png")
+                    self.to_RGB_Mask(out_image_burned_masked*3, path + EMSR_AOI.split('/')[0] + "_" + EMSR_AOI.split('/')[1] + "_" + str(num+1).zfill(2) + "_FEP.png")
 
                 out_meta = tif_image.meta
 
@@ -609,6 +655,12 @@ class RasterizeMask():
                 # save mask in ASCII
                 # np.savetxt(ESMR_dataPath + "mask.txt", final_mask.astype(int), fmt='%i') 
                 
+                # validity mask
+                image = tif_merged.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                final_mask[validity_mask == 255] = 255
+
                 # save grading as png image
                 if utils.saveRGBImage:
                     self.to_RGB_Mask(final_mask, output_folder + EMSR_AOI + EMSR_AOI.split("/")[0] + "_" + EMSR_AOI.split("/")[1] + "_GRA_merged.png")
@@ -655,10 +707,16 @@ class RasterizeMask():
                 out_image_burned, out_transform = rasterio.mask.mask(tif_merged, multipolygon_burned)
                 mask_burned = out_image_burned[2,:,:] + out_image_burned[3,:,:] + out_image_burned[1,:,:] > 0
                 out_image_burned_masked = np.where(~mask_burned, np.zeros(out_image_burned[0].shape), 1) # level burned area set to 1
-                
+
+                # validity mask
+                image = tif_merged.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                out_image_burned_masked[validity_mask == 255] = 255
+
                 # save delineation as png image
                 if utils.saveRGBImage:
-                    self.to_RGB_Mask(out_image_burned_masked*4, output_folder + EMSR_AOI + EMSR_AOI.split("/")[0] + "_" + EMSR_AOI.split("/")[1] + "_DEL_merged.png")
+                    self.to_RGB_Mask(out_image_burned_masked*3, output_folder + EMSR_AOI + EMSR_AOI.split("/")[0] + "_" + EMSR_AOI.split("/")[1] + "_DEL_merged.png")
 
                 out_meta = tif_merged.meta
 
@@ -712,9 +770,15 @@ class RasterizeMask():
                 mask_burned= out_image_burned[2,:,:]+out_image_burned[3,:,:]+out_image_burned[1,:,:]>0
                 out_image_burned_masked = np.where(~mask_burned, np.zeros(out_image_burned[0].shape), 1) # level burned area set to 1
 
+                # validity mask
+                image = tif_merged.read()
+                validity_mask = np.where(np.all(image == 0, axis=0), 255, 0)
+
+                out_image_burned_masked[validity_mask == 255] = 255
+
                 # save first estimate as png image
                 if utils.saveRGBImage:
-                    self.to_RGB_Mask(out_image_burned_masked, output_folder + EMSR_AOI + EMSR_AOI.split("/")[0] + "_" + EMSR_AOI.split("/")[1] + "_FEP_merged.png")
+                    self.to_RGB_Mask(out_image_burned_masked*3, output_folder + EMSR_AOI + EMSR_AOI.split("/")[0] + "_" + EMSR_AOI.split("/")[1] + "_FEP_merged.png")
 
                 out_meta = tif_merged.meta
 
@@ -919,7 +983,7 @@ class RasterizeMask():
 
                 if os.stat(utils.cloudCoveragecsv).st_size == 0:
                     file_object = open(utils.cloudCoveragecsv, 'a')
-                    file_object.write("EMSR_AOI,folderPath,startDate,endDate,sizeImage,burnedPixel,cloudPixel,countOverlap,percentageCloud,percentageOverlap,Type\n")
+                    file_object.write("EMSR_AOI,folderPath,startDate,endDate,height,width,sizeImage,burnedPixel,cloudPixel,countOverlap,percentageCloud,percentageOverlap,Type\n")
                     file_object.close()
 
                 if os.path.exists(pathToBurnedGRA):
@@ -929,7 +993,7 @@ class RasterizeMask():
                     burnedMask = np.squeeze(burnedMasDatasetReader.read())
                     countBurned, countCloud, countOverlapped, percentageCloud, percentageOverlap, _, _ = self.statisticsOverPixel( burnedMask = burnedMask, cloudMask = cloudMask)
                     file_object = open(utils.cloudCoveragecsv, 'a')
-                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",GRA\n")
+                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[0]) + "," + str(burnedMask.shape[1]) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",GRA\n")
                     file_object.close()
                     cloudMaskDatasetReader.close()
                     burnedMasDatasetReader.close()
@@ -941,7 +1005,7 @@ class RasterizeMask():
                     burnedMask = np.squeeze(burnedMasDatasetReader.read())
                     countBurned, countCloud, countOverlapped, percentageCloud, percentageOverlap, _, _ = self.statisticsOverPixel( burnedMask = burnedMask, cloudMask = cloudMask)
                     file_object = open(utils.cloudCoveragecsv, 'a')
-                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",DEL\n")
+                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[0]) + "," + str(burnedMask.shape[1]) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",DEL\n")
                     file_object.close()
                     cloudMaskDatasetReader.close()
                     burnedMasDatasetReader.close()
@@ -953,7 +1017,7 @@ class RasterizeMask():
                     burnedMask = np.squeeze(burnedMasDatasetReader.read())
                     countBurned, countCloud, countOverlapped, percentageCloud, percentageOverlap, _, _ = self.statisticsOverPixel( burnedMask = burnedMask, cloudMask = cloudMask)
                     file_object = open(utils.cloudCoveragecsv, 'a')
-                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",FEP\n")
+                    file_object.write(Emsr_AOI + "," + dirpath + "," + str(startDate) + "," + str(endDate) + "," + str(burnedMask.shape[0]) + "," + str(burnedMask.shape[1]) + "," + str(burnedMask.shape[1] * burnedMask.shape[0]) + "," + str(round(countBurned, 2)) + "," + str(round(countCloud, 2)) + "," + str(round(countOverlapped, 2)) + "," + str(round(percentageCloud, 2)) + "," + str(round(percentageOverlap, 2)) + ",FEP\n")
                     file_object.close()
                     cloudMaskDatasetReader.close()
                     burnedMasDatasetReader.close()
@@ -1007,59 +1071,3 @@ class RasterizeMask():
             percentageOverlap = 0
 
         return countBurned, countCloud, countOverlapped, percentageCloud, percentageOverlap, overlapMask, cleanMask
-
-
-
-
-    # def checkRings(self, EMSR_AOI: str):
-
-        #     folderPath = self.copernicusPath + EMSR_AOI
-        #     file = ""
-        #     multipolygon = {}
-        #     path = ""
-
-        #     for dirpath, dirnames, filenames in os.walk(folderPath):
-        #         for filename in [f for f in filenames if "GRA_PRODUCT_naturalLandUse" in f]:
-        #             path = os.path.join(dirpath, filename)
-        #             if(os.path.isfile(path)):
-        #                 file = path
-        #                 # print(path) #PRINT
-        #     if file != "":                        
-        #         with open(file) as f:
-        #                 features = json.load(f)["features"]
-
-        #         for feature in features:
-        #             if "rings" in list(feature["geometry"]):
-        #                 print(EMSR_AOI + "GRA_PRODUCT_naturalLandUse")
-        #                 file_object = open('rings.txt', 'a')
-        #                 file_object.write(EMSR_AOI + "GRA_PRODUCT_naturalLandUse\n")
-        #                 file_object.close()
-        #     else: 
-        #         # print("File " + EMSR_AOI + " GRA_PRODUCT_naturalLandUse does not exist")
-        #         return
-
-        #     folderPath = self.copernicusPath + EMSR_AOI
-        #     file = ""
-        #     multipolygon = {}
-        #     path = ""
-
-        #     for dirpath, dirnames, filenames in os.walk(folderPath):
-        #         for filename in [f for f in filenames if "DEL_PRODUCT_observedEventA" in f]:
-        #             path = os.path.join(dirpath, filename)
-        #             if(os.path.isfile(path)):
-        #                 file = path
-        #                 # print("DEL: " + path) #PRINT
-
-        #     if file != "":                        
-        #         with open(file) as f:
-        #                 features = json.load(f)["features"]
-
-        #         for feature in features:
-        #             if "rings" in list(feature["geometry"]):
-        #                 print(EMSR_AOI + "DEL_PRODUCT_observedEventA")
-        #                 file_object = open('rings.txt', 'a')
-        #                 file_object.write(EMSR_AOI + "DEL_PRODUCT_observedEventA\n")
-        #                 file_object.close()
-        #     else: 
-        #         # print("File " + EMSR_AOI + " DEL_PRODUCT_observedEventA does not exist")
-        #         return

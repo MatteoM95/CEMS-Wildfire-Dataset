@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR372", "glide_no": "Not Applicable", "area_id": "01", "locality": "Serta", "map_type": "Delineation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -7.948799505999943, 39.597215670000026 ], [ -8.189632829999937, 39.596652603000052 ], [ -8.190207697999938, 39.842533487000026 ], [ -7.949374374999934, 39.843096554000056 ], [ -7.948799505999943, 39.597215670000026 ] ] ] } }
-
-]
-}

@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR601", "glide_no": "Not Applicable", "area_id": "01", "locality": "Monfalcone", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 13.623808, 45.781608 ], [ 13.504375, 45.775146 ], [ 13.496220, 45.843416 ], [ 13.615744, 45.850295 ], [ 13.623808, 45.781608 ] ] ] } }
-
-]
-}

@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23022-Power plant constructions Solar", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 1, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.217981, 38.383552 ], [ 22.217859, 38.383505 ], [ 22.217782, 38.383621 ], [ 22.217339, 38.383911 ], [ 22.217123, 38.384038 ], [ 22.216913, 38.384173 ], [ 22.216735, 38.384366 ], [ 22.216474, 38.384717 ], [ 22.216248, 38.384962 ], [ 22.216093, 38.385121 ], [ 22.215794, 38.385344 ], [ 22.216783, 38.385810 ], [ 22.216944, 38.385656 ], [ 22.217050, 38.385469 ], [ 22.217036, 38.385340 ], [ 22.217045, 38.385202 ], [ 22.217163, 38.385010 ], [ 22.217381, 38.384636 ], [ 22.218444, 38.384081 ], [ 22.217981, 38.383552 ] ] ] } }
-,
-{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "23022-Power plant constructions Solar", "damage_gra": "Possibly damaged", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 1, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 22.135208, 38.401036 ], [ 22.134409, 38.401025 ], [ 22.134534, 38.401527 ], [ 22.135357, 38.401561 ], [ 22.135208, 38.401036 ] ] ] } }
-
-]
-}

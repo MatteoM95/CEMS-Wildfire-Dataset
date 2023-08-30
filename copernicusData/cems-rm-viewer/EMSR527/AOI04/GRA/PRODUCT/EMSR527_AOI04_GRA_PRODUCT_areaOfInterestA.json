@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-                                                                                
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR527", "glide_no": "Not Applicable", "area_id": "04", "locality": "Afidnes", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 23.875645008000049, 38.207835303000024 ], [ 23.875166745000058, 38.174280887000066 ], [ 23.835592987000041, 38.174844946000064 ], [ 23.836071250000032, 38.20839936200008 ], [ 23.875645008000049, 38.207835303000024 ] ] ] } }
-
-]
-}

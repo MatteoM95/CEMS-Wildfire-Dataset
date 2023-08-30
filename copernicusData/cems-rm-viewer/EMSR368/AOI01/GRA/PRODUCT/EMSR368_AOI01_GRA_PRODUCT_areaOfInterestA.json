@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR368_AOI01_GRA_PRODUCT_areaOfInterestA_r1_v3",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR368", "glide_no": "Not Applicable", "area_id": "01", "locality": "El Arenal", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -4.823074136999935, 40.209740952000061 ], [ -5.075397506999934, 40.208122735000074 ], [ -5.078459713999962, 40.337044228000025 ], [ -4.831726397999944, 40.337887415000068 ], [ -4.823074136999935, 40.209740952000061 ] ] ] } }
-]
-}

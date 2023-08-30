@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR367_AOI01_GRA_PRODUCT_facilitiesL_r1_v2",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "215-Harbours, waterways, dams and other waterworks", "name": "Presa de Cenicientos", "info": "2152-Dams", "damage_gra": "Not Analysed", "det_method": "Not Applicable", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 2, "cd_value": "Not Applicable" }, "geometry": { "type": "LineString", "coordinates": [ [ -4.46987932199994, 40.27893238300004 ], [ -4.46920172199998, 40.279581662000055 ] ] } }
-]
-}

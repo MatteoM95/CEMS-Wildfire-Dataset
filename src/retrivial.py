@@ -1,6 +1,8 @@
 from datetime import datetime, timedelta
 from typing import List, Tuple, Union
 from pathlib import Path
+import datetime
+import json
 
 import numpy as np
 import sentinelhub as sh
@@ -12,7 +14,9 @@ import src.utils_variable as utils
 import warnings
 warnings.filterwarnings('ignore')
 
+
 class ImageRetriever():
+
     def __init__(self, id: str, secret: str) -> None:
         self.sh_config = sh.SHConfig(hide_credentials=True)
         self.sh_config.sh_client_id = id
@@ -20,6 +24,7 @@ class ImageRetriever():
         self.catalog = sh.SentinelHubCatalog(config=self.sh_config)
         # self.date_format = "%Y-%m-%d"
 
+    
     def _check_geometry_area(self, bboxes: List[sh.BBox], resolution: int, emsr: str):
         """verify if the input geometry area is lower than the maximum allowed
 
@@ -41,8 +46,8 @@ class ImageRetriever():
             file_object = open(utils.logPath, 'a')
             file_object.write(emsr + " - Area exceeded\n")
             file_object.close()
-
             pass
+
 
     def retrieve_images(self, evalscript: str, data_collection: str, geometry: Union[Polygon, MultiPolygon],
                         min_dims: Tuple[int, int], resolution: int, start_date: datetime, end_date: datetime,
@@ -71,8 +76,10 @@ class ImageRetriever():
         query = None
         files = []
         acquisition_dates = []
+
+        # INFO: https://docs.sentinel-hub.com/api/latest/data/sentinel-2-l2a/
         if data_collection in (sh.DataCollection.SENTINEL2_L1C, sh.DataCollection.SENTINEL2_L2A):
-            mosaicking = "leastCC"
+            mosaicking = "leastCC" # leastRecent leastCC
             query = {"eo:cloud_cover": {"lt": int(utils.cloudCoverMax * 100)}}
         # evalscript = (self.config.evalscript_dir / evalscript).read_text()
         evalscript =  Path(evalscript).read_text() #Path("evalScriptV3.js").read_text()
@@ -103,6 +110,7 @@ class ImageRetriever():
             print(str(te))
             pass
 
+  
     def download_images(self,
                         evalscript: str,
                         data_collection: sh.DataCollection,
@@ -137,6 +145,9 @@ class ImageRetriever():
         search_iterator = self.catalog.search(data_collection, bbox=bbox, time=time_interval, query=query)
         all_timestamps = search_iterator.get_timestamps()
         unique_acquisitions = sh.filter_times(all_timestamps, time_difference)
+
+        # print(all_timestamps)
+
         if len(unique_acquisitions) == 0:
             print(f"No images found in period {start_date} - {end_date}.")
             file_object = open(utils.logPath, 'a')
@@ -156,7 +167,8 @@ class ImageRetriever():
                                         responses=[sh.SentinelHubRequest.output_response("default", sh.MimeType.TIFF)],
                                         bbox=bbox,
                                         size=sh.bbox_to_dimensions(bbox, resolution=resolution),
-                                        config=self.sh_config)
+                                        config=self.sh_config
+                                        )
         # with this kind of process, just one file per request is returned
         # raise_download_errors will trigger DownloadFailedException on failure
         try:
@@ -167,8 +179,22 @@ class ImageRetriever():
 
         file_name = request.get_filename_list()[0]
 
+        # save the acquisition date inside json
+        path_to_json = Path(output_folder+emsr+"/"+file_name.replace("response.tiff","request.json"))
+
+        with open(path_to_json, "r") as f:
+            json_request = json.load(f)
+        
+        payload = json_request['payload']
+        payload['acquisition_date'] = [acquisition.strftime('%Y/%m/%d_%H:%M:%S') for acquisition in unique_acquisitions]
+        json_request['payload'] = payload
+
+        with open(path_to_json, 'w') as f:
+            json.dump(json_request, f)
+
         return file_name, unique_acquisitions
 
+  
     def get_area_splits(self, geometry: Union[Polygon, MultiPolygon], min_dims: Tuple[int, int], resolution: int):
         """        Retrieves the bounding box of the region of interest starting from polygon coordinates. If the area is too large,
         it is split into smaller areas. Returns the list of the bounding boxes and a tuple containing the widths and heights

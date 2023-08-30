@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR537", "glide_no": "N\/A", "area_id": "01", "locality": "AZUEBAR", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.223525, 39.939430 ], [ -0.232458, 39.717346 ], [ -0.554874, 39.724588 ], [ -0.546979, 39.946730 ], [ -0.223525, 39.939430 ] ] ] } }
-
-]
-}

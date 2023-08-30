@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR579_AOI02_GRA_PRODUCT_areaOfInterestA_r1_v1",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR579", "glide_no": "Not Applicable", "area_id": "02", "locality": "Tafalla", "map_type": "Grading" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.66194661399993, 42.561877550000077 ], [ -1.670399368999938, 42.499111623000033 ], [ -1.776191992999941, 42.504275163000045 ], [ -1.780973379999978, 42.572516136000047 ], [ -1.66194661399993, 42.561877550000077 ] ] ] } }
-]
-}

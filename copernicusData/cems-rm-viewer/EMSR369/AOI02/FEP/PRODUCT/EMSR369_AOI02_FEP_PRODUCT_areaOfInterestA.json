@@ -1,6 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR369", "glide_no": "Not Applicable", "area_id": "02", "locality": "GAVALAS", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 24.123067234000075, 38.435671868000043 ], [ 24.050969565000059, 38.435671868000043 ], [ 24.050969565000059, 38.497418881000044 ], [ 24.123067234000075, 38.497418881000044 ], [ 24.123067234000075, 38.435671868000043 ] ] ] } }
-]
-}

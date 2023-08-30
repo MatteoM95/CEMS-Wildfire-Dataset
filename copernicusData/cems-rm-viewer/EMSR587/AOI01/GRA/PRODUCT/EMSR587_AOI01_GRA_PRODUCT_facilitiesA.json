@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR587_AOI01_GRA_PRODUCT_facilitiesA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "23-Complex Constructions on Industrial Sites", "name": "Unknown", "info": "2302-Power plant constructions", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.537743500000033, 37.949821800000052 ], [ 21.537034500000061, 37.949534100000051 ], [ 21.536784500000067, 37.94982820000007 ], [ 21.536657500000047, 37.950057700000059 ], [ 21.536649300000022, 37.950112600000068 ], [ 21.536677900000029, 37.95016430000004 ], [ 21.536764, 37.950258 ], [ 21.536956600000053, 37.950477800000044 ], [ 21.537036364000073, 37.950559024000029 ], [ 21.537252683000077, 37.950558756000078 ], [ 21.537505800000076, 37.950254800000039 ], [ 21.537743500000033, 37.949821800000052 ] ] ] } },
-{ "type": "Feature", "properties": { "obj_type": "24-Other Civil Engineering Works", "name": "Unknown", "info": "2411-Sports grounds", "damage_gra": "No visible damage", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 994, "dmg_src_id": 997, "cd_value": "Not Applicable" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 21.548524, 37.879083500000036 ], [ 21.548257700000022, 37.879045800000029 ], [ 21.548186500000043, 37.879348200000038 ], [ 21.548454900000024, 37.879385100000036 ], [ 21.548524, 37.879083500000036 ] ] ] } }
-]
-}

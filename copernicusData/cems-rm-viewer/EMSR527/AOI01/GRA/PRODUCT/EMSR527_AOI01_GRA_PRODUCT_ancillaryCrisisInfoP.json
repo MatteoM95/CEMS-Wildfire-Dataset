@@ -1,9 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "obj_type": "Physical Barrier", "obj_desc": "Blocked road \/ interruption", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 10, "dmg_src_id": 10, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 23.368262, 38.926761 ] } }
-,
-{ "type": "Feature", "properties": { "obj_type": "Physical Barrier", "obj_desc": "Blocked road \/ interruption", "det_method": "Photo-interpretation", "notation": "Not Applicable", "or_src_id": 10, "dmg_src_id": 10, "cd_value": "Not Applicable" }, "geometry": { "type": "Point", "coordinates": [ 23.369499, 38.930042 ] } }
-
-]
-}

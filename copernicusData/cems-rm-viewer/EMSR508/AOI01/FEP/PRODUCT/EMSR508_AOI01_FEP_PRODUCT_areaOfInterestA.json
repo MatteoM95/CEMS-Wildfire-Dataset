@@ -1,7 +1,0 @@
-{
-"type": "FeatureCollection",
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR508", "glide_no": "Not Applicable", "area_id": "01", "locality": "Ponte Spoccia", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 8.690114, 46.068722 ], [ 8.657137, 46.050997 ], [ 8.561867, 46.053144 ], [ 8.561068, 46.116484 ], [ 8.658576, 46.118432 ], [ 8.691185, 46.102937 ], [ 8.690114, 46.068722 ] ] ] } }
-
-]
-}

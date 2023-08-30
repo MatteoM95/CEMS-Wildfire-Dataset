@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "EMSR373_AOI01_FEP_PRODUCT_areaOfInterestA_r1_v1",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "emsr_id": "EMSR373", "glide_no": "N\/A", "area_id": "01", "locality": "Lecinena", "map_type": "First Estimate Product" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -0.508149383999978, 41.813599622000027 ], [ -0.51198095899997, 41.754863325000031 ], [ -0.630882067999949, 41.764833256000031 ], [ -0.620262953999941, 41.824559976000046 ], [ -0.508149383999978, 41.813599622000027 ] ] ] } }
-]
-}
