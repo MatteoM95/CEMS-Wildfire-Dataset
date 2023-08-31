@@ -1,50 +1,49 @@
 # Copernicus Emergency Management Service - Wildfire Dataset (2017- 2023)
-Copernicus Emergency Management Service (CEMS) wildfire dataset from June 2017 to April 2023. The dataset contains Sentinel-2 images associated with wildfires, as well as their corresponding severity and delineation mask. The dataset moreover is enriched with a cloud mask and landcover mask adding more infomation useful in future training of semantic segmentation model.
+Copernicus Emergency Management Service (CEMS) wildfire dataset from June 2017 to April 2023. The dataset contains Sentinel-2 images associated with wildfires, as well as their corresponding severity and delineation mask. The dataset moreover is enriched with a cloud mask and landcover mask adding more valuable information in future training of a semantic segmentation model.
 
 ## Introduction
 
-The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides timely geospatial information during emergencies, aiding in response and damage assessment for events such as floods, wildfires, and earthquakes. In particular **Copernicus Rapid Mapping** provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. Fo each activation under tag **Wildfire** are available different post-fire products:
-- FEP (First Estimation)
-- DEL (Delineation):  These outline the area affected by the wildfire.
-- GRA (Grading): These provide detailed information about the severity of the burn and the damages.
+The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides prompt geospatial information during emergencies, aiding in response and damage assessment for events such as floods, wildfires, and earthquakes. In particular, **Copernicus Rapid Mapping** provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. For each activation under tag **Wildfire** are available different post-fire products:
+- FEP (First Estimation): It is the first estimation of the burned area.
+- DEL (Delineation): It outlines the area affected by the wildfire.
+- GRA (Grading): It provides detailed information about the severity of the burned area.
 
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
 
-The satellite imagery is provided using Sentinel-2 images 12 bands with a resolution of 10m. The images are downloaded using SentinelHub API.
+The satellite imagery comes from Sentinel-2, which has 12 bands and a resolution of 10m. These images are downloaded using SentinelHub API.
 
 ## Data structure and organization
 
-The structure of the dataset is:
+The structure of the dataset is the following:
 
 ```
 dataset/
 ├── dataOptimal/
-│ ├── EMSRXXX/
-│ │ ├── AOIYY/
-│ │ | ├── EMSRXXX_AOIYY_01/
-| | | | └── EMSRXXX_AOIYY_01_Annual9_LC.png             # Landcover data Lulc (9 classes)
-| | | | └── EMSRXXX_AOIYY_01_Annual9_LC.tif             # Landcover data Lulc (9 classes) with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_CM.png                     # Cloud mask generated from cloudSen12 
-| | | | └── EMSRXXX_AOIYY_01_CM.tif                     # Cloud mask generated from cloudSen12 with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_DEL.png                    # Delineation mask
-| | | | └── EMSRXXX_AOIYY_01_DEL.tif                    # Delineation mask with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_ESA_LC.png                 # Landcover data ESA WorldCover 2020
-| | | | └── EMSRXXX_AOIYY_01_ESA_LC.tif                 # Landcover data ESA WorldCover 2020 with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_Esri10_LC.png              # Landcover data 2020 Global 10 Class Land Use Land Cover (LULC)
-| | | | └── EMSRXXX_AOIYY_01_Esri10_LC.tif              # Landcover data 2020 Global 10 Class Land Use Land Cover (LULC) with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_GRA.png                    # Grading mask 
-| | | | └── EMSRXXX_AOIYY_01_GRA.tif                    # Grading mask with geographical metadata
-| | | | └── EMSRXXX_AOIYY_01_S2L2A.json                 # Image additional metadata from SentinelHub
-| | | | └── EMSRXXX_AOIYY_01_S2L2A.png                  # Sentinel2 image
-| | | | └── EMSRXXX_AOIYY_01_S2L2A.tiff                 # Sentinel2 image with geographical metadata
-| | | | └── 
-| | | └── EMSRXXX_AOIYY_01_merged.png
-| | |
-| | | ├── EMSRXXX_AOIYY_02/
-| | | | └── ...
-| | |
+│   ├── EMSRXXX/
+│   │   ├── AOIYY/
+│   │   │   ├── EMSRXXX_AOIYY_01/
+│   │   │   │   ├── EMSRXXX_AOIYY_01_Annual9_LC.png           # Landcover data Lulc (9 classes)
+│   │   │   │   ├── EMSRXXX_AOIYY_01_Annual9_LC.tif           # Landcover data Lulc (9 classes) in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_CM.png                   # Cloud mask generated from cloudSen12 
+│   │   │   │   ├── EMSRXXX_AOIYY_01_CM.tif                   # Cloud mask from cloudSen12 in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_DEL.png                  # Delineation mask
+│   │   │   │   ├── EMSRXXX_AOIYY_01_DEL.tif                  # Delineation mask in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_ESA_LC.png               # Landcover data ESA WorldCover 2020
+│   │   │   │   ├── EMSRXXX_AOIYY_01_ESA_LC.tif               # Landcover data ESA WorldCover 2020 in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_Esri10_LC.png            # Landcover data 2020 Global 10 Class (LULC)
+│   │   │   │   ├── EMSRXXX_AOIYY_01_Esri10_LC.tif            # Landcover data 2020 Global 10 Class (LULC) in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_GRA.png                  # Grading mask 
+│   │   │   │   ├── EMSRXXX_AOIYY_01_GRA.tif                  # Grading mask in georeferenced format
+│   │   │   │   ├── EMSRXXX_AOIYY_01_S2L2A.json               # Image additional metadata from SentinelHub
+│   │   │   │   ├── EMSRXXX_AOIYY_01_S2L2A.png                # Sentinel2 image
+│   │   │   │   └── EMSRXXX_AOIYY_01_S2L2A.tiff               # Sentinel2 image in georeferenced format
+│   │   │   └── EMSRXXX_AOIYY_01_merged.png                   # Merge between several tiles from sentinelHub
+│   │   │  
+│   │   ├── EMSRXXX_AOIYY_02/
+│   │   │   └── ...
+│   │
 ├── dataSuboptimal/
-| └── ...
+│   └── ...
 
 ```
 
