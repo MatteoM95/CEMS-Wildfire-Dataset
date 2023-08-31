@@ -61,7 +61,7 @@ All the informations of the dataset are available inside [csv_files/](https://gi
 
 
 ## Installation packages
-First install all requirements in [assets/requirements.txt](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/requirements.txt) and cloudSen12 library
+First, install all requirements in [assets/requirements.txt](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/requirements.txt) and cloudSen12 library
 ```
 pip install -r /assets/requirements.txt
 pip install cloudsen12
@@ -109,6 +109,7 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 
 
 ## Wildfire masks
+
 
 <p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=40% height=40% alt>
@@ -174,7 +175,7 @@ Original label | Remapped label | Class | Class definitions | Color
 2 | 1 | `Trees` | Any significant clustering of tall (~15 feet or higher) dense vegetation, typically with a closed or dense canopy; examples: wooded vegetation, clusters of dense tall vegetation within savannas, plantations, swamp or mangroves (dense/tall vegetation with ephemeral water or canopy too thick to detect water underneath). | ![#358221](https://placehold.co/15x15/358221/358221.png)
 4 | 3 | `Flooded Vegetation` | Areas of any type of vegetation with obvious intermixing of water throughout a majority of the year; seasonally flooded area that is a mix of grass/shrub/trees/bare ground; examples: flooded mangroves, emergent vegetation, rice paddies and other heavily irrigated and inundated agriculture. | ![#87D19E](https://placehold.co/15x15/87D19E/87D19E.png)
 5 | 4 | `Crops` | Human planted/plotted cereals, grasses, and crops not at tree height; examples: corn, wheat, soy, fallow plots of structured land. | ![#FFDB5C](https://placehold.co/15x15/FFDB5C/FFDB5C.png)
-7 | 6 | `Built Area` |Human made structures; major road and rail networks; large homogeneous impervious surfaces including parking structures, office buildings and residential housing; examples: houses, dense villages / towns / cities, paved roads, asphalt. | ![#ED022A](https://placehold.co/15x15/ED022A/ED022A.png)
+7 | 6 | `Built Area` | Human-made structures; major road and rail networks; large homogeneous impervious surfaces including parking structures, office buildings and residential housing; examples: houses, dense villages / towns / cities, paved roads, asphalt. | ![#ED022A](https://placehold.co/15x15/ED022A/ED022A.png)
 8 | 7 | `Bare Ground` | Areas of rock or soil with very sparse to no vegetation for the entire year; large areas of sand and deserts with no to little vegetation; examples: exposed rock or soil, desert and sand dunes, dry salt flats/pans, dried lake beds, mines. | ![#EDE9E4](https://placehold.co/15x15/EDE9E4/EDE9E4.png)
 9 | 8 | `Snow/Ice` | Large homogeneous areas of permanent snow or ice, typically only in mountain areas or highest latitudes; examples: glaciers, permanent snowpack, snow fields. | ![#F2FAFF](https://placehold.co/15x15/F2FAFF/F2FAFF.png)
 10 | 9 | `Clouds` | No land cover information due to persistent cloud cover. | ![#C8C8C8](https://placehold.co/15x15/C8C8C8/C8C8C8.png)
