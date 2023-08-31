@@ -50,10 +50,10 @@ dataset/
 A [sample](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/tree/main/assets/sample/EMSR382/AOI01) from the dataset is made available to give you a representative overview of the data structure and accompanying metadata.
 
 
-All the information of the dataset are available inside csv files in [csv_files/] folder:
-- dataset_Preconfigured: contains all activations of the dataset with the activation date of the event and the interval date for SentinelHub API
-- satelliteData: all information about each image are stored here
-- log.txt: general log for errors and messages.
+All the informations of the dataset are available inside [csv_files/](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/tree/main/csv_files) folder:
+- *dataset_Preconfigured.csv*: It contains all the activations from the dataset, including the activation date of the event and the interval date for SentinelHub API
+- *satelliteData.csv*: All information about each image is stored here.
+- *log.txt*: general log for errors and messages.
 
 
 
@@ -108,8 +108,15 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 
 
 
-## Wildfire delineation mask
+## Wildfire masks
 
+<p align="center">
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=40% height=40% alt>
+    <br>
+    <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
+</p>
 
 
 ## Cloud mask
