@@ -10,7 +10,7 @@ The **Copernicus Emergency Management Service (CEMS)** is a component of the Eur
 
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
 
-The satellite imagery comes from Sentinel-2, which has 12 bands and a resolution of 10m. These images are downloaded using SentinelHub API.
+The satellite imagery comes from Sentinel-2, which spans across 12 distinct bands of the light spectrum, each with a resolution of 10 meters. These images are downloaded using the SentinelHub API.
 
 ## Data structure and organization
 
