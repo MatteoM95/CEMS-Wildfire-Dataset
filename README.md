@@ -52,7 +52,7 @@ A [sample](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/tree/main/assets/s
 
 All the informations of the dataset are available inside [csv_files/](https://github.com/MatteoM95/CEMS-Wildfire-Dataset/tree/main/csv_files) folder:
 - *dataset_Preconfigured.csv*: It contains all the activations from the dataset, including the activation date of the event and the interval date for SentinelHub API
-- *satelliteData.csv*: All information about each image is stored here.
+- *satelliteData.csv*: All information about each image is stored here. 
 - *log.txt*: general log for errors and messages.
 
 
