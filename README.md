@@ -114,6 +114,15 @@ From Copernicus Rapid Mapping for each activation under the tag **Wildfire** are
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
 NOTE: Since I do not have the license to distribute those files then they must be retrived directly from Copenicus website
 
+Those are the different grading levels of damage:
+Damage Level | CopernicusEMS class | EMS-98 class | Color
+--- | --- |  --- | ---
+0 | `No visible damage` | `No visible damage` | ![#000000](https://placehold.co/15x15/000000/000000.png)
+1 | - | `Negligible to slight damage`  | ![#b4fe8e](https://placehold.co/15x15/b4fe8e/b4fe8e.png)
+2 | `Possibly damaged` | `Moderate damage` | ![#fed98e](https://placehold.co/15x15/fed98e/fed98e.png)
+3 | `Damaged` | `High damage` | ![#fe9929](https://placehold.co/15x15/fe9929/fe9929.png)
+4 | `Destroyed` | `Destruction` | ![#cc4c02](https://placehold.co/15x15/cc4c02/cc4c02.png)
+
 <p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_DEL.png" width=30% height=30% alt>
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_GRA.png" width=30% height=30% alt>
@@ -139,8 +148,8 @@ Label | Class | Class definitions | Color
 3 | `Shadow` | This areas are in the shadow of the clouds. The terrain is partially/fully visible but the color and some bands of sentinel2 could be changed from real value. | ![#3C3C3C](https://placehold.co/15x15/3C3C3C/3C3C3C.png)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382/AOI01/EMSR382_AOI01_S2L2A.png" width=30% height=30% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382/AOI01/EMSR382_AOI01_01_CM.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382_AOI01_01_S2L2A.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382_AOI01_01_CM.png" width=30% height=30% alt>
     <br>
     <em>The cloud masks resulted from CloudSen12 model for activation EMSR382</em>
 </p>
