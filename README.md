@@ -112,7 +112,8 @@ From Copernicus Rapid Mapping for each activation under the tag **Wildfire** are
 - **GRA** (Grading): a detailed description about the severity of the burned area.
 
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
-NOTE: Since I do not have the license to distribute those files then they must be retrived directly from Copenicus website
+
+NOTE: Since I do not have the license to distribute those files then they must be retrived directly from Copenicus website. I left only the folder structure in copernicusData folder.
 
 Those are the different grading levels of damage:
 
@@ -123,9 +124,6 @@ Damage Level | CopernicusEMS class | EMS-98 class | Color
 2 | `Possibly damaged` | `Moderate damage` | ![#fed98e](https://placehold.co/15x15/fed98e/fed98e.png)
 3 | `Damaged` | `High damage` | ![#fe9929](https://placehold.co/15x15/fe9929/fe9929.png)
 4 | `Destroyed` | `Destruction` | ![#cc4c02](https://placehold.co/15x15/cc4c02/cc4c02.png)
-
-
-
 
 
 
