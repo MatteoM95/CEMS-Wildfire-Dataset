@@ -1,16 +1,18 @@
 # Copernicus Emergency Management Service - Wildfire Dataset (2017- 2023)
-Copernicus Emergency Management Service (CEMS) wildfire dataset from June 2017 to April 2023. The dataset contains Sentinel-2 images associated with wildfires, as well as their corresponding severity and delineation mask. The dataset moreover is enriched with a cloud mask and landcover mask adding more valuable information in future training of a semantic segmentation model.
+The Copernicus Emergency Management Service (CEMS) Wildfire dataset spans from June 2017 to April 2023. The dataset includes Sentinel-2 images related to wildfires, along with their respective severity and delineation masks. Additionally, the dataset is enhanced with cloud and landcover masks, providing more valuable information for future training of a semantic segmentation model. The dataset comprises over 500+ high-quality images, suitable for subsequent semantic segmentation model training. The dataset is available on [Hugginface](https://huggingface.co/datasets/links-ads/wildfires-cems)
 
-## Introduction
 
-The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides prompt geospatial information during emergencies, aiding in response and damage assessment for events such as floods, wildfires, and earthquakes. In particular, **Copernicus Rapid Mapping** provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. For each activation under tag **Wildfire** are available different post-fire products:
-- FEP (First Estimation): It is the first estimation of the burned area.
-- DEL (Delineation): It outlines the area affected by the wildfire.
-- GRA (Grading): It provides detailed information about the severity of the burned area.
+## Introduction and Data sources
+
+The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides rapid geospatial information during emergencies, and damage assessment for events such as floods, wildfires, and earthquakes. In particular, [**Copernicus Rapid Mapping**](https://emergency.copernicus.eu/mapping/list-of-activations-rapid) provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. For each activation under tag **Wildfire** are available different post-fire products:
+- FEP (First Estimation): a first estimation of the burned area.
+- DEL (Delineation): a delineation of the area affected by the wildfire.
+- GRA (Grading): a detailed description about the severity of the burned area.
 
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
+NOTE: Since I do not have the license to distribute those files then they must be retrived on Copenicus website
 
-The satellite imagery comes from Sentinel-2, which spans across 12 distinct bands of the light spectrum, each with a resolution of 10 meters. These images are downloaded using the SentinelHub API.
+The satellite imagery comes from Sentinel-2 L2A, which spans across 12 distinct bands of the light spectrum, each with a resolution of 10 meters. Sentinel Level-2A data undergoes an atmospheric correction process to adjust for the reflectance values influenced by the atmosphere. These images are downloaded using SentinelHub APIs. 
 
 ## Data structure and organization
 
@@ -112,9 +114,9 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=40% height=40% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=40% height=40% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_DEL.png" width=20% height=20% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_GRA.png" width=20% height=20% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_S2L2A.png" width=20% height=20% alt>
     <br>
     <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
 </p>
@@ -122,11 +124,9 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 
 ## Cloud mask
 
-Creating cloud masks before making inferences on Sentinel-2 images is important because clouds can obscure or distort the underlying land cover or land use information that is the focus of the analysis. This can lead to inaccurate or incomplete results. Sentinel-2 images are often used for remote sensing applications, such as monitoring vegetation health, mapping land cover and land use, and detecting changes over time. However, clouds can interfere with these applications by blocking or reflecting the light that is captured by the satellite, which can result in missing or distorted data.
+Creating cloud masks before making inferences on Sentinel-2 images is important because clouds can obscure or distort the underlying land cover or land use information that is the focus of the analysis. This can lead to inaccurate or incomplete results. Sentinel-2 images are often used for remote sensing applications, such as monitoring vegetation health, mapping land cover and land use, and detecting changes over time. However, clouds can interfere with these applications by blocking or reflecting the light that is captured by the satellite, which can result in missing or distorted data. By default, all images are retrieved from sentinel-hub with the condition of no more than 10 percent of cloud coverage. However some images have a relevant cloud coverage.
 
-By creating cloud masks, the areas that are affected by clouds can be identified and excluded from future analyses. This ensures that the inferences made from the Sentinel-2 data are based on accurate and reliable information.
-
-By default, all images are retrieved from sentine-hub with the condition of no more than 10 percent of cloud coverage. However some images have a relevant cloud coverage. So it was decided to use cloudSen12 model [5] to create a cloud mask for each image.
+This dataset makes available for each image a cloud masks: the areas that are affected by clouds can be identified and excluded from future analyses. This ensures that the inferences made from the Sentinel-2 data are based on accurate and reliable information. The masks were generated using the CloudSen12 model.
 
 The output prediction of CloudSen12 has 4 different layers for cloud coverage:
 
@@ -235,3 +235,4 @@ More informations are availble in the [Esa worldcover manual](https://esa-worldc
     <br>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
+
