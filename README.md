@@ -116,12 +116,22 @@ NOTE: Since I do not have the license to distribute those files then they must b
 
 Those are the different grading levels of damage:
 Damage Level | CopernicusEMS class | EMS-98 class | Color
---- | --- |  --- | ---
+<!-- --- | --- |  --- | ---
 0 | `No visible damage` | `No visible damage` | ![#000000](https://placehold.co/15x15/000000/000000.png)
 1 | - | `Negligible to slight damage`  | ![#b4fe8e](https://placehold.co/15x15/b4fe8e/b4fe8e.png)
 2 | `Possibly damaged` | `Moderate damage` | ![#fed98e](https://placehold.co/15x15/fed98e/fed98e.png)
 3 | `Damaged` | `High damage` | ![#fe9929](https://placehold.co/15x15/fe9929/fe9929.png)
-4 | `Destroyed` | `Destruction` | ![#cc4c02](https://placehold.co/15x15/cc4c02/cc4c02.png)
+4 | `Destroyed` | `Destruction` | ![#cc4c02](https://placehold.co/15x15/cc4c02/cc4c02.png) -->
+
+
+| --- | --- | --- | --- |
+| 0 | `No visible damage` | `No visible damage` | ![#000000](https://placehold.co/15x15/000000/000000.png) |
+| 1 | - | `Negligible to slight damage` | ![#b4fe8e](https://placehold.co/15x15/b4fe8e/b4fe8e.png) |
+| 2 | `Possibly damaged` | `Moderate damage` | ![#fed98e](https://placehold.co/15x15/fed98e/fed98e.png) |
+| 3 | `Damaged` | `High damage` | ![#fe9929](https://placehold.co/15x15/fe9929/fe9929.png) |
+| 4 | `Destroyed` | `Destruction` | ![#cc4c02](https://placehold.co/15x15/cc4c02/cc4c02.png) |
+
+
 
 <p align="center">
     <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_DEL.png" width=30% height=30% alt>
@@ -176,6 +186,7 @@ In addition to wildfire delineation, severity and cloud masks, also the landcove
 - [**ESRI 10m Annual Land Use Land Cover (2017-2021)**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESRI 2020 Global Land Use Land Cover**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESA WorldCover 10 m 2020**](https://esa-worldcover.org/en/data-access).
+
 All this lancover are downloaded from [Planetary Computer](https://planetarycomputer.microsoft.com/)
 
 All landcover models are based on sentinel2 10-meter resolution.
