@@ -5,9 +5,9 @@ The Copernicus Emergency Management Service (CEMS) Wildfire dataset spans from J
 ## Introduction and Data sources
 
 The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides rapid geospatial information during emergencies, and damage assessment for events such as floods, wildfires, and earthquakes. In particular, [**Copernicus Rapid Mapping**](https://emergency.copernicus.eu/mapping/list-of-activations-rapid) provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. For each activation under tag **Wildfire** are available different post-fire products:
-- FEP (First Estimation): a first estimation of the burned area.
-- DEL (Delineation): a delineation of the area affected by the wildfire.
-- GRA (Grading): a detailed description about the severity of the burned area.
+- **FEP** (First Estimation): a first estimation of the burned area.
+- **DEL** (Delineation): a delineation of the area affected by the wildfire.
+- **GRA** (Grading): a detailed description about the severity of the burned area.
 
 Each product includes metadata and associated JSON files which contain geographical details about the affected areas.
 NOTE: Since I do not have the license to distribute those files then they must be retrived on Copenicus website
@@ -114,11 +114,11 @@ NOTE: USE THIS FUNCTION ONLY IN CASE OF DEBUG"""
 
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_DEL.png" width=20% height=20% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_GRA.png" width=20% height=20% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_S2L2A.png" width=20% height=20% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_DEL.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_GRA.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_S2L2A.png" width=30% height=30% alt>
     <br>
-    <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
+    <em>In order here are reported the DEL map, GRA map and the actual sentinel-2 Image for the activation EMSR382</em>
 </p>
 
 
@@ -137,19 +137,24 @@ Label | Class | Class definitions | Color
 2 | `Light clouds` | Areas affected by light clouds, where could cause some issue in the terrain visibility. In this class are included also fog and wildfire's smoke.  | ![#B4B4B4](https://placehold.co/15x15/B4B4B4/B4B4B4.png)
 3 | `Shadow` | This areas are in the shadow of the clouds. The terrain is partially/fully visible but the color and some bands of sentinel2 could be changed from real value. | ![#3C3C3C](https://placehold.co/15x15/3C3C3C/3C3C3C.png)
 
-### Smoothing-blend image patches
+<p align="center">
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_merged.png.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01_CM.png.png" width=30% height=30% alt>
+    <br>
+    <em>The cloud masks resulted from CloudSen12 model for activation EMSR382</em>
+</p>
 
-One challenge of using a U-Net for image segmentation is to have smooth predictions, especially if the receptive field of the neural network is a small amount of pixels [1].
-In the context of the U-Net architecture for image segmentation, blending image patches can be used to generate smooth predictions by reducing the effect of discontinuities at patch boundaries.
-This approach involves dividing the input image into overlapping patches, running the U-Net architecture on each patch individually, and then blending the resulting predictions together to form a single output image.
+#### Smoothing-blend image patches
+
+One challenge of using a U-Net for image segmentation is to have smooth predictions, especially if the receptive field of the neural network is a small amount of pixels. In the context of the U-Net architecture for image segmentation, blending image patches can be used to generate smooth predictions by reducing the effect of discontinuities at patch boundaries. This approach involves dividing the input image into overlapping patches, running the U-Net architecture on each patch individually, and then blending the resulting predictions together to form a single output image.
 
 By blending the predictions from multiple patches, the resulting output image is typically smoother and more continuous than if a single U-Net model was trained on the entire input image. This can help to reduce artifacts and improve the overall quality of the segmentation results.
 In this work the source code of cloudSen12 has been customized so that it could be smoothly predicted. The source code for smooth-blend is available [here](https://github.com/Vooban/Smoothly-Blend-Image-Patches)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=40% height=40% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=40% height=40% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=40% height=40% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_S2L2A.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CM.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR638_AOI01_01_CMsmooth.png" width=30% height=30% alt>
     <br>
     <em>Cloud mask of activation EMSR638. It is clear that on left mask there are some problem due border effect in cloudSen12 model. On the right the result using smoothing</em>
 </p>
@@ -157,13 +162,13 @@ In this work the source code of cloudSen12 has been customized so that it could 
 
 ## Landcovers
 
-In addition to wildfire delineation mask and clod masks, also landcovers for each image are create. In particular the model considered are: 
+In addition to wildfire delineation, severity and cloud masks, also the landcovers is provided for each image. In particular the models considered are: 
 - [**ESRI 10m Annual Land Use Land Cover (2017-2021)**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESRI 2020 Global Land Use Land Cover**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9553499&tag=1);
 - [**ESA WorldCover 10 m 2020**](https://esa-worldcover.org/en/data-access).
+All this lancover are downloaded from [Planetary Computer](https://planetarycomputer.microsoft.com/)
 
-
-All landcover models are based on sentinel2 10-meter resolution images.
+All landcover models are based on sentinel2 10-meter resolution.
 
 #### ESRI 10m Annual Land Use Land Cover (2017-2021) (9 classes)
 There are 9 classes:
@@ -182,7 +187,7 @@ Original label | Remapped label | Class | Class definitions | Color
 11 | 10 | `Rangeland` | Open areas covered in homogeneous grasses with little to no taller vegetation; wild cereals and grasses with no obvious human plotting (i.e., not a plotted field); examples: natural meadows and fields with sparse to no tree cover, open savanna with few to no trees, parks/golf courses/lawns, pastures. | ![#C6AD8D](https://placehold.co/15x15/C6AD8D/C6AD8D.png)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Annual9_LC.png" width=50% height=50% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Annual9_LC.png" width=30% height=30% alt>
     <br>
     <em>Landcover ESRI 9 classes annual land use activation EMSR382_AOI01</em>
 </p>
@@ -205,7 +210,7 @@ Original label | Remapped label | Class | Class definitions | Color
 10 | 9 | `Clouds` | No land cover information due to persistent cloud cover. | ![#C8C8C8](https://placehold.co/15x15/C8C8C8/C8C8C8.png)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" width=50% height=50% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_Esri10_LC.png" width=30% height=30% alt>
     <br>
     <em>Landcover ESRI 10 classes 2020 land use activation EMSR382_AOI01</em>
 </p>
@@ -231,7 +236,7 @@ Original label | Remapped label | Class | Class definitions | Color
 More informations are availble in the [Esa worldcover manual](https://esa-worldcover.s3.amazonaws.com/v100/2020/docs/WorldCover_PUM_V1.0.pdf)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" width=50% height=50% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01/EMSR382_AOI01_01_ESA_LC.png" width=30% height=30% alt>
     <br>
     <em>Landcover ESA worldcover 2020 land use activation EMSR382_AOI01</em>
 </p>
