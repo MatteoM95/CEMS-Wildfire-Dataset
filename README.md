@@ -139,8 +139,8 @@ Label | Class | Class definitions | Color
 3 | `Shadow` | This areas are in the shadow of the clouds. The terrain is partially/fully visible but the color and some bands of sentinel2 could be changed from real value. | ![#3C3C3C](https://placehold.co/15x15/3C3C3C/3C3C3C.png)
 
 <p align="center">
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_merged.png" width=30% height=30% alt>
-    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/sample/EMSR382/AOI01/EMSR382_AOI01_01_CM.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382/AOI01/EMSR382_AOI01_S2L2A.png" width=30% height=30% alt>
+    <img src="https://github.com/MatteoM95/CEMS-Wildfire-Dataset/blob/main/assets/images/EMSR382/AOI01/EMSR382_AOI01_01_CM.png" width=30% height=30% alt>
     <br>
     <em>The cloud masks resulted from CloudSen12 model for activation EMSR382</em>
 </p>
