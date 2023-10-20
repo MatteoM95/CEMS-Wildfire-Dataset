@@ -1,12 +1,12 @@
 # Copernicus Emergency Management Service - Wildfire Dataset (2017- 2023)
-The Copernicus Emergency Management Service (CEMS) Wildfire dataset spans from June 2017 to April 2023. The dataset includes Sentinel-2 images related to wildfires, along with their respective severity and delineation masks. Additionally, the dataset is enhanced with cloud and landcover masks, providing more valuable information for future training of a semantic segmentation model. The dataset comprises over 500+ high-quality images, suitable for subsequent semantic segmentation model training. The dataset is available on [Hugginface](https://huggingface.co/datasets/links-ads/wildfires-cems)
+The Copernicus Emergency Management Service (CEMS) Wildfire dataset spans from June 2017 to April 2023. The dataset includes Sentinel-2 images related to wildfires, along with their respective severity and delineation masks. Additionally, the dataset is enhanced with cloud and landcover masks, providing more valuable information for future training of a semantic segmentation model. The dataset comprises over 500+ high-quality images, suitable for subsequent semantic segmentation model training. The dataset is available on [**Huggingface**](https://huggingface.co/datasets/links-ads/wildfires-cems)
 
 
 ## Introduction and Data sources
 
 The **Copernicus Emergency Management Service (CEMS)** is a component of the European Union's Copernicus Programme. It provides rapid geospatial information during emergencies, and damage assessment for events such as floods, wildfires, and earthquakes. In particular, [**Copernicus Rapid Mapping**](https://emergency.copernicus.eu/mapping/list-of-activations-rapid) provides on-demand mapping services in cases of various natural disasters, offering detailed and up-to-date geospatial information that assists in disaster management and risk assessment. 
 
-The satellite imagery comes from Sentinel-2 L2A, which spans across 12 distinct bands of the light spectrum, each with a resolution of 10 meters. Sentinel Level-2A data undergoes an atmospheric correction process to adjust for the reflectance values influenced by the atmosphere. These images are downloaded using SentinelHub APIs. 
+The satellite imagery comes from Sentinel-2 L2A, which spans across 12 distinct bands of the light spectrum, each with a resolution of 10 meters. The Sentinel Level-2A data undergoes an atmospheric correction process to adjust for the reflectance values influenced by the moisture in the atmosphere. These images are downloaded using SentinelHub APIs. 
 
 ## Data structure and organization
 
@@ -115,7 +115,14 @@ Each product includes metadata and associated JSON files which contain geographi
 
 NOTE: Since I do not have the license to distribute those files then they must be retrived directly from Copenicus website. I left only the folder structure in copernicusData folder.
 
-Those are the different grading levels of damage:
+On Copernicus site are available several georeferenced data in GeoJSON format. For this dataset are considered only those files for each activation that are formatted with the following string:
+- ``EMSRXXX_AOIYY_TYPE_PRODUCT_areaOfInterestA.json``, where TYPE can be `GRA`, `DEL` or `FEP`, defines the AOI YY of that particular activation
+XXX where the event happened.
+- ``EMSRXXX_AOIYY_TYPE_PRODUCT_observedEventA.json``, where TYPE can be `DEL` or `FEP`, defines the multipolygons geometry for the wildfire delineation for an AOI YY of the activation XXX.
+- ``EMSRXXX_AOIYY_GRA_PRODUCT_naturalLandUseA.json`` defines the various multipolygons geometry for the grading damage levels for an AOI YY of the
+activation XXX.
+
+Those are the different grading levels of damage used in the Copernicus products:
 
 Damage Level | CopernicusEMS class | EMS-98 class | Color
 --- | --- |  --- | ---
